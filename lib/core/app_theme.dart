@@ -21,6 +21,7 @@ class AppTheme {
   static const Color textPrimary = Color(0xFFFFFFFF);
   static const Color textSecondary = Color(0xFFB0B0B0);
   static const Color textMuted = Color(0xFF707070);
+  static const Color glassBorder = Color(0x33FFFFFF); // rgba(255,255,255,0.2)
 
   // Gradient'ler
   static const LinearGradient primaryGradient = LinearGradient(

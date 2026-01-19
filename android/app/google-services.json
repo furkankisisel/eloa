@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "965407057492",
+    "project_id": "eloa-48c62",
+    "storage_bucket": "eloa-48c62.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965407057492:android:81f2dbb02ecde9eeefafc1",
+        "android_client_info": {
+          "package_name": "com.koralabs.eloa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965407057492-o1fsu1487nlth8mdqsao1tm5bd7ulmlk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi6iN-B6hh8NLLHRScDgckUf6G0XqVKqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965407057492-o1fsu1487nlth8mdqsao1tm5bd7ulmlk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

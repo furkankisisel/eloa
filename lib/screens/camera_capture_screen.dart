@@ -6,6 +6,9 @@ import '../widgets/custom_camera_picker.dart';
 import '../providers/analysis_provider.dart';
 import '../models/analysis_category.dart';
 import '../services/ai_analysis_service.dart';
+import '../services/purchase_service.dart';
+import '../core/app_theme.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'ai_result_screen.dart';
 
 /// Kamera ile el fotoğrafı çekme ekranı
@@ -281,6 +284,15 @@ class _CameraCaptureScreenState extends State<CameraCaptureScreen> {
   ) async {
     if (_capturedImage == null) return;
 
+    // Jeton/Premium Kontrolü
+    final purchaseService = context.read<PurchaseService>();
+    final canProceed = await purchaseService.consumeToken();
+
+    if (!canProceed) {
+      if (mounted) _showInsufficientTokensDialog();
+      return;
+    }
+
     setState(() {
       _isAnalyzing = true;
       _errorMessage = null;
@@ -380,5 +392,43 @@ class _CameraCaptureScreenState extends State<CameraCaptureScreen> {
       default:
         return baseInstruction;
     }
+  }
+
+  void _showInsufficientTokensDialog() {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        backgroundColor: AppTheme.cardDark,
+        title: Row(
+          children: [
+            const Icon(Icons.stars, color: AppTheme.accentTeal),
+            const SizedBox(width: 8),
+            Text('Yetersiz Jeton',
+                style: GoogleFonts.poppins(color: AppTheme.textPrimary)),
+          ],
+        ),
+        content: Text(
+          'Analiz yapmak için jetonunuz veya Premium üyeliğiniz bulunmamaktadır. Jeton satın alarak veya Premium üye olarak devam edebilirsiniz.',
+          style: GoogleFonts.poppins(color: AppTheme.textSecondary),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: Text('İptal',
+                style: GoogleFonts.poppins(color: AppTheme.textMuted)),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.pop(context);
+              Navigator.pushNamed(context, '/premium');
+            },
+            style:
+                ElevatedButton.styleFrom(backgroundColor: AppTheme.accentGold),
+            child: Text('Mağazaya Git',
+                style: GoogleFonts.poppins(color: Colors.black)),
+          ),
+        ],
+      ),
+    );
   }
 }

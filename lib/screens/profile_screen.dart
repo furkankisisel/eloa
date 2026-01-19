@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../core/app_theme.dart';
 import '../services/history_storage_service.dart';
+import 'package:provider/provider.dart';
+import '../services/auth_service.dart';
+import '../services/purchase_service.dart';
 
 /// Profil ve ayarlar ekranı
 class ProfileScreen extends StatefulWidget {
@@ -40,6 +43,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
             const SizedBox(height: 16),
             _buildHeader(),
             const SizedBox(height: 32),
+            const SizedBox(height: 24),
+            _buildUserSection(),
+            const SizedBox(height: 24),
             _buildStatsCard(),
             const SizedBox(height: 24),
             _buildSettingsSection(),
@@ -162,6 +168,33 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 title: 'Uygulama Sürümü',
                 subtitle: 'v1.0.0',
                 onTap: null,
+              ),
+
+              // Account Actions (Only if logged in)
+              Consumer<AuthService>(
+                builder: (context, auth, _) {
+                  if (!auth.isLoggedIn) return const SizedBox.shrink();
+                  return Column(
+                    children: [
+                      _buildDivider(),
+                      _buildSettingItem(
+                        icon: Icons.logout,
+                        title: 'Çıkış Yap',
+                        subtitle: 'Hesabınızdan çıkın',
+                        onTap: () => _showSignOutDialog(auth),
+                        isDestructive: true,
+                      ),
+                      _buildDivider(),
+                      _buildSettingItem(
+                        icon: Icons.delete_forever,
+                        title: 'Hesabı Sil',
+                        subtitle: 'Kalıcı olarak sil',
+                        onTap: () => _showDeleteAccountDialog(auth),
+                        isDestructive: true,
+                      ),
+                    ],
+                  );
+                },
               ),
             ],
           ),
@@ -392,6 +425,285 @@ class _ProfileScreenState extends State<ProfileScreen> {
             child: Text(
               'Temizle',
               style: GoogleFonts.poppins(color: AppTheme.accentCoral),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _showSignOutDialog(AuthService auth) {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        backgroundColor: AppTheme.cardDark,
+        title: Text('Çıkış Yap',
+            style: GoogleFonts.poppins(color: AppTheme.textPrimary)),
+        content: Text(
+          'Hesabınızdan çıkış yapmak istediğinize emin misiniz?',
+          style: GoogleFonts.poppins(color: AppTheme.textSecondary),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: Text('İptal',
+                style: GoogleFonts.poppins(color: AppTheme.textMuted)),
+          ),
+          ElevatedButton(
+            onPressed: () async {
+              await auth.signOut();
+              if (mounted) {
+                Navigator.pop(context);
+              }
+            },
+            style:
+                ElevatedButton.styleFrom(backgroundColor: AppTheme.accentCoral),
+            child: Text('Çıkış Yap',
+                style: GoogleFonts.poppins(color: Colors.white)),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _showDeleteAccountDialog(AuthService auth) {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        backgroundColor: AppTheme.cardDark,
+        title: Text('Hesabı Sil',
+            style: GoogleFonts.poppins(color: AppTheme.accentCoral)),
+        content: Text(
+          'Hesabınız ve tüm verileriniz kalıcı olarak silinecek. Bu işlem geri alınamaz!',
+          style: GoogleFonts.poppins(color: AppTheme.textSecondary),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: Text('İptal',
+                style: GoogleFonts.poppins(color: AppTheme.textMuted)),
+          ),
+          ElevatedButton(
+            onPressed: () async {
+              await auth.deleteAccount();
+              if (mounted) {
+                Navigator.pop(context);
+              }
+            },
+            style:
+                ElevatedButton.styleFrom(backgroundColor: AppTheme.accentCoral),
+            child: Text('Hesabımı Sil',
+                style: GoogleFonts.poppins(color: Colors.white)),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildUserSection() {
+    return Consumer2<AuthService, PurchaseService>(
+      builder: (context, auth, purchase, _) {
+        if (!auth.isLoggedIn) {
+          return _buildLoginCard(auth);
+        }
+        return _buildUserProfile(auth, purchase);
+      },
+    );
+  }
+
+  Widget _buildLoginCard(AuthService auth) {
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(24),
+      decoration: BoxDecoration(
+        color: AppTheme.cardDark,
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: AppTheme.glassBorder),
+      ),
+      child: Column(
+        children: [
+          const Icon(
+            Icons.account_circle_outlined,
+            size: 48,
+            color: AppTheme.accentGold,
+          ),
+          const SizedBox(height: 16),
+          Text(
+            'Hesabınıza Giriş Yapın',
+            style: GoogleFonts.playfairDisplay(
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+              color: AppTheme.textPrimary,
+            ),
+          ),
+          const SizedBox(height: 8),
+          Text(
+            'Analizlerinizi nube kaydedin ve tüm cihazlarınızdan erişin.',
+            textAlign: TextAlign.center,
+            style: GoogleFonts.poppins(
+              fontSize: 13,
+              color: AppTheme.textSecondary,
+            ),
+          ),
+          if (auth.error != null) ...[
+            const SizedBox(height: 16),
+            Container(
+              padding: const EdgeInsets.all(8),
+              decoration: BoxDecoration(
+                color: AppTheme.accentCoral.withOpacity(0.1),
+                borderRadius: BorderRadius.circular(8),
+                border:
+                    Border.all(color: AppTheme.accentCoral.withOpacity(0.3)),
+              ),
+              child: Text(
+                auth.error!,
+                style: GoogleFonts.poppins(
+                  color: AppTheme.accentCoral,
+                  fontSize: 12,
+                ),
+                textAlign: TextAlign.center,
+              ),
+            ),
+          ],
+          const SizedBox(height: 24),
+          SizedBox(
+            width: double.infinity,
+            child: ElevatedButton.icon(
+              onPressed: auth.isLoading ? null : () => auth.signInWithGoogle(),
+              icon: auth.isLoading
+                  ? const SizedBox(
+                      width: 20,
+                      height: 20,
+                      child: CircularProgressIndicator(
+                          strokeWidth: 2, color: Colors.black))
+                  : const Icon(Icons.login),
+              label: Text(
+                auth.isLoading ? 'Giriş Yapılıyor...' : 'Google ile Giriş Yap',
+                style: GoogleFonts.poppins(fontWeight: FontWeight.w600),
+              ),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.white,
+                foregroundColor: Colors.black87,
+                padding: const EdgeInsets.symmetric(vertical: 16),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(12),
+                ),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildUserProfile(AuthService auth, PurchaseService purchase) {
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(24),
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [
+            AppTheme.cardDark,
+            AppTheme.accentGold.withOpacity(0.05),
+          ],
+        ),
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: AppTheme.glassBorder),
+      ),
+      child: Row(
+        children: [
+          CircleAvatar(
+            radius: 36,
+            backgroundColor: AppTheme.accentGold.withOpacity(0.2),
+            backgroundImage: auth.user?.photoURL != null
+                ? NetworkImage(auth.user!.photoURL!)
+                : null,
+            child: auth.user?.photoURL == null
+                ? const Icon(Icons.person, size: 36, color: AppTheme.accentGold)
+                : null,
+          ),
+          const SizedBox(width: 20),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  auth.user?.displayName ?? 'Kullanıcı',
+                  style: GoogleFonts.playfairDisplay(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: AppTheme.textPrimary,
+                  ),
+                ),
+                Text(
+                  auth.user?.email ?? '',
+                  style: GoogleFonts.poppins(
+                    fontSize: 13,
+                    color: AppTheme.textSecondary,
+                  ),
+                ),
+                const SizedBox(height: 8),
+                Row(
+                  children: [
+                    if (purchase.isPremium)
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 10, vertical: 4),
+                        decoration: BoxDecoration(
+                          gradient: AppTheme.goldGradient,
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            const Icon(Icons.workspace_premium,
+                                size: 14, color: Colors.white),
+                            const SizedBox(width: 4),
+                            Text(
+                              'PREMIUM',
+                              style: GoogleFonts.poppins(
+                                fontSize: 10,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                                letterSpacing: 0.5,
+                              ),
+                            ),
+                          ],
+                        ),
+                      )
+                    else
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 10, vertical: 4),
+                        decoration: BoxDecoration(
+                          color: AppTheme.accentTeal.withOpacity(0.2),
+                          borderRadius: BorderRadius.circular(20),
+                          border: Border.all(
+                              color: AppTheme.accentTeal.withOpacity(0.5)),
+                        ),
+                        child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            const Icon(Icons.stars,
+                                size: 14, color: AppTheme.accentTeal),
+                            const SizedBox(width: 4),
+                            Text(
+                              '${purchase.tokenBalance} JETON',
+                              style: GoogleFonts.poppins(
+                                fontSize: 10,
+                                fontWeight: FontWeight.bold,
+                                color: AppTheme.accentTeal,
+                                letterSpacing: 0.5,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                  ],
+                ),
+              ],
             ),
           ),
         ],

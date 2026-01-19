@@ -3,8 +3,12 @@ import 'package:google_fonts/google_fonts.dart';
 import '../core/app_theme.dart';
 import '../models/analysis_history.dart';
 import '../services/history_storage_service.dart';
+import '../services/purchase_service.dart';
+import 'package:provider/provider.dart';
 import 'history_detail_screen.dart';
 import 'home_shell_screen.dart';
+import '../features/palmistry/providers/palmistry_provider.dart';
+import 'subcategory_screen.dart';
 
 /// Modern ana sayfa - Hoş geldin ekranı
 class HomeScreen extends StatefulWidget {
@@ -100,6 +104,8 @@ class _HomeScreenState extends State<HomeScreen>
       greetingIcon = Icons.nightlight_outlined;
     }
 
+    final purchase = context.watch<PurchaseService>();
+
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
@@ -134,24 +140,49 @@ class _HomeScreenState extends State<HomeScreen>
             ),
           ],
         ),
-        Container(
-          width: 50,
-          height: 50,
-          decoration: BoxDecoration(
-            gradient: AppTheme.goldGradient,
-            shape: BoxShape.circle,
-            boxShadow: [
-              BoxShadow(
-                color: AppTheme.accentGold.withOpacity(0.3),
-                blurRadius: 12,
-                spreadRadius: 2,
-              ),
-            ],
-          ),
-          child: const Icon(
-            Icons.back_hand,
-            color: Colors.white,
-            size: 24,
+        GestureDetector(
+          onTap: () => Navigator.pushNamed(context, '/premium'),
+          child: Container(
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+            decoration: BoxDecoration(
+              gradient: purchase.isPremium
+                  ? AppTheme.goldGradient
+                  : LinearGradient(colors: [
+                      AppTheme.accentTeal,
+                      AppTheme.accentTeal.withOpacity(0.8)
+                    ]),
+              borderRadius: BorderRadius.circular(20),
+              boxShadow: [
+                BoxShadow(
+                  color: (purchase.isPremium
+                          ? AppTheme.accentGold
+                          : AppTheme.accentTeal)
+                      .withOpacity(0.3),
+                  blurRadius: 12,
+                  spreadRadius: 2,
+                ),
+              ],
+            ),
+            child: Row(
+              children: [
+                Icon(
+                  purchase.isPremium ? Icons.workspace_premium : Icons.stars,
+                  color: Colors.white,
+                  size: 20,
+                ),
+                if (!purchase.isPremium) ...[
+                  const SizedBox(width: 8),
+                  Text(
+                    '${purchase.tokenBalance}',
+                    style: GoogleFonts.poppins(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16,
+                    ),
+                  ),
+                ],
+              ],
+            ),
           ),
         ),
       ],
@@ -374,13 +405,37 @@ class _HomeScreenState extends State<HomeScreen>
     }
 
     return GestureDetector(
-      onTap: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => HistoryDetailScreen(analysis: analysis),
-          ),
-        );
+      onTap: () async {
+        final provider = context.read<PalmistryProvider>();
+
+        // Verilerin yüklü olduğundan emin ol
+        if (provider.appCategories.isEmpty) {
+          await provider.loadData();
+        }
+
+        if (context.mounted) {
+          try {
+            // Kategoriyi bul
+            final category = provider.appCategories.firstWhere(
+              (c) => c.categoryId == analysis.categoryId,
+            );
+
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => SubCategoryScreen(category: category),
+              ),
+            );
+          } catch (e) {
+            // Kategori bulunamazsa detay sayfasına git (fallback)
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => HistoryDetailScreen(analysis: analysis),
+              ),
+            );
+          }
+        }
       },
       child: Container(
         width: 140,
