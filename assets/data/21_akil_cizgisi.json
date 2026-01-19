@@ -1,0 +1,91 @@
+﻿{
+  "category_info": {
+    "title": "Akıl Çizgisi (Zihin Çizgisi)",
+    "source_book": "",
+    "page_range": "211-230",
+    "description": "Genellikle hayat çizgisiyle birlikte başlayan ve avucun ortasını enine geçen çizgi. Düşünce yapısını, zeka türünü (sayısal/sözel), hafızayı, iradeyi ve zihinsel sağlığı gösterir."
+  },
+  "head_line_general": [
+    {
+      "id": "uzun_akil_cizgisi",
+      "name": "Uzun Akıl Çizgisi",
+      "book_content": "Avucun diğer tarafına kadar uzanan çizgi. Geniş bir kavrayış, yüksek zeka kapasitesi ve detaycılığı gösterir. Ancak aşırı uzunsa (avuç kenarına değerse), kişi ayrıntılarda boğulabilir, hesapçı ve kurnaz olabilir."
+    },
+    {
+      "id": "kisa_akil_cizgisi",
+      "name": "Kısa Akıl Çizgisi (Satürn veya Güneş Hizasında Biten)",
+      "book_content": "Pratik, somut ve sonuca odaklı zeka. Felsefi derinlikten ziyade 'işe yarayan' ile ilgilenirler. Kararları hızlıdır. Ancak Satürn (orta parmak) altında bitiyorsa sınırlı bir zihinsel kapasite veya erken bunama riski olabilir."
+    },
+    {
+      "id": "derin_net_akil",
+      "name": "Derin ve Net Çizgi",
+      "book_content": "Müthiş bir konsantrasyon gücü. Odaklandığı konuyu asla bırakmaz. Sağlıklı bir beyin ve güçlü hafıza işaretidir."
+    },
+    {
+      "id": "silik_zincirli_akil",
+      "name": "Silik, Geniş veya Zincirli Çizgi",
+      "book_content": "Dikkat dağınıklığı, unutkanlık ve zihinsel tembellik. Konsantre olmakta zorlanırlar. Kararsızdırlar. Stres altında çabuk dağılırlar."
+    },
+    {
+      "id": "dalgal_akil_cizgisi",
+      "name": "Dalgalı Akıl Çizgisi",
+      "book_content": "İstikrarsız düşünce yapısı. Bir fikirden diğerine çabuk atlarlar. Güvenilmez olabilirler çünkü fikirleri sürekli değişir."
+    }
+  ],
+  "starting_point": [
+    {
+      "id": "hayatla_birlesik",
+      "name": "Hayat Çizgisiyle Birleşik Başlangıç",
+      "book_content": "En yaygın tiptir. Tedbirli, ailesine bağlı, geleneksel ve mantıklı bir yapıyı gösterir. Başkalarının (ailenin) görüşlerine önem verirler. Güvenlik onlar için önemlidir."
+    },
+    {
+      "id": "hayattan_ayrik",
+      "name": "Hayat Çizgisinden Ayrık Başlangıç",
+      "book_content": "Özgüveni yüksek, bağımsız, cesur ve risk almayı seven yapı. Ailesinden erken kopar. Kendi kararlarını kendi verir. Hızlı düşünür, bazen fevridir."
+    },
+    {
+      "id": "jupiterden_baslayan",
+      "name": "Jüpiter Tepesinden Başlayan",
+      "book_content": "Büyük bir hırs, liderlik arzusu ve şöhret tutkusu. Zekasını yükselmek ve yönetmek için kullanır."
+    }
+  ],
+  "ending_slope": [
+    {
+      "id": "duz_akil_cizgisi",
+      "name": "Düz Giden (Mars'a Yönelen) Çizgi",
+      "book_content": "Gerçekçi, mantıklı, hesapçı ve materyalist. Hayal gücünden ziyade somut gerçeklere inanır. Ticaret ve matematikte başarılıdır. Duygusuz olabilir."
+    },
+    {
+      "id": "egik_akil_cizgisi",
+      "name": "Aşağı Eğilen (Ay Tepesine) Çizgi",
+      "book_content": "Hayal gücü kuvvetli, yaratıcı, sanatçı ruhlu ve idealist. Edebiyat ve sanata yatkındır. Eğer çok fazla aşağı inip Ay tepesine dalarsa; melankoli, depresyon ve hayal dünyasında kaybolma riski taşır."
+    },
+    {
+      "id": "catalli_bitis_yazar",
+      "name": "Çatallı Bitiş (Yazar Çatalı)",
+      "book_content": "Çizginin ucunun ikiye ayrılması (Biri düz, biri eğik). Hem mantığı hem hayal gücünü aynı anda kullanabilme yeteneğidir. Çok yönlülüktür. İyi yazarların ve avukatların elinde görülür (Olayı her yönüyle görebilirler)."
+    }
+  ],
+  "signs_on_line": [
+    {
+      "id": "ada_akil_cizgisi",
+      "name": "Ada İşareti",
+      "book_content": "Zihinsel kriz, şiddetli baş ağrıları (migren) veya psikolojik bunalım dönemi. Adanın bulunduğu yaşta kişi zihinsel verimini kaybeder."
+    },
+    {
+      "id": "kirilma_akil_cizgisi",
+      "name": "Kırılma (Kopukluk)",
+      "book_content": "Kafa travması, beyin sarsıntısı veya sinir krizi. Eğer kopukluk büyükse hafıza kaybı veya zihinsel yetenek yitimi olabilir."
+    },
+    {
+      "id": "yildiz_akil_cizgisi",
+      "name": "Yıldız İşareti",
+      "book_content": "Fiziksel bir yaralanma (baş bölgesinde) veya şok edici bir zihinsel olay. Nadiren de olsa dahi bir buluşu (ani aydınlanma) gösterebilir ama genellikle tehlike işaretidir."
+    },
+    {
+      "id": "nokta_akil_cizgisi",
+      "name": "Nokta veya Oyuk",
+      "book_content": "Geçici bir beyin rahatsızlığı veya odaklanma sorunu. Siyah nokta sinirsel bir hastalığı işaret edebilir."
+    }
+  ]
+}

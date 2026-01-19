@@ -1,0 +1,129 @@
+﻿{
+  "category_info": {
+    "title": "Mesleklere Göre El ve Parmak Yapıları",
+    "source_book": "",
+    "description": "El biçimleri, parmak yapıları ve tepelerin durumuna göre kişinin en başarılı olacağı meslek gruplarının ve kariyer eğilimlerinin analizi."
+  },
+  "hand_types_professions": [
+    {
+      "hand_type": "Murabba (Kare) El",
+      "features": "Avuç kare, parmak uçları küt/kare.",
+      "suitable_professions": [
+        "Mühendislik",
+        "Muhasebe / Finans",
+        "Öğretmenlik",
+        "Hukuk (Avukat/Hakim)",
+        "Tıp (Cerrahlık hariç genel pratik)",
+        "Askerlik / Polislik",
+        "Yöneticilik (Düzenli sistemlerde)"
+      ],
+      "reasoning": "Düzen, disiplin, kuralcılık ve sabır gerektiren işlerde mükemmeldirler. Rutini severler."
+    },
+    {
+      "hand_type": "Spatül (Kürek) El",
+      "features": "Parmak uçları genişleyerek biter (kürek gibi).",
+      "suitable_professions": [
+        "Makine Mühendisliği",
+        "Mucitlik / İcatçılık",
+        "Kaşiflik / Seyyahlık",
+        "Astronotluk / Pilotluk",
+        "Eczacılık",
+        "Diş Hekimliği",
+        "Ziraat Mühendisliği"
+      ],
+      "reasoning": "Enerjik, hareketli ve yenilikçi işler. Alet ve edevat kullanmada, yeni şeyler keşfetmede ustadırlar."
+    },
+    {
+      "hand_type": "Sanat (Konik) Eli",
+      "features": "Parmak uçları yuvarlaktır, el yumuşak ve zariftir.",
+      "suitable_professions": [
+        "Ressamlık / Heykeltraşlık",
+        "Müzisyenlik",
+        "İç Mimarlık / Dekorasyon",
+        "Edebiyat / Şairlik",
+        "Halkla İlişkiler",
+        "Moda Tasarımı"
+      ],
+      "reasoning": "İlham, estetik ve güzellik gerektiren her türlü yaratıcı alanda başarılı olurlar. Rutin ofis işlerinde mutsuz olurlar."
+    },
+    {
+      "hand_type": "Filozofik (Düğümlü) El",
+      "features": "Parmak eklemleri boğumlu, kemikli el.",
+      "suitable_professions": [
+        "Yazarlık / Şairlik",
+        "Felsefe / Akademisyenlik",
+        "Din Adamlığı / Mistik Rehberlik",
+        "Tarihçilik",
+        "Psikologluk"
+      ],
+      "reasoning": "Derin düşünce, analiz, detaycılık ve maneviyat gerektiren işler. Maddi kazançtan çok fikri tatmin ararlar."
+    },
+    {
+      "hand_type": "İlkel (Basit) El",
+      "features": "Kaba, kalın, parmaklar küt ve kısa.",
+      "suitable_professions": [
+        "Beden İşçiliği",
+        "Tarım / Bahçıvanlık",
+        "Ağır Sanayi İşçiliği",
+        "Lojistik / Taşıma"
+      ],
+      "reasoning": "Zihinsel stresten uzak, fiziksel güç ve dayanıklılık gerektiren işler."
+    },
+    {
+      "hand_type": "Psişik (Ruhsal) El",
+      "features": "Çok ince, uzun, şeffaf gibi görünen narin el.",
+      "suitable_professions": [
+        "Medyumluk",
+        "Şifacılık",
+        "Rüya Yorumculuğu",
+        "Hiçbir 'dünyevi' mesleğe tam uymazlar."
+      ],
+      "reasoning": "Gerçek dünyadan kopuktur. Ticaret veya fiziksel emek gerektiren işlerde barınamazlar."
+    }
+  ],
+  "finger_indicators": [
+    {
+      "feature": "Uzun Merkür (Serçe) Parmağı",
+      "indication": "Güçlü hitabet ve ikna yeteneği.",
+      "professions": ["Politikacı", "Avukat", "Satış Uzmanı", "Diplomat", "Sunucu"]
+    },
+    {
+      "feature": "Uzun ve Düzgün Güneş (Yüzük) Parmağı",
+      "indication": "Yüksek risk alma ve estetik yetenek.",
+      "professions": ["Borsacı", "Kumarbaz", "Sanatçı", "Spekülatör"]
+    },
+    {
+      "feature": "Kare Parmak Uçları",
+      "indication": "Sistem ve düzen.",
+      "professions": ["Muhasebeci", "Memur", "Banka Çalışanı"]
+    },
+    {
+      "feature": "Spatül Parmak Uçları",
+      "indication": "Hareket ve pratik zeka.",
+      "professions": ["Sporcu", "Tekniker", "Cerrah"]
+    },
+    {
+      "feature": "Düğümlü (Boğumlu) Parmaklar",
+      "indication": "Analitik düşünce ve planlama.",
+      "professions": ["Bilim İnsanı", "Araştırmacı", "Matematikçi"]
+    }
+  ],
+  "mount_indicators": [
+    {
+      "feature": "Gelişmiş Merkür Tepesi",
+      "professions": ["Tüccar", "Doktor", "Bilim İnsanı", "Hukukçu"]
+    },
+    {
+      "feature": "Gelişmiş Mars Tepesi",
+      "professions": ["Asker", "Polis", "İtfaiyeci", "Cerrah", "Kasap"]
+    },
+    {
+      "feature": "Gelişmiş Ay Tepesi",
+      "professions": ["Yazar", "Besteci", "Denizci", "Turizmci"]
+    },
+    {
+      "feature": "Gelişmiş Jüpiter Tepesi",
+      "professions": ["Siyasetçi", "CEO / Üst Düzey Yönetici", "Lider", "Din Adamı"]
+    }
+  ]
+}

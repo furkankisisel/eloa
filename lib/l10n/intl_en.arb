@@ -1,0 +1,15 @@
+{
+    "appTitle": "Eloa",
+    "welcomeTitle": "Welcome to Eloa",
+    "handSelectionIntro": "Select the hand you wish to analyze.\nEach hand tells a different story.",
+    "leftHandTitle": "LEFT HAND",
+    "rightHandTitle": "RIGHT HAND",
+    "leftHandSubtitle": "Potential & Genetic Inheritance",
+    "rightHandSubtitle": "Active Use & Will",
+    "leftHandDesc": "Stores innate talents and possibilities granted to you. Shows the hidden gem within.",
+    "rightHandDesc": "Shows how much of that treasure you actively use and skills gained later.",
+    "startAnalysis": "START ANALYSIS",
+    "wizardPlaceholderTitle": "Question Flow Coming Soon",
+    "wizardPlaceholderBody": "When JSON model data is connected, a step-by-step analysis wizard will appear here.",
+    "goBack": "GO BACK"
+}

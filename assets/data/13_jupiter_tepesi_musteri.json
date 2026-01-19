@@ -1,0 +1,77 @@
+﻿{
+  "category_info": {
+    "title": "Jüpiter Tepesi (Müşteri Dağı)",
+    "source_book": "",
+    "page_range": "164-168",
+    "description": "İşaret parmağının altında yer alan; liderlik, hırs, dindarlık, şeref, otorite ve evlilik hayatını temsil eden tepenin analizi."
+  },
+  "jupiter_mount_general": [
+    {
+      "id": "iyi_yapili_jupiter",
+      "name": "İyi Yapılı ve Uygun Kabarıklıkta",
+      "book_content": "Yaşama gücünü, sevincini ve neşeli bir mizacı gösterir. Mutlu bir evlilik yapma şansına ve bunu sürdürme kabiliyetine sahiptirler. Eşine karşı müşfik ve adildirler."
+    },
+    {
+      "id": "asiri_kabarik_jupiter",
+      "name": "Aşırı Derecede Kabarık Jüpiter",
+      "book_content": "Büyük bir gurura, kendini beğenmişliğe ve şöhret ihtirasına delalet eder. 'Tek adam' olma, emir ve komutayı kendinde toplama arzusu vardır. Yanı başlarında hep dalkavuklar bulunur."
+    },
+    {
+      "id": "yayvan_kabarik_jupiter",
+      "name": "Çok Yayvan ve Kabarık Jüpiter",
+      "book_content": "Egemenliğe susamışlığın ve büyük bir ihtirasın habercisidir. Aynı zamanda dini ilhamın da belirtisidir."
+    },
+    {
+      "id": "zayif_jupiter_tepesi",
+      "name": "Zayıf veya Yok Gibi",
+      "book_content": "Hiçbir tutkusu olmayan, silik, kişiliksiz, liyakatsiz ve tembel bir kişilik. Korkaktırlar; meydan okunduğunda ellerindekini verirler. Kendilerine ilişilmese kimseye ilişmezler."
+    }
+  ],
+  "jupiter_mount_signs": [
+    {
+      "id": "hac_jupiter",
+      "name": "Haç İşareti",
+      "book_content": "Bu tepede haç daima iyiye işarettir. Her konuda şanslılığı gösterir. Sanki gizli bir el (dua) onları korur. Parlak ve mutlu bir aşk evliliğinin de işaretidir."
+    },
+    {
+      "id": "yildiz_jupiter",
+      "name": "Yıldız İşareti",
+      "book_content": "Şöhretli ve mutlu bir kaderin işaretidir. Kişi eninde sonunda tanınır ve bilinir hale gelir. Tatlı özentilere, alicenaplığa ve meslekte başarıya yorulur."
+    },
+    {
+      "id": "kare_jupiter",
+      "name": "Kare İşareti",
+      "book_content": "Adalet hissini, azim ve iradeyi gösterir. Yükselme yolunda daima birilerinden yardım görecek bir şanslılığı yansıtır. Bazen de kendini beğenmişliğin belirtisidir."
+    },
+    {
+      "id": "ucgen_jupiter",
+      "name": "Üçgen İşareti",
+      "book_content": "Yeni fikirlere açık, diplomatik bir yapıyı ve siyasi ilimlerde başarıyı gösterir. Birden fazla üçgen varsa parlak aşklar veya yeni pozisyonlar (iş/mevki) anlamına gelir."
+    },
+    {
+      "id": "izgara_jupiter",
+      "name": "Izgara İşareti",
+      "book_content": "Daima bir engeli temsil eder. İşe başlanmamalı veya temkinli olunmalıdır. Bencilliği, boş inançları ve övünme duygusunu öne çıkarır. Tepenin iyi özelliklerini iptal eder."
+    },
+    {
+      "id": "catal_jupiter",
+      "name": "Çatal İşareti",
+      "book_content": "Hüzünleri, kalbi ıstırapları ve hayal kırıklıklarını simgeler. Evlilik veya iş kurmadan önce dikkatli olunmalıdır."
+    },
+    {
+      "id": "cizgiler_jupiter",
+      "name": "Çizgiler",
+      "book_content": "Ayrılıkların habercisidir. Boşanmaya yatkın, uyuşmaz mizaçları sergiler. Ancak çizgiler dikine ve ortada ise sıcak aile bağlarını gösterir."
+    },
+    {
+      "id": "merdiven_jupiter",
+      "name": "Merdiven İşareti",
+      "book_content": "Gücün kontrolünü ve potansiyellerin doğru yönde kullanılacağını haber verir. Başarıların şımartamayacağı, ihtiraslarını kontrol edebilen güçlü bir kişiliktir."
+    },
+    {
+      "id": "noktalar_jupiter",
+      "name": "Nokta veya Oyuk",
+      "book_content": "Kişiyi amacından alıkoyacak gelişmeler olabileceğini, ciddi bir güç kaybı ve çaresizlik yaşanabileceğini gösterir."
+    }
+  ]
+}

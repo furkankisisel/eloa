@@ -1,0 +1,62 @@
+﻿{
+  "category_info": {
+    "title": "Evlilik Çizgileri (Gönül Bağları)",
+    "source_book": "",
+    "page_range": "285-295",
+    "description": "Merkür tepesinin (serçe parmağı altı) kenarında, kalp çizgisinin üzerinde yer alan yatay çizgilerdir. Evlilikleri, derin gönül ilişkilerini ve çocuk potansiyelini gösterir."
+  },
+  "marriage_line_general": [
+    {
+      "id": "tek_derin_cizgi",
+      "name": "Tek, Derin ve Net Çizgi",
+      "book_content": "En makbul işarettir. Ömür boyu sürecek, mutlu ve sadık tek bir evliliği (veya çok derin bir aşkı) gösterir. Aile huzuru yerindedir."
+    },
+    {
+      "id": "coklu_cizgiler",
+      "name": "Birden Fazla Çizgi",
+      "book_content": "Birden fazla ciddi ilişkiyi veya evliliği gösterir. Çizgilerin derinliği ilişkinin ciddiyetini, sırası (aşağıdan yukarıya) yaşanma zamanını belirtir. En derin olanı evliliği, diğerleri nişan veya derin aşkları temsil eder."
+    },
+    {
+      "id": "kisa_silik_cizgiler",
+      "name": "Kısa ve Silik Çizgiler",
+      "book_content": "Evliliğe veya derin bağlara önem vermeyen, flörtöz veya yüzeysel ilişkiler yaşayan yapı. Bağlanma sorunu olabilir."
+    },
+    {
+      "id": "yukari_kivrik_cizgi",
+      "name": "Yukarı (Serçe Parmağına) Kıvrık Çizgi",
+      "book_content": "Evlenmeme kararı veya evliliğe karşı direnç. Kişi bekarlığı tercih edebilir veya evlense bile kendini özgür hisseder."
+    },
+    {
+      "id": "asagi_kivrik_cizgi",
+      "name": "Aşağı (Kalp Çizgisine) Kıvrık Çizgi",
+      "book_content": "Eşin erken ölümü veya evliliğin hüzünlü bitişi. Çizgi kalp çizgisine değerse boşanma veya büyük bir duygusal yıkım yaşanır."
+    }
+  ],
+  "signs_on_marriage_line": [
+    {
+      "id": "catal_baslangic",
+      "name": "Çatallı Başlangıç (V Şekli)",
+      "book_content": "Başlangıçta (avuç dışı tarafında) çatal varsa; ilişkinin zorluklarla, ayrı yaşamayla veya engellerle başlayıp sonradan düzeleceğini gösterir."
+    },
+    {
+      "id": "catal_bitis",
+      "name": "Çatallı Bitiş (Avuç İçine Doğru)",
+      "book_content": "Ayrılık veya boşanma işaretidir. Fikir ayrılıkları yüzünden yolların ayrılacağını gösterir. Çatal ne kadar genişse kopuş o kadar kesindir."
+    },
+    {
+      "id": "ada_evlilik",
+      "name": "Ada İşareti",
+      "book_content": "Evlilikte ciddi sorunlar, kavgalar veya skandallar. İlişkinin bir döneminde yaşanan büyük krizi veya hastalığı gösterir."
+    },
+    {
+      "id": "yildiz_evlilik",
+      "name": "Yıldız İşareti",
+      "book_content": "Eşle ilgili ani ve şok edici bir olay (aldatılma, ani kayıp vb.). Genellikle ilişkinin bitişine neden olan travmatik bir olayı gösterir."
+    },
+    {
+      "id": "dikey_cizgiler_cocuk",
+      "name": "Dikey Kesik Çizgiler (Çocuk Çizgileri)",
+      "book_content": "Evlilik çizgisinin üzerinden yukarı doğru çıkan küçük dikey çizgiler çocukları gösterir. Kalın ve uzun olanlar erkek, ince ve kısa olanlar kız çocuğuna işaret eder."
+    }
+  ]
+}

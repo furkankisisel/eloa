@@ -1,0 +1,162 @@
+﻿{
+  "category_info": {
+    "title": "Serçe Parmağı (Merkür) ve Boğumları",
+    "source_book": "",
+    "page_range": "137-143",
+    "description": "Meslek, ticaret, bilim, iletişim becerileri, kurnazlık ve sosyal ilişkilerin sembolü olan Serçe Parmağının analizi."
+  },
+  "little_finger_general": [
+    {
+      "id": "uzun_serce_parmagi",
+      "name": "Uzun Serçe Parmağı",
+      "book_content": "Canlı, uyanık bir şahsiyet ve becerikli bir yapı. Neyi nasıl yapacaklarını içgüdüsel olarak bilirler. Bilim ve tıpta başarıya ulaşırlar. Eğer hayat çizgisi Jüpiter'e ulaşıyorsa mesleklerinde mutlaka tanınan biri olurlar."
+    },
+    {
+      "id": "kisa_serce_parmagi",
+      "name": "Kısa Serçe Parmağı",
+      "book_content": "İlgisiz ve duyarsız bir kişilik. Ancak önsezileri güçlüdür, içgüdüleriyle hareket ederler. Duygularını gizlemeyi başarırlar. Eğer parmak kırılmış gibi duruyorsa tehlikeli bir fıtrata işaret edebilir."
+    },
+    {
+      "id": "kalin_serce_parmagi",
+      "name": "Kalın Serçe Parmağı",
+      "book_content": "Bayağılık, yalancılık ve özellikle ticarette hilekârlık. İnsanları rahatlıkla kandırabilirler. Müthiş bir ticari zekaları vardır ama dürüstlükten ziyade 'iş bitirici' ve kurnazdırlar (Hokkabaz parmağı)."
+    },
+    {
+      "id": "ince_serce_parmagi",
+      "name": "İnce Serçe Parmağı",
+      "book_content": "Ruhi zayıflık ve kıskançlık işareti. Bencildirler. Eğitilmemişlerse çıkarları için hile yaparlar. Eğitilmişlerse idealist bir dost olurlar, sevdiklerine delice bağlanırlar çünkü içlerindeki zayıflığı güçlü dostluklarla kapatmak isterler."
+    },
+    {
+      "id": "yumusak_serce_parmagi",
+      "name": "Yumuşak Serçe Parmağı",
+      "book_content": "Sosyal, nazik ve nezaketli bir yapı. İnce fikirlidirler ve ticarette başarılıdırlar. Esnaf iseler 'baba' adam olarak bilinirler, herkesin yardımına koşarlar."
+    },
+    {
+      "id": "gergin_serce_parmagi",
+      "name": "Gergin Serçe Parmağı",
+      "book_content": "Kibir, gurur ve dik başlılık. Kendilerini ve mallarını övmeyi severler. Hava atmayı huy edinmişlerdir."
+    },
+    {
+      "id": "bogumlu_serce_parmagi",
+      "name": "Boğumlu (Kabarık Eklemli) Serçe Parmağı",
+      "book_content": "İdeal tüccar yapısı ve ticari deha. Aynı zamanda bilimsel düşünme kabiliyetini gösterir. Erken yaşta keşfedilirse ülkeye yararlı bilim insanı olurlar."
+    },
+    {
+      "id": "ayrik_serce_parmagi",
+      "name": "Ayrık Duran Serçe Parmağı",
+      "book_content": "Bağımsızlık arzusu ve özgün fikirler. Onurlarına çok düşkündürler. Kendilerine yapılan kötülük karşısında en delice hareketlere başvurabilirler."
+    },
+    {
+      "id": "parlak_serce_parmagi",
+      "name": "Parlak Serçe Parmağı",
+      "book_content": "Hızlı kavrayış ve ani sezme gücü. Fotoğrafik bir zekaya sahiptirler. İstihbaratçı olmaya yatkındırlar."
+    },
+    {
+      "id": "yuzuge_meyilli_serce",
+      "name": "Yüzük Parmağına Meyilli",
+      "book_content": "Büyük bir ticaret yeteneği ve şöhret potansiyeli. Ancak bu eğim çok fazlaysa hırsızlık istidadı olarak yorumlanabilir."
+    }
+  ],
+  "little_finger_phalanxes": [
+    {
+      "id": "birinci_bogum_uzun",
+      "name": "Uzun 1. Boğum (Hitabet/Bilim)",
+      "book_content": "Belagat ve hitabet kabiliyeti. İnce fikirli, kibar ve nezaketli insanlar. Bilimsel ve ticari merakları yüksektir."
+    },
+    {
+      "id": "birinci_bogum_kisa",
+      "name": "Kısa 1. Boğum",
+      "book_content": "Zihni tembellik. İş hayatında sıkıntılar ve başarısızlıklar. Hitabet eksikliği."
+    },
+    {
+      "id": "birinci_bogum_kalin",
+      "name": "Kalın 1. Boğum",
+      "book_content": "Namus ve ahlak konusunda genişlik (laçkalık). Bedeni hazları estetik zevklere tercih ederler. Değişken ruh halleri vardır."
+    },
+    {
+      "id": "birinci_bogum_ince",
+      "name": "İnce 1. Boğum",
+      "book_content": "Ruhi zayıflık ve kurnazlık."
+    },
+    {
+      "id": "birinci_bogum_kuru",
+      "name": "Kuru 1. Boğum",
+      "book_content": "Güzel ve tatlı konuşma yeteneği. Nazik ve ince bir ruh."
+    },
+    {
+      "id": "birinci_bogum_yassi",
+      "name": "Yassı (Meblağ) 1. Boğum",
+      "book_content": "Mistik yetenekler, hipnotizma ve büyüye eğilim. Yatak hayatları zengindir."
+    },
+    {
+      "id": "birinci_bogum_kare",
+      "name": "Kare 1. Boğum",
+      "book_content": "Mantıklı, muhakemeci ve aydın bir yapı. Bilim insanı parmağıdır."
+    },
+    {
+      "id": "birinci_bogum_konik",
+      "name": "Konik 1. Boğum",
+      "book_content": "Fıtrattan gelen hitabet. Söz ustasıdırlar. Ticarette kurnazlık yapabilirler."
+    },
+    {
+      "id": "birinci_bogum_sivri",
+      "name": "Sivri 1. Boğum",
+      "book_content": "Yüksek ama anlaşılması zor önseziler. Medyumluk kabiliyeti."
+    },
+    {
+      "id": "birinci_bogum_kivrik",
+      "name": "Geriye Kıvrık 1. Boğum",
+      "book_content": "Başkalarının işine burnunu sokma huyu. Bu yüzden başları dertten kurtulmaz."
+    },
+    {
+      "id": "ikinci_bogum_uzun",
+      "name": "Uzun 2. Boğum (Pratik Zeka)",
+      "book_content": "Her işe yetenekli. Menfaatlerini iyi kollarlar. Başkalarının gözünü kamaştırırlar. Ahlak eğitimi yoksa züppe olabilirler."
+    },
+    {
+      "id": "ikinci_bogum_kisa",
+      "name": "Kısa 2. Boğum",
+      "book_content": "Dürüst, saf ve temiz yaradılış. Budala derecesinde saf olabilirler, çabuk kandırılırlar. Ancak hilesiz oldukları için sonunda kazanırlar."
+    },
+    {
+      "id": "ikinci_bogum_kalin",
+      "name": "Kalın 2. Boğum",
+      "book_content": "Maddi doygunluk. Müstağnidirler, kimsenin malına tenezzül etmezler. Onurlu ve saygın bir yer edinirler."
+    },
+    {
+      "id": "ikinci_bogum_kuru",
+      "name": "Kuru 2. Boğum",
+      "book_content": "Soğuk mizaç ve hesapçılık. Kimseye muhtaç olmak istemezler, ellerindekini verimli kullanırlar."
+    },
+    {
+      "id": "ikinci_bogum_etli",
+      "name": "Etli 2. Boğum",
+      "book_content": "Bağımsızlık arzusu ve zevk düşkünlüğü. Sadist bir mizaçları olabilir. Sapık ilişkilere eğilim gösterebilirler."
+    },
+    {
+      "id": "ucuncu_bogum_uzun",
+      "name": "Uzun 3. Boğum (Ticari Beceri)",
+      "book_content": "Yüksek iş yapabilme kabiliyeti ve maddi şans. Ortaklık yapılacaksa bu kişilerin seçilmesi önerilir, ellerini attıkları işte başarılı olurlar."
+    },
+    {
+      "id": "ucuncu_bogum_kisa",
+      "name": "Kısa 3. Boğum",
+      "book_content": "Başarısızlık, disiplinsizlik ve çabuk bıkma. İş hayatında talihsizdirler."
+    },
+    {
+      "id": "ucuncu_bogum_kalin",
+      "name": "Kalın 3. Boğum",
+      "book_content": "Ticarette başarı için her yolu mübah görme. Para hırsı yüksektir, dostlarını bile kandırabilirler."
+    },
+    {
+      "id": "ucuncu_bogum_kuru",
+      "name": "Kuru 3. Boğum",
+      "book_content": "İzzetli, onurlu ve hakperest. Ticaretin dürüst yüzüdürler. Doğru iş yapmak için kendilerine zarar verebilirler."
+    },
+    {
+      "id": "ucuncu_bogum_etli",
+      "name": "Etli 3. Boğum",
+      "book_content": "Becerikli, zengin ve cömert. Rahat kazanırlar. Bazen aşırı mal sevgisi yüzünden cimri olabilirler."
+    }
+  ]
+}

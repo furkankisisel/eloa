@@ -1,0 +1,134 @@
+﻿{
+  "category_info": {
+    "title": "Tırnaklar (Sağlık ve Mizaç Analizi)",
+    "source_book": "",
+    "page_range": "85-94",
+    "description": "Tırnakların şekli, rengi ve üzerindeki işaretlere göre kişinin sağlık durumu (klinik ipuçları) ve psikolojik yapısının analizi."
+  },
+  "nail_shapes": [
+    {
+      "id": "iyi_tirnak_tanimi",
+      "name": "İdeal (Normal) Tırnak",
+      "book_content": "Uzunluğu genişliğinden biraz fazla, ortadan hafif bombeli ve kenarlara doğru eğilerek giden tırnaktır. Dibinde 'hilal' (yarım ay) bulunur. Çizgisiz ve parlaktır. Boyu eninden uzundur. Bu tırnak, sağlıklı bir bünyeden, adil, açık yürekli, güvenilir ve soğukkanlı bir karakterden haber verir."
+    },
+    {
+      "id": "yuvarlak_bukuk_tirnak",
+      "name": "Yuvarlak ve Bükük Tırnaklar",
+      "book_content": "Bağımsız ve hür bir ruhun belirtisidir. Müstakil ve başına buyruk yaşamayı severler. Aynı zamanda hırs ve tamah küpüdürler. Eğer parmağın birinci boğumu sıkılmış gibi yuvarlaksa akciğer, böbrek veya omurgada rahatsızlık (tüberküloz vb.) işareti olabilir."
+    },
+    {
+      "id": "sivri_egik_tirnak",
+      "name": "Sivri ve Eğik Tırnaklar",
+      "book_content": "Şehvete düşkünlük ve kötü alışkanlıklara yatkınlık işaretidir (Parmaklar da ince olmak şartıyla). Her şeye çabucak tiryaki olurlar. Karaciğerin sağlıklı çalışmadığına işaret eder."
+    },
+    {
+      "id": "uclarda_incelen_tirnak",
+      "name": "Uçlarda İncelen Tırnaklar",
+      "book_content": "Kötü bir sıhhate işarettir. Bilhassa akciğer bozukluklarının, bronşit ve astım gibi hastalıkların belirtisidir."
+    },
+    {
+      "id": "kisa_tirnak",
+      "name": "Kısa Tırnaklar",
+      "book_content": "Kavgacı bir mizaç ve mücadeleci bir tabiattan haber verir. Eleştiriye tahammülsüzdürler ama kendileri herkesi eleştirirler. Mızıkçı ve itirazcıdırlar. Bu tahammülsüzlüğün sebebi genellikle akciğerin yeterince oksijen alamamasıdır."
+    },
+    {
+      "id": "kisa_kemirilmis_tirnak",
+      "name": "Kısa ve Kemirilmiş Tırnaklar",
+      "book_content": "Her an itiraza hazır, geçimsiz ve sinirli bir yapıdır. Sık sık sinir buhranları geçirirler. Histerik bir doyumsuzluk ve ilgiye muhtaçlık içindedirler. Melankoliktirler."
+    },
+    {
+      "id": "kisa_sert_tirnak",
+      "name": "Kısa ve Sert Tırnaklar",
+      "book_content": "Öfkeli ve hiddetli bir mizaçtan haber verir. Bünyeleri riskli hastalıklara açıktır."
+    },
+    {
+      "id": "kisa_genis_tirnak",
+      "name": "Kısa ve Geniş Tırnaklar",
+      "book_content": "Cesaret ve cömertlik işaretidir. Ancak sağlık açısından sıhhat bozukluğuna ve ilişkilerde kabalaşmaya işaret edebilir. Eğer dipteki hilal yoksa ciddi kalp rahatsızlığı riski (damar tıkanıklığı) olabilir."
+    },
+    {
+      "id": "genis_saglikli_tirnak",
+      "name": "Geniş ve Sağlıklı Tırnaklar",
+      "book_content": "Sağduyunun ve adalet duygusunun belirtisidir. Aklıselim sahibi ve hakperesttirler. Tırnağın dibi yuvarlaksa çok sağlam bir bünyeye işarettir."
+    },
+    {
+      "id": "uzun_sivri_tirnak",
+      "name": "Uzun ve Sivri Tırnaklar",
+      "book_content": "Hayalcilik, kuruntu ve yapmacık bir mizaçtır. Şiire ve güzel sanatlara yatkındırlar. İnce zevk sahibidirler ama tembellik işaretidir."
+    },
+    {
+      "id": "uzun_dar_tirnak",
+      "name": "Uzun ve Dar Tırnaklar",
+      "book_content": "Tutarlı, dengeli, samimi ama içine kapanık bir kişiliktir. Sevgilerini zor açığa vururlar. Fiziksel olarak narinlerse omurga ve akciğer hassasiyetine işaret eder."
+    },
+    {
+      "id": "uzun_duz_tirnak",
+      "name": "Uzun ve Düz Tırnaklar",
+      "book_content": "Hoşgörü, bilgelik, sevimli ve sadık bir yapı. Toplumda mümtaz bir yer edinirler. Barışçıdırlar, tartışmadan kaçınırlar. Kinci değillerdir ama hakareti zor unuturlar."
+    },
+    {
+      "id": "badem_tirnak",
+      "name": "Badem Tırnaklar",
+      "book_content": "İdealist ve mütevekkil bir tabiatı sergiler. Sevimli bir mizaç ve huy göstergesidir."
+    },
+    {
+      "id": "yassi_bukumlu_tirnak",
+      "name": "Yassı ve Uçları Bükümlü Tırnaklar",
+      "book_content": "Sır saklayıcıdırlar. Laubalilikten hoşlanmazlar ama gerekirse hilekarlığa başvurabilirler."
+    },
+    {
+      "id": "bombeli_tirnak",
+      "name": "Bombeli Tırnaklar",
+      "book_content": "Zekaya ve aristokratça zevklere işarettir. Güzel ahlak ve sanat zevkini gösterir. Ancak 'saat camı' gibi aşırı bombeli ise bronşit hastalığı belirtisidir."
+    }
+  ],
+  "nail_conditions": [
+    {
+      "id": "cizgili_tirnak",
+      "name": "Çizgili Tırnaklar",
+      "book_content": "Hastalık ve bedeni arızaların habercisidir. Bilhassa kalp, karaciğer ve kan dolaşımıyla ilgili problemler tırnaklarda çizgi olarak kendini belli eder."
+    },
+    {
+      "id": "yumusak_tirnak",
+      "name": "Yumuşak Tırnaklar",
+      "book_content": "Dermansızlık, dayanıksızlık, pasiflik ve yumuşak mizaç belirtisidir. Hayata karşı isteksizdirler."
+    },
+    {
+      "id": "sert_kirilan_tirnak",
+      "name": "Sert ve Çabuk Kırılan Tırnaklar",
+      "book_content": "Haşin, öfkeli, şiddetli ve kavgacı bir tabiatı gösterir. Sınırlı bir zeka belirtisi olabilir. Anemi (kansızlık) gibi kan hastalıklarına yatkınlıktır."
+    },
+    {
+      "id": "lekeli_tirnak",
+      "name": "Lekeli Tırnaklar",
+      "book_content": "Beyaz lekeler zenginlik, mutluluk ve iyi sıhhat belirtisidir. Siyah lekeler ise tam tersi; ağır hastalık veya kazalara işaret edebilir."
+    }
+  ],
+  "nail_colors": [
+    {
+      "id": "renk_beyaz",
+      "name": "Beyaz Tırnak",
+      "book_content": "Bencillik ve bezginlik işaretidir."
+    },
+    {
+      "id": "renk_pembe",
+      "name": "Pembe Tırnak",
+      "book_content": "Sıhhat, sağlamlık ve dengeli yapı işaretidir."
+    },
+    {
+      "id": "renk_kirmizi",
+      "name": "Kırmızı Tırnak",
+      "book_content": "Kavgacı tabiat, mutsuz aşk ve acımasızlık belirtisidir."
+    },
+    {
+      "id": "renk_gri",
+      "name": "Gri Tırnak",
+      "book_content": "Öfke, hiddet, dedikoduculuk ve ani parlama işaretidir."
+    },
+    {
+      "id": "renk_siyah_koyu",
+      "name": "Siyah / Koyu Tırnak",
+      "book_content": "Hastalık, kötü sıhhat, mutsuzluk ve yoksulluk belirtisidir."
+    }
+  ]
+}

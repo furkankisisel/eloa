@@ -1,0 +1,78 @@
+﻿{
+  "category_info": {
+    "title": "Seyahat, Nesil, Gayret ve Engel Çizgileri",
+    "source_book": "",
+    "description": "Ana kategorilerde parça parça geçen ancak özel olarak merak edilen seyahat, çocuk (nesil), kişisel başarı (yükselen) ve engel (kesişen) çizgilerinin toplu analizi."
+  },
+  "travel_lines": [
+    {
+      "id": "seyahat_cizgileri_genel",
+      "name": "Seyahat Çizgileri (Genel)",
+      "location": "Ay tepesinin avuç dışına bakan kenarında (bileğin hemen üstünde) beliren yatay çizgilerdir.",
+      "book_content": "Kişinin hayatında yapacağı uzun veya önemli yolculukları gösterir. Derin ve uzun çizgiler, hayatı değiştiren büyük seyahatleri (yurtdışına yerleşme vb.) ifade eder."
+    },
+    {
+      "id": "seyahat_cizgisi_sonu",
+      "name": "Seyahat Çizgisinin Sonu",
+      "book_content": "Eğer çizgi yukarı (Kalp çizgisine) dönerse seyahatin aşk veya evlilikle sonuçlanacağını; aşağı dönerse hayal kırıklığıyla biteceğini gösterir. Ucunda ada varsa yolculukta tehlike veya hastalık demektir."
+    },
+    {
+      "id": "hayat_cizgisi_seyahat",
+      "name": "Hayat Çizgisinden Çıkan Seyahat Dalı",
+      "book_content": "Hayat çizgisinin alt ucundan ayrılıp Ay tepesine doğru uzanan dal, kişinin doğduğu topraklardan uzakta yaşayacağını ve muhtemelen orada öleceğini gösterir (Gurbet çizgisi)."
+    }
+  ],
+  "generation_lines": [
+    {
+      "id": "nesil_cizgileri_venus",
+      "name": "Nesil Çizgileri (Venüs Tepesi)",
+      "location": "Venüs tepesinin dış kenarında (bileğe yakın), hayat çizgisine paralel dikey çizgiler veya enine çizgiler.",
+      "book_content": "Çocuk sayısını ve cinsiyetini gösterir. Kalın ve uzun olanlar erkek, ince ve kısa olanlar kız çocuğuna işarettir. Silik veya kopuk çizgiler düşük ihtimalini gösterir."
+    },
+    {
+      "id": "cocuk_cizgileri_merkur",
+      "name": "Çocuk Çizgileri (Merkür/Evlilik Üstü)",
+      "location": "Evlilik çizgisinin üzerinden yukarı doğru çıkan dikey çizgiler.",
+      "book_content": "Venüs tepesindeki çizgileri teyit eder. Özellikle sağlıklı doğacak ve yaşayacak çocukları gösterir. Düz ve net ise sağlıklı çocuk, eğri veya adacıklı ise hassas/hasta çocuk demektir."
+    }
+  ],
+  "ascending_lines": [
+    {
+      "id": "yukselen_cizgiler_gayret",
+      "name": "Yükselen Çizgiler (Gayret/Efor Çizgileri)",
+      "location": "Hayat çizgisinden yukarı (parmaklara) doğru fışkıran ince dallar.",
+      "book_content": "Kişinin kendi şahsi gayretiyle elde ettiği başarıları gösterir. Bu çizgilerin çıktığı yaşlarda kişi terfi alır, evlenir, ev alır veya zenginleşir. 'Kendi tırnağıyla gelme' işaretidir."
+    },
+    {
+      "id": "jupiter_yukselen",
+      "name": "Jüpitere Yükselen Dal",
+      "book_content": "Büyük bir hırs ve liderlik başarısı. Genç yaşta (başlangıçta) görülürse, okul hayatında başarı ve erken gelen şöhreti gösterir."
+    },
+    {
+      "id": "gunes_yukselen",
+      "name": "Güneşe Yükselen Dal",
+      "book_content": "Sanat veya şöhret yoluyla gelen başarı. Kişinin yeteneğinin paraya ve üne dönüşeceğinin müjdesidir."
+    }
+  ],
+  "interference_lines": [
+    {
+      "id": "kesisen_cizgiler_engel",
+      "name": "Kesişen Çizgiler (Engel/Köstek Çizgileri)",
+      "location": "Genellikle Venüs tepesinden veya Mars (iç) bölgesinden gelip Hayat, Kader veya Akıl çizgisini enine kesen çizgiler.",
+      "book_content": "Hayatın akışını bozan dış etkilerdir. Ailevi sorunlar, düşmanlıklar veya hastalıklar yüzünden yaşanan duraklamaları gösterir. Kestikleri çizgiye zarar veriyorlarsa (inceltiyorlarsa) etki kalıcıdır, çizgi devam ediyorsa engel aşılır."
+    }
+  ],
+  "triangle_formations": [
+    {
+      "id": "buyuk_ucgen",
+      "name": "Büyük Üçgen (Maddi Refah)",
+      "location": "Hayat, Akıl ve Merkür (veya Kader) çizgilerinin kesişimiyle avuç ortasında oluşan üçgen.",
+      "book_content": "Geniş ve düzgün bir üçgen; cömertlik, geniş görüşlülük ve maddi refahı gösterir. Dar üçgen cimriliği ve korkaklığı yansıtır."
+    },
+    {
+      "id": "kucuk_ucgenler",
+      "name": "Bağımsız Küçük Üçgenler",
+      "book_content": "Bulundukları tepenin özelliğine 'bilimsel ve diplomatik' bir güç katarlar. Yeteneğin akıl ve mantıkla birleştiğini gösterir."
+    }
+  ]
+}

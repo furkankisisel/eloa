@@ -1,0 +1,117 @@
+﻿{
+  "category_info": {
+    "title": "Venüs Tepesi (Zühre Dağı)",
+    "source_book": "",
+    "page_range": "156-164",
+    "description": "Başparmağın kökünde yer alan, yaşam enerjisi, aşk, cinsellik, sempati ve hayattan alınan hazzı temsil eden tepenin analizi."
+  },
+  "venus_mount_general": [
+    {
+      "id": "ideal_venus_tepesi",
+      "name": "Ahenkli ve Dolgun Venüs Tepesi",
+      "book_content": "Bedeni hazlara olduğu kadar fikri hazlara, müziğe ve sanata düşkünlüğü gösterir. Yardımsever, sıcakkanlı ve iyi kalpli kişilerdir. Yaşama sevinciyle doludurlar."
+    },
+    {
+      "id": "zayif_venus_tepesi",
+      "name": "Zayıf ve Yekpare Venüs Tepesi",
+      "book_content": "Şehvet azlığına, uyuşuk ve yorgun bir tabiata işaret eder. Yaşam enerjisi düşüktür. Soğuk olabilirler."
+    },
+    {
+      "id": "parlak_venus_tepesi",
+      "name": "Parlak Venüs Tepesi",
+      "book_content": "Çok etli olmamak kaydıyla bencillik ve ilgisizliğe eğilim olarak yorumlanır."
+    },
+    {
+      "id": "taskin_venus_tepesi",
+      "name": "Çok Yayvan ve Taşkın Venüs Tepesi",
+      "book_content": "Maddi zevkleri kötüye kullanma eğilimini yansıtır. İhtiraslı, şehvetli ama cömert olurlar. Eğlenceye düşkündürler."
+    },
+    {
+      "id": "sert_cizgili_venus",
+      "name": "Oldukça Etli, Çok Çizgili ve Sert Venüs Tepesi",
+      "book_content": "İfrat derecede şehveti ve beğenilme arzusunu ifade eder. Eğer başparmak da kısaysa, kişinin başına felaket açacak şiddetli ihtirastan haber verir. Kötü yola düşme riski taşır."
+    },
+    {
+      "id": "asagi_bombeli_venus",
+      "name": "Aşağı Doğru Bombeli (Kırkından Sonra)",
+      "book_content": "Bazı kişilerde tepe, hayat çizgisinin ortalarından sonra bombelik kazanır. Bu, 'kırkından sonra azma' tabir edilen, ileri yaşta nefsin baskısını daha çok hissetme durumudur. Veya kişinin tembelliği atıp sonradan açılması anlamına da gelebilir."
+    }
+  ],
+  "venus_mount_signs": [
+    {
+      "id": "halka_venus",
+      "name": "Halka (Zincir)",
+      "book_content": "Başparmağın altını çevreleyen zincir. Aile bağlarının sağlamlığını, çocuk ve aileye düşkünlüğü gösterir. Toplu yaşama isteğidir."
+    },
+    {
+      "id": "kudret_yuzugu",
+      "name": "Kudret Yüzüğü (Zincir)",
+      "book_content": "Başparmağın iç kısmını çevreleyen, küçük adacıklardan oluşan zincir. Her halka yapılan bir mesleği veya işi temsil edebilir. Sıcak aile bağlarını gösterir."
+    },
+    {
+      "id": "boylam_cizgileri",
+      "name": "Boylam Çizgileri (Tekvin-i İrade)",
+      "book_content": "Kudret yüzüğünden çıkıp hayat çizgisine doğru inen derin çizgilerdir. Kaderden gelen lütuf veya kahırlara işaret eder. Hayat çizgisini kestikleri yaşlarda kişinin hayatında kalıcı etkiler (başarı veya başarısızlık) bırakan olaylar yaşanır."
+    },
+    {
+      "id": "enlem_cizgileri",
+      "name": "Enlem Çizgileri (Nesil Çizgisi)",
+      "book_content": "Tepenin dış kenarında (bilek tarafında) yer alan paralel çizgilerdir. Çocuk sayısını ve cinsiyetini gösterir. Uzun ve derinler erkek, kısa ve inceler kız çocuğuna işaret eder. Silik çizgiler düşük ihtimalidir."
+    },
+    {
+      "id": "ahenkli_cizgiler",
+      "name": "Ahenkli (Yumuşak) Çizgiler",
+      "book_content": "Uyumlu, sabırlı ve başarılı bir kişiliği sergiler. Ancak çizgiler çok belirgin ve karışık ise sinirli ve öfkeli bir yapıyı gösterir."
+    },
+    {
+      "id": "izgara_venus",
+      "name": "Izgara İşareti",
+      "book_content": "Mühlik derecede şehvet düşkünlüğü ve 'uçkuru gevşek' bir yapıyı gösterebilir (Eğer tepe sertse). Eğer tepe yumuşak ve basıksa; cinsel iktidarsızlık, güç kaybı ve vesveseye işarettir."
+    },
+    {
+      "id": "yildiz_venus",
+      "name": "Yıldız İşareti",
+      "book_content": "Aşkta mutsuzluğu, sonu ayrılıkla biten muhteşem aşkları temsil eder. Bahtsız evlilik işaretidir. Bazen de cinsel yolla bulaşan hastalık habercisi olabilir."
+    },
+    {
+      "id": "kare_venus",
+      "name": "Kare İşareti",
+      "book_content": "Hapis, uzlet veya manastıra kapanma gibi sosyal hayattan kopuk bir dönemi haber verir. Bazen hiç evlenmemiş kişilerde görülür."
+    },
+    {
+      "id": "ucgen_venus",
+      "name": "Üçgen İşareti",
+      "book_content": "İyi değildir. Hesapçı bir aşkı veya aşkta hile ile karşılaşılacağını gösterir. Karşı cins ile ilişkilerde dikkatli olunmalıdır."
+    },
+    {
+      "id": "ada_venus",
+      "name": "Ada İşareti",
+      "book_content": "Sevgide ve aşkta sadakatsizlik ve samimiyetsizlik belirtisidir. Kişi sadakatsizliğe uğrayabilir."
+    },
+    {
+      "id": "catal_venus",
+      "name": "Çatal İşareti",
+      "book_content": "Aynı anda birçok kişiye gönül verebilme (şıpsevdi). Aşkta sebatsızdırlar ama 'şeytan tüyü' olduğu için partnersiz kalmazlar."
+    },
+    {
+      "id": "a_harfi_venus",
+      "name": "A Harfi",
+      "book_content": "Genellikle cinsel kaynaklı bir cinayete kurban gitme veya planlı bir saldırı tehlikesidir. Sadakatli ve ahlaklı yaşamak gerekir."
+    },
+    {
+      "id": "merdiven_venus",
+      "name": "Merdiven İşareti",
+      "book_content": "Kayıtsız ve sorumlu olmayan bir cinsellik anlayışını yansıtır. Eğitilmezlerse sefahate düşebilirler."
+    },
+    {
+      "id": "vadi_venus",
+      "name": "Vadi (Derin Dikine Çizgi)",
+      "book_content": "Hırslarını yenebilen, mütevazı ve merhametli bir kişiliği yansıtır. Onurlu ve fedakar insanlardır."
+    },
+    {
+      "id": "masa_venus",
+      "name": "Maşa (Dar Açılı Çizgiler)",
+      "book_content": "Düzgün, temiz bir kökten gelmeyi ve helalinden geçinmeyi prensip edinen insanlardır. Bir gün rahata kavuşacaklarını müjdeler."
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+﻿{
+  "category_info": {
+    "title": "Yüzük Parmağı (Güneş/Apollo) ve Boğumları",
+    "source_book": "",
+    "page_range": "130-137",
+    "description": "Sanat, estetik, şöhret, risk alma (kumar), lüks tutkusu ve duygusal ilişkilerin sembolü olan Yüzük Parmağının analizi."
+  },
+  "ring_finger_general": [
+    {
+      "id": "uzun_yuzuk_parmagi",
+      "name": "Uzun Yüzük Parmağı",
+      "book_content": "Güzellik tutkunu bir tabiatı sergiler. Şatafattan, tiryakiliklerden ve tutkulardan haz duyarlar. Bohem bir hayata meyillidirler. Her sanata karşı yetenekleri vardır. Savurgandırlar, israftan zevk alırlar."
+    },
+    {
+      "id": "kisa_yuzuk_parmagi",
+      "name": "Kısa Yüzük Parmağı",
+      "book_content": "Kaba, sanatkârane tavırlardan yoksun, küstah ve duygusuz olabilirler. Duyguları taşkın değildir. Uzun süreli aşk yaşamazlar, aşkı daha çok fiziksel/cinsel bir eylem olarak görürler."
+    },
+    {
+      "id": "kalin_yuzuk_parmagi",
+      "name": "Kalın Yüzük Parmağı",
+      "book_content": "Maddeci ve cimri bir tabiata işaret eder. Kendilerini iyi pazarlarlar (reklamcıdırlar). Günahlarını da sevaplarını da uluorta anlatırlar."
+    },
+    {
+      "id": "ince_yuzuk_parmagi",
+      "name": "İnce Yüzük Parmağı",
+      "book_content": "Bütün sanatlara karşı derin ilgi ve üretken yetenek. Soyut düşünce ve biçimleri kolay kavrarlar. 'Zevk-i bedii' denilen düşünsel hazlara açıktırlar."
+    },
+    {
+      "id": "yumusak_yuzuk_parmagi",
+      "name": "Yumuşak ve Esnek Yüzük Parmağı",
+      "book_content": "Artistik eğilimlerin en güçlü işaretidir. Yüksek taklit kabiliyetleri vardır (Stand-upçılar vb.). Her şeye kolay uyum sağlarlar."
+    },
+    {
+      "id": "bogumlu_yuzuk_parmagi",
+      "name": "Boğumlu (Kabarık Eklemli) Yüzük Parmağı",
+      "book_content": "Prensip sahibi ve metotçu bir kişilik. İşlerini büyük bir düzen içinde yaparlar. Hüsnüniyet sahibidirler, herkes hakkında iyi düşünürler, kolay kandırılabilirler."
+    },
+    {
+      "id": "parlak_yuzuk_parmagi",
+      "name": "Parlak Derili Yüzük Parmağı",
+      "book_content": "Güzele karşı hassas ve sezgili bir tabiat. Derin hisleri vardır ama ifade etmekte güçlük çekerler. Sanatkârdırlar ama üretken (velut) değillerdir."
+    },
+    {
+      "id": "gergin_yuzuk_parmagi",
+      "name": "Gergin Yüzük Parmağı",
+      "book_content": "Sistemli çalışan ama dar kalıplardan kurtulmayı başaramayan bir yapı."
+    },
+    {
+      "id": "orta_parmakla_denk",
+      "name": "Orta Parmakla Denk Uzunlukta",
+      "book_content": "Şiddetli oyun ve kumar merakını gösterir. Büyük kumarbazlarda bu parmak ince, uzun ve üçüncü boğumu etlidir."
+    },
+    {
+      "id": "bicimsiz_yuzuk_parmagi",
+      "name": "Biçimsiz Yüzük Parmağı",
+      "book_content": "Kendisinde olmayan yeteneklerle övünme arzusu. İkiyüzlülüğe ve kıskançlığa (başkalarının elindekini kıskanma) meyillidirler. Eğitilmezlerse münafık tabiatlı olabilirler."
+    }
+  ],
+  "ring_finger_phalanxes": [
+    {
+      "id": "birinci_bogum_uzun",
+      "name": "Uzun 1. Boğum (Sanat/İdeal)",
+      "book_content": "Asil bir sanat zevki, ideal estetik duygusu ve güçlü ilham. Gerçek sanatçı kişiliğin şaşmaz işaretidir. Rol kabiliyetleri yüksektir."
+    },
+    {
+      "id": "birinci_bogum_cok_uzun",
+      "name": "Çok Uzun 1. Boğum",
+      "book_content": "Kendine özgü (orijinal) bir karakter. Yaptıkları her işte bir özgünlük vardır. Ancak kırılgan, alıngan ve bazen şahane tembel olabilirler. Para kazanmasını bilmezler."
+    },
+    {
+      "id": "birinci_bogum_kisa",
+      "name": "Kısa 1. Boğum",
+      "book_content": "Kıt ve dar bir sanat anlayışı. Özgür eser veremez, taklit ederler. Özgüven eksikliği ve basit, saf bir yapıyı gösterir."
+    },
+    {
+      "id": "birinci_bogum_ince",
+      "name": "İnce 1. Boğum",
+      "book_content": "Renkli ve canlı bir imaj gücü. Büyük bir tasavvur yeteneği. İyi şair, senarist ve yönetmen olurlar. Boşlukta mekan kurma ustasıdırlar (Yazılımcılar)."
+    },
+    {
+      "id": "birinci_bogum_etli",
+      "name": "Etli 1. Boğum",
+      "book_content": "Güzellik tutkusu ile beraber bedeni hazlara düşkünlük ve şehvetperestlik. Bohem hayata ve tiryakiliklere açıktırlar."
+    },
+    {
+      "id": "birinci_bogum_kuru",
+      "name": "Kuru 1. Boğum",
+      "book_content": "Aşırı duygusallık ve kesintisiz ilham. Zihinleri sürekli imaj sağanağı altındadır. Büyük şairlerin parmağıdır."
+    },
+    {
+      "id": "birinci_bogum_konik",
+      "name": "Konik 1. Boğum",
+      "book_content": "Artistik önseziler ve rol yapma başarısı. Çok konuşkandırlar (geveze). Stand-upçıların parmak ucu böyledir."
+    },
+    {
+      "id": "birinci_bogum_sivri",
+      "name": "Sivri 1. Boğum",
+      "book_content": "Mistik bir sanat anlayışı. Eserleri çok soyuttur, çoğu zaman anlaşılmaz. Hayalcidirler."
+    },
+    {
+      "id": "birinci_bogum_yuvarlak",
+      "name": "Yuvarlak 1. Boğum",
+      "book_content": "Sanattan ziyade ticarette maharet. Ticari hayatta şanslıdırlar, nerede ne yapacaklarını sezgileriyle bilirler."
+    },
+    {
+      "id": "birinci_bogum_egik_meyilli",
+      "name": "Meyilli 1. Boğumlar",
+      "book_content": "Orta parmağa meyilli ise: Kaderci, sanatı para için yapan. Serçe parmağına meyilli ise: Zanaat ve el becerisi isteyen işlere yatkın."
+    },
+    {
+      "id": "ikinci_bogum_uzun",
+      "name": "Uzun 2. Boğum (Estetik/Tahlil)",
+      "book_content": "Sanatta öncü ruh, özgün eğilimler. Sıradan olmamak için her türlü tuhaflığı yapabilirler. Muhakeme kudretleri yüksektir."
+    },
+    {
+      "id": "ikinci_bogum_kisa",
+      "name": "Kısa 2. Boğum",
+      "book_content": "Sanat eseri üretmekte güçlük ve şanssızlık. Sık sık kaderden yakınırlar. Gururludurlar."
+    },
+    {
+      "id": "ikinci_bogum_etli",
+      "name": "Etli 2. Boğum",
+      "book_content": "Realist sanat anlayışı ve güçlü ifade melekesi. Düşüncelerini cesurca anlatırlar. İyi hatip ve vaiz olurlar."
+    },
+    {
+      "id": "ucuncu_bogum_uzun",
+      "name": "Uzun 3. Boğum (Gösteriş/Şöhret)",
+      "book_content": "Kibirlilik, sanata kabiliyet ve zenginlik işaretidir. Sanatta başarı ve büyük şöhret vadeder."
+    },
+    {
+      "id": "ucuncu_bogum_ince",
+      "name": "İnce 3. Boğum",
+      "book_content": "Zahmetsiz hayat anlayışı. Çalışmayı sevmezler, bohem yaşam için yaratılmış gibidirler. Miras yoksa sonları sefalet olabilir."
+    },
+    {
+      "id": "ucuncu_bogum_etli",
+      "name": "Etli 3. Boğum",
+      "book_content": "Kasıntılı, kendini olduğundan farklı (zengin, asil) gösterme çabası. Ancak sanatsal üstünlük kabiliyetini de yansıtabilir (Maddi imkan)."
+    }
+  ]
+}

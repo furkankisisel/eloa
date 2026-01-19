@@ -1,0 +1,104 @@
+﻿{
+  "category_info": {
+    "title": "Orta Parmak (Satürn) ve Boğumları",
+    "source_book": "",
+    "page_range": "120-130",
+    "description": "Maddi durum, kader, bilimsel merak, yalnızlık, toprak ve emlak işlerine yatkınlığı temsil eden Orta Parmağın (Satürn) analizi."
+  },
+  "middle_finger_general": [
+    {
+      "id": "uzun_orta_parmak",
+      "name": "Uzun Orta Parmak",
+      "book_content": "Bilim adamlığının gerektirdiği şüpheciliği, derin merakı ve sabrı yansıtır. Eğer şartlar elvermezse bu kişiler karamsar ve kaderci olurlar, hayata küserler. Kendine güvenleri azdır. Üçüncü boğum da etliyse emlak ve toprak işlerinde zenginleşirler."
+    },
+    {
+      "id": "kisa_orta_parmak",
+      "name": "Kısa Orta Parmak",
+      "book_content": "Sathi (yüzeysel) bir zihin ve belirsiz bir kaderi yansıtır. Hayat gailesini ve maddi zorluklarla boğuşmayı temsil eder. Eğer işaret ve yüzük parmağı uzunsa, kişi çok dikkatsizdir ve kendisine güvenmez. Geçmişten ders almazlar."
+    },
+    {
+      "id": "kalin_orta_parmak",
+      "name": "Kalın Orta Parmak",
+      "book_content": "Bayağı, maddeci ve hazcı bir yapıyı temsil eder. İnce zevkleri yoktur. Çıkarları esastır. Sevgiden çok cinsel ilişkiye, lezzetten çok oburca yemeye yatkındırlar."
+    },
+    {
+      "id": "ince_orta_parmak",
+      "name": "İnce Orta Parmak",
+      "book_content": "İspritizma, mistisizm ve parapsikolojiye (medyumluk, telepati) karşı aşırı duyarlılık ve yetenek işaretidir. Ruhsal konulara meraklıdırlar."
+    },
+    {
+      "id": "bogumlu_orta_parmak",
+      "name": "Boğumlu (Kabarık Eklemli) Orta Parmak",
+      "book_content": "Gerçekçi, iyimser ve prensip sahibi bir kişilik. Metotlu ve sistemli çalışırlar. Felsefi ve teorik konularda başarılıdırlar."
+    },
+    {
+      "id": "gergin_orta_parmak",
+      "name": "Gergin ve Sert Orta Parmak",
+      "book_content": "Zahmetli bir hayat ve iki yakası bir araya gelmeyen amansız bir kaderi yansıtır. Katı, sert ve tavizsiz bir mizaçları vardır. Ancak bu zorluklar onları bilge bir danışman yapabilir."
+    },
+    {
+      "id": "parlak_orta_parmak",
+      "name": "Parlak Derili Orta Parmak",
+      "book_content": "Kolaycı, beleşçi ve anı yaşayan bir yapı. Araştırma merakı yoktur. İçlerine doğan ilk ilhama uyarlar, eserlerini düzeltme gereği duymazlar."
+    },
+    {
+      "id": "yumusak_orta_parmak",
+      "name": "Yumuşak Orta Parmak",
+      "book_content": "Neşeli, müsamahakar ve babacan bir yapı. Uyumlu kişilikleri vardır, çabuk dost olurlar."
+    }
+  ],
+  "middle_finger_inclination": [
+    {
+      "id": "yuzuge_meyilli_orta",
+      "name": "Yüzük Parmağına Meyilli",
+      "book_content": "Sanatseverlik ve sanatçılara yardım etme arzusunu gösterir. Kendileri sanatçı olmasalar da o çevrede bulunmaktan, ışıklar altındaki insanlara yakın olmaktan mutlu olurlar."
+    },
+    {
+      "id": "isarete_meyilli_orta",
+      "name": "İşaret Parmağına Meyilli",
+      "book_content": "İktidara ve yöneticilere yakın durma arzusunu gösterir. Kendilerinde liderlik gücü yoksa bile güçlü insanların yanında yer alarak kendilerini iktidar ortağı gibi hissederler."
+    }
+  ],
+  "middle_finger_phalanxes": [
+    {
+      "id": "birinci_bogum_uzun",
+      "name": "Uzun 1. Boğum (Tırnaklı Kısım)",
+      "book_content": "Bilimsel şüpheciliği ve bilgeliği yansıtır. Ancak bilimle uğraşmıyorlarsa bu şüphecilik özgüven eksikliğine ve evhamlı bir yapıya dönüşür. Her şeyden şüphelenirler."
+    },
+    {
+      "id": "birinci_bogum_kisa",
+      "name": "Kısa 1. Boğum",
+      "book_content": "Aldırmazlık ve soğukkanlılık işaretidir. Zor durumlarda panik yapmazlar (tepkisiz kalırlar). Tatlı bir tevekkül sahibidirler."
+    },
+    {
+      "id": "birinci_bogum_yassi",
+      "name": "Yassı 1. Boğum",
+      "book_content": "Vurdumduymaz görünseler de içten içe ölüm korkusu ve gelecek endişesi taşırlar. Vehim ve vesveseye meyillidirler. İntihara sürüklenme riskleri olabilir (inançsızlarsa)."
+    },
+    {
+      "id": "birinci_bogum_sivri",
+      "name": "Sivri 1. Boğum",
+      "book_content": "Fevri, tedbirsiz ve düşüncesiz hareketlere meyilli bir yapı. Ancak iyi eğitim alırlarsa insanlık adına yenilikçi buluşlar yapabilirler."
+    },
+    {
+      "id": "ikinci_bogum_uzun",
+      "name": "Uzun 2. Boğum (Orta Kısım)",
+      "book_content": "Gizli ilimlere, toprağa ve ziraata derin merak. Mahallenin 'bilge' kişisidirler. İyi birer çiftçi, botanikçi veya araştırmacı (casus ruhlu) olurlar."
+    },
+    {
+      "id": "ikinci_bogum_kalin",
+      "name": "Kalın 2. Boğum",
+      "book_content": "Zanaatkarlık ve pratik işlerde maharet. Sosyal değillerdir, kendi dünyalarında el işleriyle (marangozluk vb.) uğraşmayı severler."
+    },
+    {
+      "id": "ucuncu_bogum_uzun",
+      "name": "Uzun 3. Boğum (Avuç Kökü)",
+      "book_content": "Aşırı tutumluluk, hatta cimrilik işaretidir. Çok iyi iktisatçı olurlar. En az maliyetle iş yapmayı bilirler. Kendi nefislerine karşı da cimridirler."
+    },
+    {
+      "id": "ucuncu_bogum_zayif",
+      "name": "Uzun ve Zayıf 3. Boğum",
+      "book_content": "Zahmetli ve meşakkatli bir hayatı, 'kötü kaderi' temsil eder. Erken yaşta desteklerini kaybedip hayata yalnız tutunmak zorunda kalırlar."
+    }
+  ]
+}

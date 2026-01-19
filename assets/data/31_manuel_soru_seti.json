@@ -1,0 +1,154 @@
+﻿{
+  "category_info": {
+    "title": "Manuel Teyit Soruları (Görsel Dışı Veriler)",
+    "description": "Kameranın algılayamadığı doku, ısı, esneklik ve nem gibi verileri toplamak için kullanıcıya yöneltilecek soru havuzu ve eşleşen JSON ID'leri."
+  },
+  "tactile_questions": [
+    {
+      "question_id": "el_sertlik_testi",
+      "user_question": "Elinizi başparmağınızla bastırdığınızda veya biriyle tokalaştığınızda elinizin yapısı nasıl hissettiriyor?",
+      "options": [
+        {
+          "answer": "Taş gibi sert ve dirençli.",
+          "json_id": "sert_el_ayasi",
+          "implication": "Enerjik, çalışkan, dayanıklı."
+        },
+        {
+          "answer": "Elastik, ne çok sert ne çok yumuşak.",
+          "json_id": "orta_el_ayasi",
+          "implication": "Dengeli, uyumlu."
+        },
+        {
+          "answer": "Yumuşak, pamuk gibi.",
+          "json_id": "yumusak_el_ayasi",
+          "implication": "Romantik, sanatsal ama biraz tembel."
+        },
+        {
+          "answer": "Çok gevşek, hamur gibi (Dirençsiz).",
+          "json_id": "gevsek_el_ayasi",
+          "implication": "Enerjisi düşük, zevkine düşkün."
+        }
+      ]
+    },
+    {
+      "question_id": "el_isi_testi",
+      "user_question": "Normal oda sıcaklığında elleriniz genellikle nasıldır?",
+      "options": [
+        {
+          "answer": "Genelde sıcaktır.",
+          "json_id": "sicak_el_ayasi",
+          "implication": "Canlı, heyecanlı, öfkeye yatkın."
+        },
+        {
+          "answer": "Genelde soğuktur (Üşürüm).",
+          "json_id": "soguk_el_ayasi",
+          "implication": "Mesafeli, mantıklı veya dolaşım zayıf."
+        },
+        {
+          "answer": "Soğuk ve nemli (Terli).",
+          "json_id": "soguk_nemli_ayasi",
+          "implication": "Stresli, kaygılı, karaciğer hassasiyeti."
+        }
+      ]
+    },
+    {
+      "question_id": "el_nem_testi",
+      "user_question": "Avuç içiniz stresli anlarda veya durduk yere terler mi?",
+      "options": [
+        {
+          "answer": "Evet, ellerim sık sık nemlenir.",
+          "json_id": "nemli_el",
+          "implication": "Heyecanlı, hassas sinir sistemi."
+        },
+        {
+          "answer": "Hayır, genelde kurudur.",
+          "json_id": "kuru_el",
+          "implication": "Daha dirençli veya hissiz."
+        }
+      ]
+    }
+  ],
+  "flexibility_questions": [
+    {
+      "question_id": "basparmak_esneklik",
+      "user_question": "Başparmağınızı geriye doğru bükmeye çalıştığınızda ne kadar esniyor?",
+      "instruction": "Kullanıcıya başparmağın geriye büküldüğü bir GIF/Görsel göster.",
+      "options": [
+        {
+          "answer": "Çok rahat geriye dönüyor (Yay gibi).",
+          "json_id": "esnek_basparmak",
+          "implication": "Uyumlu, cömert, savurgan, açık fikirli."
+        },
+        {
+          "answer": "Dimdik duruyor, hiç esnemiyor.",
+          "json_id": "sert_basparmak",
+          "implication": "İnatçı, kararlı, tutumlu, prensip sahibi."
+        }
+      ]
+    },
+    {
+      "question_id": "parmak_araliklari",
+      "user_question": "Elinizi masaya serbestçe bıraktığınızda parmaklarınızın arası nasıl duruyor?",
+      "options": [
+        {
+          "answer": "Hepsi birbirine bitişik, kapalı.",
+          "json_id": "kapali_parmaklar",
+          "implication": "Tedbirli, içine kapanık, tutumlu."
+        },
+        {
+          "answer": "Açık ve ferah duruyor.",
+          "json_id": "acik_parmaklar",
+          "implication": "Rahat, özgürlüğüne düşkün."
+        }
+      ]
+    }
+  ],
+  "color_confirmation_questions": [
+    {
+      "question_id": "el_rengi",
+      "user_question": "Gün ışığında elinize baktığınızda hangi renk tonu hakim? (Kamera ışığı yanıltabilir, gözünüzle gördüğünüzü seçin)",
+      "options": [
+        {
+          "answer": "Canlı Pembe / Gül Rengi",
+          "json_id": "pembe_el",
+          "implication": "Sağlıklı, neşeli, dengeli."
+        },
+        {
+          "answer": "Soluk / Beyazımsı",
+          "json_id": "soluk_el",
+          "implication": "Bencil, enerjisi düşük, kansızlık olabilir."
+        },
+        {
+          "answer": "Kırmızı / Koyu Kırmızı",
+          "json_id": "kirmizi_el",
+          "implication": "Yüksek tansiyon, çabuk öfkelenme, yüksek enerji."
+        },
+        {
+          "answer": "Sarımtırak",
+          "json_id": "sari_el",
+          "implication": "Melankolik, karaciğer hassasiyeti, sinirli."
+        }
+      ]
+    }
+  ],
+  "category_specific_questions": [
+    {
+      "category": "ask_iliskiler",
+      "questions": [
+        {
+          "q": "Serçe parmağınızın kenarındaki evlilik çizgileri çok ince olduğu için kamerada görünmeyebilir. Orada kaç tane BELİRGİN çizgi görüyorsunuz?",
+          "options": ["Hiç yok", "1 tane derin çizgi", "2 veya daha fazla çizgi", "Çok sayıda silik çizgi"]
+        }
+      ]
+    },
+    {
+      "category": "saglik",
+      "questions": [
+        {
+          "q": "Tırnaklarınızın üzerinde beyaz lekeler veya dikey çizgiler var mı?",
+          "options": ["Pürüzsüz ve lekesiz", "Beyaz lekeler var (Çinko eksikliği/Stres)", "Dikey çizgiler var (Sindirim hassasiyeti)"]
+        }
+      ]
+    }
+  ]
+}

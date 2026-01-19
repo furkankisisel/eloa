@@ -1,0 +1,50 @@
+﻿{
+  "category_info": {
+    "title": "Özel Mistik Çizgiler ve Bilezikler",
+    "source_book": "",
+    "page_range": "295-310",
+    "description": "Ana çizgiler haricinde avuçta bulunan; sezgi, aşırı duyarlılık, cinsel enerji (Venüs Halkası) ve ömür/sağlık durumunu (Bilezikler) gösteren özel çizgilerin analizi."
+  },
+  "mystical_lines": [
+    {
+      "id": "venus_halkasi",
+      "name": "Venüs Halkası (Girdle of Venus)",
+      "location": "İşaret ve orta parmak arasından başlayıp, yüzük ve serçe parmağı arasına yarım daire çizen çizgi.",
+      "book_content": "Aşırı duyarlılık, yüksek sinir enerjisi ve sanatsal yetenek işaretidir. Eğer çizgi kopuk ve parçalıysa; histeri, tatminsizlik ve aşırı cinsel düşkünlük (şehvet) anlamına gelebilir. Kişi çok çabuk alınır, ruh hali değişkendir. Ancak bütün, düzgün bir halka yüksek bir estetik zekayı gösterir."
+    },
+    {
+      "id": "sezgi_cizgisi",
+      "name": "Hiss-i Kable'l-Vuku (Sezgi) Çizgisi",
+      "location": "Ay tepesi üzerinde, Merkür tepesine doğru yay çizen kavisli çizgi.",
+      "book_content": "Medyumluk yeteneği, güçlü önseziler ve 'altıncı his'. Bu kişiler olayları önceden hissetme gücüne sahiptir. Rüyaları çıkar. Eğer çizgi çok derin ve Ay tepesi bozuksa halüsinasyon ve ruhsal dengesizlik riski taşır."
+    },
+    {
+      "id": "sehvet_yolu",
+      "name": "Şehvet Yolu (Via Lasciva / Zehir Çizgisi)",
+      "location": "Ay tepesinden Venüs tepesine doğru yatay uzanan veya hayat çizgisine paralel giden çizgi.",
+      "book_content": "Aşırı yaşam enerjisi ve maddeye düşkünlük. Eğer çizgi düzgünse büyük bir canlılık verir. Ancak bozuksa; alkol, uyuşturucu veya cinsel saplantılara (bağımlılıklara) yatkınlığı gösterir. Alerjik bünyeyi de işaret edebilir."
+    }
+  ],
+  "rascettes_bracelets": [
+    {
+      "id": "bilezik_genel",
+      "name": "Bilezikler (Rascettes) - Genel Bakış",
+      "book_content": "Bilek ile elin birleştiği yerdeki yatay çizgilerdir. Eski inanışa göre her bir bilezik 25-30 yıllık bir ömre işaret eder. 3 net bilezik, sağlıklı ve uzun (90+ yıl) bir ömrün müjdecisidir."
+    },
+    {
+      "id": "birinci_bilezik",
+      "name": "Birinci Bilezik (Sağlık)",
+      "book_content": "En üstteki (ele en yakın) çizgidir. Eğer net ve derin ise sağlam bir bünyeyi gösterir. Eğer avuç içine doğru kavisli (kemer gibi) girmişse; kadınlarda zor doğuma veya jinekolojik sorunlara, erkeklerde ise üreme sistemi zayıflığına işaret eder."
+    },
+    {
+      "id": "ikinci_bilezik",
+      "name": "İkinci Bilezik (Zenginlik)",
+      "book_content": "Maddi refahı ve iş hayatındaki başarıyı temsil eder. Derin ve kesiksiz olması, hayatın maddi zorluk çekmeden geçeceğini gösterir."
+    },
+    {
+      "id": "ucuncu_bilezik",
+      "name": "Üçüncü Bilezik (Şöhret/Başarı)",
+      "book_content": "Herkes de bulunmaz. Varlığı, kişinin toplumda önemli bir yer edineceğini, şöhret veya saygınlık kazanacağını gösterir."
+    }
+  ]
+}

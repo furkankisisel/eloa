@@ -1,0 +1,60 @@
+﻿{
+  "category_info": {
+    "title": "Avuç İçi İşaretleri ve Semboller",
+    "source_book": "",
+    "page_range": "145-149",
+    "description": "Avuç içinde, tepelerin veya çizgilerin üzerinde beliren ve kaderin akışını değiştiren özel geometrik işaretlerin (trafik levhalarının) analizi."
+  },
+  "signs_and_symbols": [
+    {
+      "id": "hac_isareti",
+      "name": "Haç (X) İşareti",
+      "book_content": "Anlamı yerine ve biçimine bağlıdır. Eğer kolları ve uzunlukları eşitse iyiye işarettir; başarı ve şansı simgeler. Şayet kolları eşit değilse (biri uzun biri kısa) başarısızlığı ve talihsizliği temsil eder. Çizgiler üzerinde 'çarpı' şeklinde ise o çizgiyle ilgili tehlike haberidir."
+    },
+    {
+      "id": "yildiz_isareti",
+      "name": "Yıldız İşareti",
+      "book_content": "En az üç çizginin kesişmesiyle oluşur. Jüpiter tepesi (işaret parmağı altı) hariç, nerede görülürse görülsün can sıkıcı, üzücü ve uğursuz bir hadiseye işaret eder. Beklenmedik olayları, başarısızlığı ve ani şokları gösterir. (Örn: Kader çizgisinin sonundaki yıldız, kötü bir akıbeti gösterebilir)."
+    },
+    {
+      "id": "kare_isareti",
+      "name": "Kare (Koruma) İşareti",
+      "book_content": "Çok güzel bir işarettir. Kişinin oluşacak bir tehlekeden korunacağını gösterir. 'Koruyucu Melek' gibidir. Kötü bir işaretin yanında veya üzerinde varsa, o kötülüğün zarar vermeden atlatılacağını müjdeler. Dengeleme işaretidir."
+    },
+    {
+      "id": "dikdortgen_isareti",
+      "name": "Dikdörtgen İşareti",
+      "book_content": "Kare ile hemen hemen aynı anlamı taşır. İşlerin hep son anda bir şekilde çözülebileceğini, direkten dönüleceğini haber verir. Hayatı bir gün iyi bir gün kötü gidenlerde sık görülür."
+    },
+    {
+      "id": "ucgen_isareti",
+      "name": "Üçgen İşareti",
+      "book_content": "Son derece güzel bir işarettir. Başarının, dengenin ve bilimsel yeteneğin sembolüdür. Zekayı gösterir. Sadece Venüs tepesinde (başparmak kökü) görülürse hesapçı aşkı veya olumsuzluğu gösterebilir; bunun dışında her yerde işlerin yolunda gideceğini müjdeler."
+    },
+    {
+      "id": "izgara_isareti",
+      "name": "Izgara (Kafes) İşareti",
+      "book_content": "Zafiyetin ve enerji kaybının en bariz işaretidir. Bulunduğu tepenin enerjisini bozar, o bölgede ciddi bir güç kaybı yaşandığını gösterir. Kararsızlık, engeller ve acizlik belirtisidir. Venüs tepesindeki ızgara, cinsel performans düşüklüğünü veya güç kaybını gösterebilir."
+    },
+    {
+      "id": "cizikler_isareti",
+      "name": "Çizikler (Kısa Kopuk Çizgiler)",
+      "book_content": "Izgara türündendirler ama biraz daha zayıftırlar. Başarısızlıkları, tamamlanmayan işleri, fikirler arasında bocalayan bir kişiliği gösterir. Bir yerde kümelenmiş karmaşık çizikler, o bölgede hastalık veya sıkıntı olduğunu haber verir."
+    },
+    {
+      "id": "cizgiler_engeller",
+      "name": "Enine Çizgiler (Engeller)",
+      "book_content": "Ana çizgileri kesen kısa çizgilerdir. Bunlar 'köstek' ve 'engel' olarak yorumlanır. Kestikleri ana çizginin (Hayat, Akıl vb.) akışını bozarlar. Anlamları, kestikleri çizgiye verdikleri zarara göre değişir."
+    },
+    {
+      "id": "kose_isareti",
+      "name": "Köşe (Açı) İşareti",
+      "book_content": "Yön bildirme işaretidir. Şayet köşenin sivri tarafı parmaklara (yukarı) bakıyorsa başarıyı; bileğe (aşağı) bakıyorsa başarısızlık ve talihsizliği gösterir."
+    },
+    {
+      "id": "dal_isareti",
+      "name": "Dal (Dalcık) İşareti",
+      "book_content": "Genellikle ana çizgiler üzerinde görülür. Yönü yukarı doğru ise enerjinin yükseldiğini ve başarının geldiğini; aşağı doğru ise enerji kaybını gösterir."
+    }
+  ]
+}

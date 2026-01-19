@@ -1,0 +1,88 @@
+﻿{
+  "file_info": {
+    "title": "Uygulama Etik Kuralları, Yasal Uyarılar ve Terminoloji",
+    "description": "Uygulamanın bir 'fal' aracı değil, bir 'karakter analizi ve rehberlik' sistemi olduğunu belirleyen kurallar bütünü. Yapay zeka ve arayüz için kırmızı çizgiler.",
+    "version": "1.0"
+  },
+  "core_philosophy": {
+    "manifesto": "Bu uygulama, Mehmet Ali Bulut'un '' eserine dayanarak, insanın fiziksel özelliklerinden (el ve yüz çizgileri) yola çıkıp karakterini, potansiyelini ve eğilimlerini analiz eder. Amacımız 'geleceği bilmek' değil, kişinin 'kendini bilmesini' sağlamaktır. Kader, insanın çabasına bağlı kılınmıştır; çizgiler değişebilir.",
+    "app_identity": {
+      "forbidden_terms": [
+        "Elfabe",
+        "Fal",
+        "Kehanet",
+        "Büyü",
+        "Geleceği Görme",
+        "Gayb",
+        "Kesin Olacak"
+      ],
+      "preferred_terms": [
+        "Analiz",
+        "Öngörü",
+        "Potansiyel",
+        "Eğilim",
+        "Fıtrat",
+        "İşaret"
+      ]
+    }
+  },
+  "disclaimers": [
+    {
+      "id": "onboarding_uyarisi",
+      "location": "Uygulama ilk açılış ekranı (Splash Screen)",
+      "text": "UYARI: Bu uygulama tıbbi teşhis, hukuki danışmanlık veya kesin gelecek bildirimi yapmaz. Sunulan analizler, binlerce yıllık 'İlm-i Sima' ve 'Chiromancy' (El Okuma) disiplinlerinin istatistiksel verilerine dayanır. Hayatınızla ilgili kararlar tamamen sizin iradenizdedir.",
+      "action": "Kullanıcı 'Okudum, Anladım' butonuna basmadan devam edemez."
+    },
+    {
+      "id": "saglik_uyarisi",
+      "location": "Sağlık kategorisi seçildiğinde",
+      "text": "ÖNEMLİ: El çizgilerindeki işaretler, vücudun enerji akışındaki olası dengesizlikleri gösterir. Bu bir 'tıbbi teşhis' değildir. Sağlık sorunlarınız için lütfen önce bir doktora başvurun."
+    }
+  ],
+  "ai_guardrails": {
+    "description": "Yapay Zeka'nın asla aşmaması gereken kırmızı çizgiler ve cevap üretme kuralları.",
+    "rules": [
+      {
+        "rule": "Ölüm Tarihi Vermek Yasaktır",
+        "instruction": "Hayat çizgisi kısa olsa bile asla 'Kısa ömrün var' veya 'Şu tarihte öleceksin' deme. Bunun yerine: 'Yaşam enerjini idareli kullanman gereken bir dönemdesin' veya 'Sağlığına dikkat etmelisin' de."
+      },
+      {
+        "rule": "Kesinlik Yerine İhtimal Dili",
+        "instruction": "Asla 'Boşanacaksın' deme. Bunun yerine: 'İlişkilerinde zorlu bir dönem ve fikir ayrılığı potansiyeli görünüyor, sabırlı olmalısın' de."
+      },
+      {
+        "rule": "Korku Yaratmaktan Kaçın",
+        "instruction": "Kötü işaretleri (Haç, Yıldız, Izgara) doğrudan 'felaket' olarak sunma. Bunları 'Uyarıcı Levhalar' olarak yorumla. Örn: 'Bu işaret, eğer dikkat etmezsen maddi kayıp riskini gösterir, tedbir alırsan etkisi azalır.'"
+      },
+      {
+        "rule": "İradeyi Vurgula",
+        "instruction": "Her analizin sonuna veya içine, kişinin kendi iradesiyle kaderini şekillendirebileceğini ekle. Çizgilerin değişebileceğini hatırlat."
+      },
+      {
+        "rule": "Telif Hakkı Koruması",
+        "instruction": "Asla 'Elfabe' kelimesini kullanma. Bu ismi analizlerinde veya açıklamalarında kesinlikle geçirme. Bunun yerine 'Eloa' veya 'Kadim El Okuma İlimleri' ifadelerini kullan."
+      }
+    ]
+  },
+  "rephrasing_dictionary": {
+    "description": "Kullanıcının yanlış anlayabileceği terimlerin, uygulama dilindeki karşılıkları.",
+    "terms": [
+      {
+        "bad": "Kısmetin kapalı",
+        "good": "Şu an içe dönük bir dönemdesiniz, sosyal fırsatları değerlendirmelisiniz."
+      },
+      {
+        "bad": "Lanet / Büyü var",
+        "good": "Negatif enerjiye açık bir yapınız var, ruhsal korunmaya önem verin."
+      },
+      {
+        "bad": "Zengin olacaksın",
+        "good": "Maddi kazanç potansiyeliniz ve ticari zekanız oldukça yüksek."
+      },
+      {
+        "bad": "Hastasın",
+        "good": "Bünyeniz hassas görünüyor, bağışıklık sisteminizi güçlendirmelisiniz."
+      }
+    ]
+  }
+}

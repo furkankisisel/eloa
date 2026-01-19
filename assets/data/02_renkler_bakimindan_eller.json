@@ -1,0 +1,30 @@
+﻿{
+  "category_info": {
+    "title": "Renkler Bakımından Eller",
+    "source_book": "",
+    "page_range": "52-53",
+    "description": "Elin doğal renginin sağlık, enerji durumu ve mizaç üzerindeki etkilerinin analizidir."
+  },
+  "hand_colors": [
+    {
+      "id": "beyaz_el",
+      "name": "Beyaz El",
+      "book_content": "Yumuşak, ince yapılı bir karaktere işaret eder. Sükuneti seven insanlardır. Sağlık açısından daha çok hazım sisteminin zafiyeti ve bağışıklık sisteminin güçsüzlüğünü yansıtır. Hastalıklara karşı dayanıksız bir bünyeden haber verir. Canları tez değildir, üşengeç ve hantaldırlar. Hareketsizliği severler, bu da onların rahatına düşkün ve bencil zannedilmesine yol açar."
+    },
+    {
+      "id": "pembe_el",
+      "name": "Pembe El",
+      "book_content": "Sağlık, sıhhat, afiyet; temiz yüreklilik ve sevimliğin işaretidir. Hafif aşırıya çalan pembe el, son derece sağlıklı bir bünyeden, iyi ahlaktan, çalışkan bir yapıdan ve temiz bir mizaçtan haber verir. Pembe renkli ve damarları şeffaf bir el; yüksek bir kalbe, aydın bir düşünceye, parlak bir zekaya ve iyilikseverliğe işarettir."
+    },
+    {
+      "id": "kirmizi_el",
+      "name": "Kırmızı El",
+      "book_content": "Aşırı heyecan, kavgacı tabiat, kontrolsüz ve patavatsız bir konuşma tarzını gösterir. Tartışmalarda soğukkanlılığını koruyamayan, ihtiraslı ve atılgan kimselerdir. Bütün kavgacılıklarına rağmen sıcakkanlı insanlardır. Kırmızı el aynı zamanda kötü bir sıhhat işaretidir (Yüksek tansiyon vb.). Sindirim sisteminde, özellikle midede sıkıntıların varlığına işaret eder."
+    },
+    {
+      "id": "sari_el",
+      "name": "Sarı El",
+      "book_content": "Entelektüellerin el rengidir. Genellikle heyecanlanan, itirazcı, olaylara şüphe ve merakla yaklaşan, sinirli insanların ellerinde görülür. Safravi bir mizaçtan haber verir. Kültürlü olmasalar bile kültürlü görünme telaşı içindedirler. Temel manada sarı renk, hastalıklara açık, sağlıksız bir bünye işaretidir. Hafif yeşile çalan sarılık ise hiddet ve öfkeye işaret eder."
+    }
+  ]
+}

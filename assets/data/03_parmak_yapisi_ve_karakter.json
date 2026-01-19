@@ -1,0 +1,102 @@
+﻿{
+  "category_info": {
+    "title": "Parmak Yapısı ve Karakter Analizi",
+    "source_book": "",
+    "page_range": "54-75",
+    "description": "Parmakların şekli, ucu, uzunluğu ve yapısına göre kişinin zihinsel süreçlerinin, yeteneklerinin ve mizacının analizidir."
+  },
+  "finger_types": [
+    {
+      "id": "sivri_parmak",
+      "name": "Sivri Parmak",
+      "book_content": "Hayalperestlik, istikrarsızlık ve sadakatsizlik ile yorumlanır. Lüks ve ihtişam düşkünüdürler. Çalışma fikri onlara yük gibi gelir. Beğenilmeyi ve övülmeyi severler. Hayalci, mistik ve aristokrat bir yapıları vardır."
+    },
+    {
+      "id": "koseli_parmak",
+      "name": "Köşeli (Kare) Parmak",
+      "book_content": "Olumlu, düzenli ve sistemli bir mizaçtır. Çalışkan ve mücadelecidirler. Evleri ve işleri her zaman tertiplidir. Girişken yapılarıyla toplumda öne geçerler. İntizamlı, soğukkanlı, ağırbaşlı ve otoriter insanlardır. Tasarlamak ve planlamak onların işidir."
+    },
+    {
+      "id": "spatula_parmak",
+      "name": "Spatula (Yassı) Parmak",
+      "book_content": "Bağımsız ve özgün bir karakteri yansıtır. Dinamiktirler, zanaatkardırlar ve el becerileri yüksektir. Sürekli etkili olma tutkusu içindedirler. Duygularını kontrol etmede mahirdirler. İyi birer teknokrat, esnaf veya politikacı olabilirler. Üretmek ve icat etmek onların işidir."
+    },
+    {
+      "id": "konik_parmak",
+      "name": "Konik Parmak",
+      "book_content": "Hareketlilik ve çalışkanlık işaretidir. Güzel olan her şeye ilgi duyarlar. Büyük sanatçıların, şairlerin ve hatiplerin parmağıdır. Hayatı zevkli ve yaşanmaya değer kılarlar. İyiliksever, barışçı, adil ve samimidirler. İnsanların büyük çoğunluğu bu gruba girer."
+    },
+    {
+      "id": "bogumlu_parmak",
+      "name": "Boğumlu Parmak",
+      "book_content": "Sanatkarların, filozofların ve teorisyenlerin parmağıdır. Şüpheci olurlar, kolay güvenmezler. Müthiş bir analiz ve sınıflandırma kabiliyetleri vardır. Akıl yürütmede üstlerine yoktur. Büyük düşünürler genellikle bu gruptandır."
+    },
+    {
+      "id": "basit_parmak",
+      "name": "Basit Parmak",
+      "book_content": "Kısa, kalın ve küttür. Hayvani içgüdüleri kuvvetlidir. Düşünce üretme kabiliyetleri azdır. Vasıfsız işlerde çalışırlar. Hastalıklar karşısında manen çabuk yıkılırlar. Yaratıcılıkları yoktur, sadece günlük zevklerini düşünürler."
+    },
+    {
+      "id": "karisik_parmak",
+      "name": "Karışık Parmak",
+      "book_content": "İnsanların %60-70'inin parmakları bu gruba girer. Her parmak farklı bir tiptedir (Biri sivri, biri kare vb.). Yetenekleri de parmakları gibi karmadır. Her alanda fikirleri vardır. Baskın olan parmak hangisiyse o özellik öne çıkar."
+    }
+  ],
+  "finger_attributes": [
+    {
+      "id": "uzun_parmak",
+      "name": "Uzun Parmak",
+      "book_content": "Beceriklilik ve deruni kabiliyetlerden haber verir. Her işe yeteneklidirler. Çözümleyici ve realist bir gözlem güçleri vardır. Detayları severler."
+    },
+    {
+      "id": "kisa_parmak",
+      "name": "Kısa Parmak",
+      "book_content": "Ortalama bir zekayı temsil eder. Ayrıntılar üzerinde durmayan, her şeyi genel hatlarıyla kabullenen bir tabiattır. Lakayt görünürler, refleksleri çok gelişmiş değildir."
+    },
+    {
+      "id": "uzun_ve_iri_parmak",
+      "name": "Uzun ve İri Parmak",
+      "book_content": "Açık yürekli, sevgi dolu, eli açık ve cömert bir kişiliği yansıtır. Sağlıklı bir bünyeden haber verir. Çabuk inanırlar ve saflık derecesinde güven duyarlar."
+    },
+    {
+      "id": "cok_uzun_ince_parmak",
+      "name": "Çok Uzun ve İnce Parmak",
+      "book_content": "Alıngan, zafiyetli ve hastalık derecesinde titiz bir yapıyı sergiler. Göğüs kafesi organları hassastır. Sürekli asabiyet içindedirler ve 'Bana karışmayın' modundadırlar."
+    },
+    {
+      "id": "kisa_yagli_kalin_parmak",
+      "name": "Çok Kısa, Yağlı ve Kalın Parmak",
+      "book_content": "Düzenbazlık ve hilekarlığa meyilli bir yapıyı gösterir. Her türlü alavere dalavereye eğilimlidirler. İnsanları çabucak kandırabilirler."
+    },
+    {
+      "id": "ince_parmak",
+      "name": "İnce Parmak",
+      "book_content": "Zeki, diplomat ve nerede nasıl davranacağını bilen bir yapıdır. Hassastırlar, maddiyata fazla önem vermezler. Eğitim almamışlarsa bu özellik sinsiliğe dönüşebilir."
+    },
+    {
+      "id": "ince_ve_kucuk_parmak",
+      "name": "İnce ve Küçük Parmak",
+      "book_content": "Tahammülsüzlük ve sabırsızlık işaretidir. Sık öfke krizine girerler. Delice hareketlerden zevk alan, uslanmaz bir çocuk tabiatını yansıtır."
+    },
+    {
+      "id": "kuru_parmak",
+      "name": "Kuru Parmak",
+      "book_content": "Kanaatkar, tutumlu ve rahata karşı ilgisiz bir yapıyı yansıtır. İmkanlarını çok tutumlu kullanırlar, cimri zannedilebilirler."
+    },
+    {
+      "id": "parlak_renkli_parmak",
+      "name": "Parlak Renkli Parmak",
+      "book_content": "İçtenlik, samimiyet ve ihlas işaretidir. Yapmacıksızdırlar. Önsezileriyle süratli ve isabetli karar verirler. İyimser ve dinamik bir yapıları vardır."
+    },
+    {
+      "id": "egri_cengel_parmak",
+      "name": "Eğri (Çengel) Parmak",
+      "book_content": "Cimrilik ve egoistlik belirtisidir. Kendini beğenmiş, kendine büyük saygı duyan kuru aristokrat bir kişiliktir."
+    },
+    {
+      "id": "ucu_kalkik_parmak",
+      "name": "Ucu Yukarı Kalkık Parmak",
+      "book_content": "Kafasının arkasında daima başka bir planı olan, hileci bir yapıdır. Çok beceriklidirler ama güvenilmezdirler. Yalan söylemeyi ve iftira atmayı mübah görebilirler."
+    }
+  ]
+}

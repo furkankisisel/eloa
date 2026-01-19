@@ -1,0 +1,84 @@
+﻿{
+  "category_info": {
+    "title": "Kalp Çizgisi (Gönül Çizgisi)",
+    "source_book": "",
+    "page_range": "230-250",
+    "description": "Serçe parmağının altından başlayıp parmaklara doğru uzanan çizgi. Duyguları, aşk anlayışını, kalp sağlığını ve ruhsal durumu temsil eder."
+  },
+  "heart_line_general": [
+    {
+      "id": "ideal_kalp_cizgisi",
+      "name": "İdeal Kalp Çizgisi",
+      "book_content": "Derin, net ve pembe renkli. Jüpiter tepesine (işaret parmağına) doğru hafif kavisle uzanan çizgi. Sağlam bir kalp, vefalı bir dostluk ve derin bir sevgi yeteneğini gösterir."
+    },
+    {
+      "id": "duz_kalp_cizgisi",
+      "name": "Düz Kalp Çizgisi (Boydan Boya)",
+      "book_content": "Avucu bir uçtan bir uca kesen düz çizgi. Duygulardan ziyade mantığın hakim olduğu, soğuk ve hesapçı bir aşk anlayışını gösterir. Kıskançlık ve sahiplenme duygusu yüksektir. Merhamet eksikliği olabilir."
+    },
+    {
+      "id": "kisa_kalp_cizgisi",
+      "name": "Kısa Kalp Çizgisi",
+      "book_content": "Satürn tepesi (orta parmak) altında biten veya daha kısa kalan çizgi. Sevgisi bencilcedir. Duygusal derinlikten yoksundur. Aşkı sadece fiziksel tatmin veya menfaat aracı olarak görür."
+    },
+    {
+      "id": "zincirli_kalp_cizgisi",
+      "name": "Zincirli Kalp Çizgisi",
+      "book_content": "Çizgi zincir halkaları gibiyse; flörtöz, kararsız ve duygusal açıdan güvenilmez bir yapıdır. Sürekli sevgili değiştirirler (şıpsevdi). Fiziksel olarak kalp çarpıntısı ve ritim bozukluğu işareti olabilir."
+    },
+    {
+      "id": "silik_kalp_cizgisi",
+      "name": "Silik ve İnce Kalp Çizgisi",
+      "book_content": "Kalpsizlik, duygusuzluk ve soğukluk. Kimseyi gerçekten sevemezler. Hayattan zevk alma duyguları körelmiştir."
+    }
+  ],
+  "ending_point": [
+    {
+      "id": "jupitere_ulasan",
+      "name": "Jüpiter Tepesine (İşaret Parmağına) Ulaşan",
+      "book_content": "En makbul tiptir. İdealist, fedakar ve yüce bir aşkı temsil eder. Sevdiklerini tanrılaştırırlar. Sadakatleri tamdır. Ancak hayal kırıklığına uğrarlarsa yıkımları büyük olur."
+    },
+    {
+      "id": "saturne_ulasan",
+      "name": "Satürn Tepesine (Orta Parmağa) Ulaşan",
+      "book_content": "Bencil ve bedensel hazlara dönük aşk. Romantizmden ziyade cinsellik ve şehvet ön plandadır. Kendi zevklerini partnerinin mutluluğundan üstün tutarlar."
+    },
+    {
+      "id": "iki_parmak_arasina",
+      "name": "İşaret ve Orta Parmak Arasına Giren",
+      "book_content": "Denge işaretidir. Ne çok hayalperest ne çok maddeci. Sevgisi derin ama ayakları yere basan, sakin ve huzurlu bir aile hayatını müjdeler."
+    },
+    {
+      "id": "catalli_bitis",
+      "name": "Çatallı Bitiş (Jüpiter ve Satürn Arası)",
+      "book_content": "Mükemmel denge ve mutluluk. Bir ucu Jüpiter'e (idealizm), bir ucu Satürn'e (gerçekçilik) bakar. Hem severler hem mantıklı davranırlar. Evlilikte mutluluğun en net işaretidir."
+    }
+  ],
+  "signs_on_line": [
+    {
+      "id": "ada_kalp_cizgisi",
+      "name": "Ada İşareti",
+      "book_content": "Kalp rahatsızlığı veya büyük bir aşk acısı/ayrılık. Adanın olduğu dönemde kişi duygusal çöküntü yaşar. zina veya yasak aşk sonucu çekilen vicdan azabını da gösterebilir."
+    },
+    {
+      "id": "kirilma_kalp_cizgisi",
+      "name": "Kırılma (Kopukluk)",
+      "book_content": "Duygusal travma, ani ayrılık veya kalp krizi riski. Çizgi kopuksa ve uçlar birbirini örtmüyorsa hayati tehlike veya kalıcı yalnızlık olabilir."
+    },
+    {
+      "id": "asagi_dallar",
+      "name": "Aşağı İnen Dallar",
+      "book_content": "Hayal kırıklıkları. Güvendiği insanlardan zarar görme. Enerji kaybı."
+    },
+    {
+      "id": "yukari_dallar",
+      "name": "Yukarı Çıkan Dallar",
+      "book_content": "Mutlu aşklar, flörtler ve gönül maceraları. Sosyal çevrede sevilme."
+    },
+    {
+      "id": "nokta_kalp_cizgisi",
+      "name": "Nokta veya Oyuk",
+      "book_content": "Anlık kalp spazmı veya çok derin bir üzüntü (evlat acısı vb.)."
+    }
+  ]
+}

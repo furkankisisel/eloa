@@ -1,0 +1,79 @@
+﻿{
+  "category_info": {
+    "title": "Güneş Çizgisi (Başarı ve Sanat Çizgisi)",
+    "source_book": "",
+    "page_range": "265-275",
+    "description": "Yüzük parmağının (Güneş tepesi) altına doğru yükselen çizgi. Yetenek, şöhret, para, başarı ve hayattan alınan hazzı temsil eder."
+  },
+  "sun_line_general": [
+    {
+      "id": "derin_net_gunes",
+      "name": "Derin ve Net Güneş Çizgisi",
+      "book_content": "Büyük başarı, şöhret ve zenginlik işaretidir. Kişi yetenekleriyle parlar, toplumda tanınır ve saygı görür. Hayatı keyifli geçer."
+    },
+    {
+      "id": "silik_ince_gunes",
+      "name": "Silik veya İnce Güneş Çizgisi",
+      "book_content": "Sanata ve estetiğe yatkınlık vardır ama büyük bir şöhret veya servet getirmez. Kişi 'hobisiyle mutlu olan' biridir, profesyonel başarı zordur."
+    },
+    {
+      "id": "yok_gunes_cizgisi",
+      "name": "Güneş Çizgisi Yokluğu",
+      "book_content": "Kişi ne kadar çalışırsa çalışsın (Kader çizgisi olsa bile), emeğinin karşılığını tam olarak alamaz, 'yıldızı parlamaz'. Hayatı monoton ve renksiz olabilir. Takdir görmekte zorlanır."
+    },
+    {
+      "id": "coklu_gunes_cizgisi",
+      "name": "Çoklu (Paralel) Güneş Çizgileri",
+      "book_content": "Çok yönlü yetenek. Kişi aynı anda resim yapabilir, müzikle uğraşabilir ve ticaret yapabilir. Ancak enerji dağıldığı için hiçbirinde zirveye çıkamayabilir (Maymun iştahlılık)."
+    }
+  ],
+  "starting_point": [
+    {
+      "id": "bilekten_baslayan_gunes",
+      "name": "Bilekten Başlayan",
+      "book_content": "Çok nadirdir. Doğuştan gelen büyük bir yetenek ve şansı gösterir. 'Harika Çocuk' (Prodigy) işaretidir. Hayat boyu parlak bir gelecek vadeder."
+    },
+    {
+      "id": "hayat_cizgisinden_gunes",
+      "name": "Hayat Çizgisinden Çıkan",
+      "book_content": "Sanat ve başarı yeteneğini ailesinden alır. Veya başarıyı tamamen kendi şahsi gayretiyle, tırnaklarıyla kazıyarak elde eder."
+    },
+    {
+      "id": "ay_tepesinden_gunes",
+      "name": "Ay Tepesinden Gelen",
+      "book_content": "Başarısı ve şöhreti halkın sevgisine bağlıdır. Sahne sanatçıları, politikacılar ve yazarlar için idealdir. Hayal gücüyle gelen başarıdır."
+    },
+    {
+      "id": "akil_cizgisinden_gunes",
+      "name": "Akıl Çizgisinden Başlayan",
+      "book_content": "Başarı, kişinin kendi zekası ve aklını kullanması sonucu (genellikle orta yaşlarda) gelir. Bilimsel veya ticari başarıdır."
+    },
+    {
+      "id": "kalp_cizgisinden_gunes",
+      "name": "Kalp Çizgisinden Başlayan",
+      "book_content": "Geç gelen şöhret ve mutluluk (50 yaş sonrası). Genellikle mutlu bir evlilik veya sonradan edinilen bir hobi ile gelen huzurdur."
+    }
+  ],
+  "signs_on_line": [
+    {
+      "id": "yildiz_gunes_cizgisi",
+      "name": "Yıldız İşareti",
+      "book_content": "Güneş çizgisindeki yıldız, parlak ve kalıcı bir şöhretin müjdecisidir. Ancak bu şöhret bazen kıskançlık ve düşmanlık da getirebilir."
+    },
+    {
+      "id": "ada_gunes_cizgisi",
+      "name": "Ada İşareti",
+      "book_content": "Skandal, itibar kaybı veya sanat hayatında duraklama. Gözden düşme tehlikesi. Maddi kayıp."
+    },
+    {
+      "id": "hac_gunes_cizgisi",
+      "name": "Haç İşareti",
+      "book_content": "Sanatsal veya ticari başarıda büyük bir engel. Hayal kırıklığı. Parasal konularda iflas riski."
+    },
+    {
+      "id": "kare_gunes_cizgisi",
+      "name": "Kare İşareti",
+      "book_content": "İtibarın korunması. Kişi saldırılara uğrasa bile (iftira vb.) karesi varsa adını temize çıkarır, şöhretini korur."
+    }
+  ]
+}

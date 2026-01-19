@@ -1,0 +1,1483 @@
+﻿{
+  "file_info": {
+    "title": "Uygulama Kategorileri ve Veri Gereksinim Haritası",
+    "description": "Kullanıcıya sunulacak ana analiz kategorileri, alt kategoriler ve her biri için Vision AI ve Manuel Sorulardan toplanması gereken veri noktaları.",
+    "version": "2.0",
+    "total_categories": 12,
+    "total_subcategories": 62
+  },
+  "app_categories": [
+    {
+      "category_id": "kariyer_ve_basari",
+      "display_title": "Kariyer ve Başarı",
+      "icon": "🎯",
+      "description": "Meslek yatkınlığı, liderlik potansiyeli, ticari zeka ve kariyer zamanlaması analizi.",
+      "subcategories": [
+        {
+          "subcategory_id": "meslek_yatkinligi",
+          "display_title": "Meslek Yatkınlığı",
+          "description": "El şekli ve parmak yapısına göre en uygun meslek gruplarının tespiti.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "el_sekli",
+                "reason": "Genel mesleki yatkınlık (Kare el mühendislik, Konik el sanat, Spatül el teknoloji).",
+                "source_json": "01_sekil_bakimindan_eller.json"
+              },
+              {
+                "target": "parmak_uclari",
+                "reason": "Detaycılık, pratiklik veya yaratıcılık.",
+                "source_json": "03_parmak_yapisi_ve_karakter.json"
+              },
+              {
+                "target": "el_bicimi",
+                "reason": "Meslek grupları tablosu.",
+                "source_json": "30_meslek_ve_kariyer_rehberi.json"
+              }
+            ],
+            "manual_inputs": [
+              {
+                "question_type": "el_sertlik_testi",
+                "reason": "Çalışkanlık ve enerji düzeyi.",
+                "source_json": "31_manuel_soru_seti.json"
+              }
+            ]
+          }
+        },
+        {
+          "subcategory_id": "liderlik_potansiyeli",
+          "display_title": "Liderlik Potansiyeli",
+          "description": "Yönetme arzusu, otorite ve hükmetme kapasitesi.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "jupiter_tepesi",
+                "reason": "Liderlik, hırs ve yönetme arzusu.",
+                "source_json": "13_jupiter_tepesi_musteri.json"
+              },
+              {
+                "target": "isaret_parmagi",
+                "reason": "Liderlik ve hükmetme işaretleri.",
+                "source_json": "07_isaret_parmagi_jupiter.json"
+              },
+              {
+                "target": "basparmak",
+                "reason": "İrade gücü ve kararlılık.",
+                "source_json": "06_basparmak_ve_bogumlari.json"
+              }
+            ],
+            "manual_inputs": [
+              {
+                "question_type": "basparmak_esneklik",
+                "reason": "İnatçılık vs esneklik.",
+                "source_json": "31_manuel_soru_seti.json"
+              }
+            ]
+          }
+        },
+        {
+          "subcategory_id": "ticari_zeka",
+          "display_title": "Ticari Zeka ve İş Becerileri",
+          "description": "Ticaret yeteneği, hitabet, ikna ve pazarlama gücü.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "merkur_tepesi",
+                "reason": "Ticaret, diplomasi ve hitabet.",
+                "source_json": "16_merkur_tepesi_utarid.json"
+              },
+              {
+                "target": "serce_parmagi",
+                "reason": "İletişim ve ticari zeka.",
+                "source_json": "10_serce_parmagi_merkur.json"
+              },
+              {
+                "target": "merkur_cizgisi",
+                "reason": "Ticari yetenek göstergesi.",
+                "source_json": "25_merkur_saglik_cizgisi.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "yaratici_yetenekler",
+          "display_title": "Yaratıcı Yetenekler",
+          "description": "Sanatsal kabiliyet, estetik anlayış ve özgün üretim gücü.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "gunes_tepesi",
+                "reason": "Sanat, estetik ve şöhret.",
+                "source_json": "15_gunes_tepesi_apollon.json"
+              },
+              {
+                "target": "yuzuk_parmagi",
+                "reason": "Sanatsal eğilim ve güzellik tutkusu.",
+                "source_json": "09_yuzuk_parmagi_gunes.json"
+              },
+              {
+                "target": "gunes_cizgisi",
+                "reason": "Başarı ve tanınırlık.",
+                "source_json": "24_gunes_cizgisi.json"
+              },
+              {
+                "target": "ay_tepesi",
+                "reason": "Hayal gücü ve yaratıcılık.",
+                "source_json": "18_ay_tepesi_kamer.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "risk_alma_egilimi",
+          "display_title": "Risk Alma Eğilimi",
+          "description": "Girişimcilik, cesaret ve tehlikeye atılma kapasitesi.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "parmak_uzunluk_orani",
+                "reason": "Yüzük parmağı uzunluğu risk eğilimini gösterir.",
+                "source_json": "04_parmak_uzunluk_meyil.json"
+              },
+              {
+                "target": "mars_tepesi",
+                "reason": "Fiziksel ve zihinsel cesaret.",
+                "source_json": "17_mars_tepesi_ve_yaylasi.json"
+              }
+            ],
+            "manual_inputs": [
+              {
+                "question_type": "basparmak_esneklik",
+                "reason": "Esnek başparmak risk alır.",
+                "source_json": "31_manuel_soru_seti.json"
+              }
+            ]
+          }
+        },
+        {
+          "subcategory_id": "kariyer_zamanlamasi",
+          "display_title": "Kariyer Zamanlaması",
+          "description": "Başarının ne zaman geleceği, kritik kariyer yaşları.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "kader_cizgisi",
+                "reason": "Kariyer basamakları ve zamanlama.",
+                "source_json": "23_kader_cizgisi.json"
+              },
+              {
+                "target": "kader_cizgisi_baslangic",
+                "reason": "Kariyerin başlangıç noktası.",
+                "source_json": "28_zaman_tayini_yas_hesaplama.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "ask_ve_iliskiler",
+      "display_title": "Aşk ve İlişkiler",
+      "icon": "💕",
+      "description": "Aşk tarzı, evlilik potansiyeli, cinsel enerji ve ilişki dinamikleri.",
+      "subcategories": [
+        {
+          "subcategory_id": "ask_tarzi",
+          "display_title": "Aşk Tarzınız",
+          "description": "Aşkı yaşama biçimi - idealist mi, gerçekçi mi, hesapçı mı?",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "kalp_cizgisi",
+                "reason": "Aşk anlayışı ve duygusal yapı.",
+                "source_json": "22_kalp_cizgisi.json"
+              },
+              {
+                "target": "kalp_cizgisi_bitis",
+                "reason": "Jüpiter'e giden idealist, Satürn'e giden bedensel.",
+                "source_json": "22_kalp_cizgisi.json"
+              }
+            ],
+            "manual_inputs": [
+              {
+                "question_type": "el_isi_testi",
+                "reason": "Sıcak el tutkulu, soğuk el mesafeli.",
+                "source_json": "31_manuel_soru_seti.json"
+              }
+            ]
+          }
+        },
+        {
+          "subcategory_id": "evlilik_potansiyeli",
+          "display_title": "Evlilik Potansiyeli",
+          "description": "Evlilik sayısı, zamanı ve ilişki kalitesi.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "evlilik_cizgileri",
+                "reason": "İlişki derinliği ve evlilik sayısı.",
+                "source_json": "26_evlilik_cizgileri.json"
+              },
+              {
+                "target": "jupiter_haclari",
+                "reason": "Mutlu evlilik işareti.",
+                "source_json": "13_jupiter_tepesi_musteri.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "cinsel_enerji",
+          "display_title": "Cinsel Enerji ve Tutku",
+          "description": "Libido, tutku düzeyi ve yaşam enerjisi.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "venus_tepesi",
+                "reason": "Cinsellik, tutku ve yaşam enerjisi.",
+                "source_json": "12_venus_tepesi_zuhre.json"
+              },
+              {
+                "target": "hayat_cizgisi_kavis",
+                "reason": "Geniş kavis yüksek enerji.",
+                "source_json": "20_hayat_cizgisi.json"
+              }
+            ],
+            "manual_inputs": [
+              {
+                "question_type": "el_dokusu",
+                "reason": "Yumuşak eller romantizme düşkün.",
+                "source_json": "31_manuel_soru_seti.json"
+              }
+            ]
+          }
+        },
+        {
+          "subcategory_id": "sadakat_baglilik",
+          "display_title": "Sadakat ve Bağlılık",
+          "description": "Vefa, güvenilirlik ve ilişkide sabır.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "kalp_cizgisi_yapi",
+                "reason": "Zincirli kalp çizgisi kararsızlık.",
+                "source_json": "22_kalp_cizgisi.json"
+              },
+              {
+                "target": "venus_isaretleri",
+                "reason": "Ada işareti sadakatsizlik.",
+                "source_json": "12_venus_tepesi_zuhre.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "cocuk_potansiyeli",
+          "display_title": "Çocuk Potansiyeli",
+          "description": "Çocuk sayısı, cinsiyeti ve sağlığı.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "nesil_cizgileri",
+                "reason": "Venüs tepesindeki çocuk işaretleri.",
+                "source_json": "12_venus_tepesi_zuhre.json"
+              },
+              {
+                "target": "cocuk_cizgileri",
+                "reason": "Evlilik çizgisi üzerindeki dikey çizgiler.",
+                "source_json": "26_evlilik_cizgileri.json"
+              },
+              {
+                "target": "nesil_cizgileri_detay",
+                "reason": "Çocuk sayısı ve cinsiyet.",
+                "source_json": "29_tamamlayici_ozel_cizgiler.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "iliski_zamanlamasi",
+          "display_title": "İlişki Zamanlaması",
+          "description": "Ne zaman evleneceğiniz ve ciddi ilişki yaşları.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "evlilik_cizgisi_konum",
+                "reason": "Çizgi konumu yaşı belirler.",
+                "source_json": "26_evlilik_cizgileri.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "saglik_ve_canlilik",
+      "display_title": "Sağlık ve Canlılık",
+      "icon": "🏥",
+      "description": "Genel sağlık durumu, enerji seviyesi, hassasiyetler ve uzun ömür işaretleri.",
+      "subcategories": [
+        {
+          "subcategory_id": "genel_enerji",
+          "display_title": "Genel Enerji Seviyesi",
+          "description": "Yaşam enerjisi, canlılık ve aktivite düzeyi.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "hayat_cizgisi",
+                "reason": "Bağışıklık ve genel canlılık.",
+                "source_json": "20_hayat_cizgisi.json"
+              },
+              {
+                "target": "venus_tepesi",
+                "reason": "Yaşam enerjisi deposu.",
+                "source_json": "12_venus_tepesi_zuhre.json"
+              }
+            ],
+            "manual_inputs": [
+              {
+                "question_type": "el_sertlik_testi",
+                "reason": "Sert el enerjik, yumuşak el tembel.",
+                "source_json": "31_manuel_soru_seti.json"
+              }
+            ]
+          }
+        },
+        {
+          "subcategory_id": "bagisiklik_sistemi",
+          "display_title": "Bağışıklık Sistemi",
+          "description": "Hastalıklara karşı direnç ve iyileşme gücü.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "hayat_cizgisi_derinlik",
+                "reason": "Derin çizgi güçlü bağışıklık.",
+                "source_json": "20_hayat_cizgisi.json"
+              },
+              {
+                "target": "el_rengi_gorsel",
+                "reason": "Pembe sağlıklı, soluk zayıf.",
+                "source_json": "02_renkler_bakimindan_eller.json"
+              }
+            ],
+            "manual_inputs": [
+              {
+                "question_type": "el_rengi",
+                "reason": "Renk tonu sağlığı gösterir.",
+                "source_json": "31_manuel_soru_seti.json"
+              }
+            ]
+          }
+        },
+        {
+          "subcategory_id": "sinir_sistemi",
+          "display_title": "Sinir Sistemi ve Stres",
+          "description": "Sinirsel hassasiyet, stres yönetimi ve anksiyete.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "tirnak_yapisi",
+                "reason": "Tırnak şekli sinir durumunu gösterir.",
+                "source_json": "05_tirnak_analizi.json"
+              }
+            ],
+            "manual_inputs": [
+              {
+                "question_type": "el_nem_testi",
+                "reason": "Nemli eller stres göstergesi.",
+                "source_json": "31_manuel_soru_seti.json"
+              },
+              {
+                "question_type": "tirnak_leke_sorusu",
+                "reason": "Beyaz lekeler stres işareti.",
+                "source_json": "31_manuel_soru_seti.json"
+              }
+            ]
+          }
+        },
+        {
+          "subcategory_id": "sindirim_sagligi",
+          "display_title": "Sindirim Sağlığı",
+          "description": "Mide, karaciğer ve sindirim sistemi durumu.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "merkur_cizgisi",
+                "reason": "Sindirim sistemi sağlığı.",
+                "source_json": "25_merkur_saglik_cizgisi.json"
+              },
+              {
+                "target": "hayat_cizgisi_zincir",
+                "reason": "Zincirli yapı mide hassasiyeti.",
+                "source_json": "20_hayat_cizgisi.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "kalp_sagligi",
+          "display_title": "Kalp Sağlığı",
+          "description": "Kardiyovasküler sistem ve dolaşım.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "kalp_cizgisi_renk",
+                "reason": "Kalp çizgisi durumu.",
+                "source_json": "22_kalp_cizgisi.json"
+              },
+              {
+                "target": "tirnak_hilal",
+                "reason": "Hilal yokluğu kalp riski.",
+                "source_json": "05_tirnak_analizi.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "uzun_omur",
+          "display_title": "Uzun Ömür İşaretleri",
+          "description": "Ömür uzunluğu ve sağlıklı yaşlanma.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "bilezikler",
+                "reason": "Her bilezik 25-30 yıl.",
+                "source_json": "27_ozel_cizgiler_ve_bilezikler.json"
+              },
+              {
+                "target": "hayat_cizgisi_uzunluk",
+                "reason": "Çizgi uzunluğu ve kalitesi.",
+                "source_json": "20_hayat_cizgisi.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "stres_anksiyete",
+          "display_title": "Stres ve Anksiyete Yönetimi",
+          "description": "Kaygı düzeyi ve başa çıkma mekanizmaları.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "mars_yaylasi",
+                "reason": "Zihinsel dayanıklılık.",
+                "source_json": "17_mars_tepesi_ve_yaylasi.json"
+              }
+            ],
+            "manual_inputs": [
+              {
+                "question_type": "el_nem_testi",
+                "reason": "Terli eller anksiyete işareti.",
+                "source_json": "31_manuel_soru_seti.json"
+              },
+              {
+                "question_type": "el_isi_testi",
+                "reason": "Soğuk nemli eller kaygı.",
+                "source_json": "31_manuel_soru_seti.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "zeka_ve_dusunce",
+      "display_title": "Zeka ve Düşünce Yapısı",
+      "icon": "🧠",
+      "description": "Zeka türü, konsantrasyon, hafıza, analitik düşünce ve sezgi gücü.",
+      "subcategories": [
+        {
+          "subcategory_id": "zeka_turu",
+          "display_title": "Zeka Türünüz",
+          "description": "Sayısal mı, sözel mi, yaratıcı mı?",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "akil_cizgisi_yon",
+                "reason": "Düz giden mantıksal, eğik giden yaratıcı.",
+                "source_json": "21_akil_cizgisi.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "konsantrasyon",
+          "display_title": "Konsantrasyon Gücü",
+          "description": "Odaklanma yeteneği ve dikkat süresi.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "akil_cizgisi_derinlik",
+                "reason": "Derin çizgi güçlü odak.",
+                "source_json": "21_akil_cizgisi.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "hafiza",
+          "display_title": "Hafıza Kapasitesi",
+          "description": "Bellek gücü ve hatırlama yeteneği.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "merkur_tepesi",
+                "reason": "Hafıza ve zeka merkezi.",
+                "source_json": "16_merkur_tepesi_utarid.json"
+              },
+              {
+                "target": "akil_cizgisi",
+                "reason": "Çizgi kalitesi hafızayı gösterir.",
+                "source_json": "21_akil_cizgisi.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "analitik_dusunce",
+          "display_title": "Analitik Düşünce",
+          "description": "Çözümleme, sınıflandırma ve mantık yürütme.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "parmak_bogumlari",
+                "reason": "Boğumlu parmaklar analitik zeka.",
+                "source_json": "03_parmak_yapisi_ve_karakter.json"
+              },
+              {
+                "target": "saturn_parmagi",
+                "reason": "Bilimsel şüphecilik.",
+                "source_json": "08_orta_parmak_saturn.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "hayal_gucu",
+          "display_title": "Hayal Gücü ve Yaratıcılık",
+          "description": "İmgeleme, özgün düşünce ve sanatsal vizyon.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "ay_tepesi",
+                "reason": "Hayal gücü merkezi.",
+                "source_json": "18_ay_tepesi_kamer.json"
+              },
+              {
+                "target": "akil_cizgisi_egim",
+                "reason": "Ay tepesine eğilen hayal gücü yüksek.",
+                "source_json": "21_akil_cizgisi.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "sezgi_alti_his",
+          "display_title": "Sezgi ve Altıncı His",
+          "description": "Önsezi, içgüdü ve firaset gücü.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "sezgi_cizgisi",
+                "reason": "Medyumluk ve önsezi.",
+                "source_json": "27_ozel_cizgiler_ve_bilezikler.json"
+              },
+              {
+                "target": "ay_tepesi_isaretler",
+                "reason": "Psişik yetenekler.",
+                "source_json": "18_ay_tepesi_kamer.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "maddi_durum",
+      "display_title": "Maddi Durum ve Şans",
+      "icon": "💰",
+      "description": "Para kazanma potansiyeli, miras, şans faktörü ve zenginlik zamanlaması.",
+      "subcategories": [
+        {
+          "subcategory_id": "para_kazanma",
+          "display_title": "Para Kazanma Potansiyeli",
+          "description": "Zenginleşme kapasitesi ve finansal başarı şansı.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "gunes_cizgisi",
+                "reason": "Şöhret ve yetenekle zenginlik.",
+                "source_json": "24_gunes_cizgisi.json"
+              },
+              {
+                "target": "merkur_tepesi",
+                "reason": "Ticari başarı.",
+                "source_json": "16_merkur_tepesi_utarid.json"
+              },
+              {
+                "target": "buyuk_ucgen",
+                "reason": "Maddi refah üçgeni.",
+                "source_json": "29_tamamlayici_ozel_cizgiler.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "miras_destek",
+          "display_title": "Miras ve Dış Destek",
+          "description": "Aile desteği, miras ve dışarıdan gelen yardımlar.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "kader_cizgisi_baslangic",
+                "reason": "Hayat çizgisinden başlayan aile desteği.",
+                "source_json": "23_kader_cizgisi.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "kumar_risk",
+          "display_title": "Şans Oyunları ve Risk",
+          "description": "Kumar şansı, spekülatif kazanç ve risk alma.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "yuzuk_parmagi_uzunluk",
+                "reason": "Orta parmakla denk ise kumar merakı.",
+                "source_json": "09_yuzuk_parmagi_gunes.json"
+              },
+              {
+                "target": "parmak_uzunluk_orani",
+                "reason": "Risk alma eğilimi.",
+                "source_json": "04_parmak_uzunluk_meyil.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "tasarruf_egilimi",
+          "display_title": "Tasarruf Eğilimi",
+          "description": "Biriktirme alışkanlığı, tutumluluk veya savurganlık.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "saturn_parmagi_ucuncu",
+                "reason": "Uzun 3. boğum cimrilik.",
+                "source_json": "08_orta_parmak_saturn.json"
+              }
+            ],
+            "manual_inputs": [
+              {
+                "question_type": "parmak_araliklari",
+                "reason": "Kapalı parmaklar tutumlu.",
+                "source_json": "31_manuel_soru_seti.json"
+              }
+            ]
+          }
+        },
+        {
+          "subcategory_id": "zenginlik_zamanlama",
+          "display_title": "Zenginlik Zamanlaması",
+          "description": "Paranın ne zaman geleceği.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "gunes_cizgisi_baslangic",
+                "reason": "Başlangıç noktası zenginlik yaşını gösterir.",
+                "source_json": "24_gunes_cizgisi.json"
+              },
+              {
+                "target": "kader_cizgisi_zaman",
+                "reason": "Kariyer ve para zamanlaması.",
+                "source_json": "28_zaman_tayini_yas_hesaplama.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "kisilik_karakter",
+      "display_title": "Kişilik ve Karakter",
+      "icon": "🌟",
+      "description": "Temel mizaç, irade gücü, güçlü/zayıf yönler ve karakter özellikleri.",
+      "subcategories": [
+        {
+          "subcategory_id": "temel_mizac",
+          "display_title": "Temel Mizacınız",
+          "description": "Karakterinizin hammaddesi ve doğuştan gelen yapı.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "el_sekli",
+                "reason": "19 farklı el tipi karakter analizi.",
+                "source_json": "01_sekil_bakimindan_eller.json"
+              },
+              {
+                "target": "el_rengi",
+                "reason": "Renk mizacı etkiler.",
+                "source_json": "02_renkler_bakimindan_eller.json"
+              }
+            ],
+            "manual_inputs": [
+              {
+                "question_type": "el_sertlik_testi",
+                "reason": "Sert/yumuşak el mizacı belirler.",
+                "source_json": "31_manuel_soru_seti.json"
+              }
+            ]
+          }
+        },
+        {
+          "subcategory_id": "irade_gucu",
+          "display_title": "İrade Gücü",
+          "description": "Kararlılık, azim ve hedeflere bağlılık.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "basparmak",
+                "reason": "Karakterin temeli - İrade ve Mantık.",
+                "source_json": "06_basparmak_ve_bogumlari.json"
+              },
+              {
+                "target": "basparmak_birinci_bogum",
+                "reason": "İrade boğumu analizi.",
+                "source_json": "06_basparmak_ve_bogumlari.json"
+              }
+            ],
+            "manual_inputs": [
+              {
+                "question_type": "basparmak_esneklik",
+                "reason": "Sert başparmak kararlılık.",
+                "source_json": "31_manuel_soru_seti.json"
+              }
+            ]
+          }
+        },
+        {
+          "subcategory_id": "disa_ice_donukluk",
+          "display_title": "Dışa/İçe Dönüklük",
+          "description": "Sosyallik düzeyi ve iletişim tarzı.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "hayat_cizgisi_kavis",
+                "reason": "Geniş kavis dışa dönük.",
+                "source_json": "20_hayat_cizgisi.json"
+              },
+              {
+                "target": "el_yapisi",
+                "reason": "Açık el dışa dönük.",
+                "source_json": "01_sekil_bakimindan_eller.json"
+              }
+            ],
+            "manual_inputs": [
+              {
+                "question_type": "parmak_araliklari",
+                "reason": "Açık parmaklar sosyallik.",
+                "source_json": "31_manuel_soru_seti.json"
+              }
+            ]
+          }
+        },
+        {
+          "subcategory_id": "guclu_yonler",
+          "display_title": "Güçlü Yönleriniz",
+          "description": "Öne çıkan yetenekler ve avantajlar.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "gelismis_tepeler",
+                "reason": "Kabarık tepeler güçlü yönleri gösterir.",
+                "source_json": "13_jupiter_tepesi_musteri.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "zayif_noktalar",
+          "display_title": "Zayıf Noktalarınız",
+          "description": "Geliştirilmesi gereken alanlar ve riskler.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "zayif_tepeler",
+                "reason": "Düz tepeler eksiklikleri gösterir.",
+                "source_json": "14_saturn_tepesi_zuhal.json"
+              },
+              {
+                "target": "izgara_isaretleri",
+                "reason": "Zafiyet belirtileri.",
+                "source_json": "11_el_isaretleri_semboller.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "inatcilik_esneklik",
+          "display_title": "İnatçılık vs Esneklik",
+          "description": "Uyum yeteneği ve değişime açıklık.",
+          "required_data": {
+            "visual_inputs": [],
+            "manual_inputs": [
+              {
+                "question_type": "basparmak_esneklik",
+                "reason": "Başparmak testi sonucu.",
+                "source_json": "31_manuel_soru_seti.json"
+              }
+            ]
+          }
+        },
+        {
+          "subcategory_id": "comertlik_tutumluluk",
+          "display_title": "Cömertlik vs Tutumluluk",
+          "description": "Para harcama alışkanlıkları.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "el_genisligi",
+                "reason": "Geniş el cömert.",
+                "source_json": "19_dunya_duzlugu_ve_el_ayasi.json"
+              }
+            ],
+            "manual_inputs": [
+              {
+                "question_type": "parmak_araliklari",
+                "reason": "Kapalı parmaklar tutumlu.",
+                "source_json": "31_manuel_soru_seti.json"
+              },
+              {
+                "question_type": "basparmak_esneklik",
+                "reason": "Esnek başparmak savurgan.",
+                "source_json": "31_manuel_soru_seti.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "psikoloji_ruhsal",
+      "display_title": "Psikoloji ve Ruhsal Durum",
+      "icon": "🔮",
+      "description": "Stres yönetimi, duygusal denge, melankoli ve öfke kontrolü.",
+      "subcategories": [
+        {
+          "subcategory_id": "stres_yonetimi",
+          "display_title": "Stres Yönetimi",
+          "description": "Baskı altında performans ve başa çıkma.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "mars_yaylasi",
+                "reason": "Zihinsel dayanıklılık.",
+                "source_json": "17_mars_tepesi_ve_yaylasi.json"
+              }
+            ],
+            "manual_inputs": [
+              {
+                "question_type": "el_nem_testi",
+                "reason": "Stres belirtisi.",
+                "source_json": "31_manuel_soru_seti.json"
+              }
+            ]
+          }
+        },
+        {
+          "subcategory_id": "melankoli_egilimi",
+          "display_title": "Melankoli Eğilimi",
+          "description": "Karamsarlık ve hüzün yatkınlığı.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "saturn_tepesi",
+                "reason": "Melankolik yapı.",
+                "source_json": "14_saturn_tepesi_zuhal.json"
+              },
+              {
+                "target": "ay_tepesi_cok_kabarik",
+                "reason": "Aşırı hayal gücü karamsarlık.",
+                "source_json": "18_ay_tepesi_kamer.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "depresyon_riski",
+          "display_title": "Depresyon Riski",
+          "description": "Ruhsal çöküntü ve bunalım işaretleri.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "akil_cizgisi_egim",
+                "reason": "Çok eğik çizgi depresyon riski.",
+                "source_json": "21_akil_cizgisi.json"
+              },
+              {
+                "target": "ay_tepesi_isaretler",
+                "reason": "Olumsuz işaretler.",
+                "source_json": "18_ay_tepesi_kamer.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "histeri_taskinlik",
+          "display_title": "Histeri ve Taşkınlık",
+          "description": "Duygusal patlamalar ve aşırılık.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "venus_halkasi",
+                "reason": "Kopuk halka histeri.",
+                "source_json": "27_ozel_cizgiler_ve_bilezikler.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "ofke_kontrolu",
+          "display_title": "Öfke Kontrolü",
+          "description": "Sinir patlamaları ve öfke yönetimi.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "mars_tepesi",
+                "reason": "Öfke potansiyeli.",
+                "source_json": "17_mars_tepesi_ve_yaylasi.json"
+              },
+              {
+                "target": "kirmizi_el",
+                "reason": "Kırmızı el öfkeli.",
+                "source_json": "02_renkler_bakimindan_eller.json"
+              },
+              {
+                "target": "topuzlu_basparmak",
+                "reason": "Cani parmağı - kontrolsüz öfke.",
+                "source_json": "06_basparmak_ve_bogumlari.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "ic_huzur",
+          "display_title": "İç Huzur ve Denge",
+          "description": "Manevi denge ve mutluluk kapasitesi.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "ucgen_isaretleri",
+                "reason": "Üçgen başarı ve denge.",
+                "source_json": "11_el_isaretleri_semboller.json"
+              },
+              {
+                "target": "kare_isaretleri",
+                "reason": "Kare koruma ve güven.",
+                "source_json": "11_el_isaretleri_semboller.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "seyahat_degisim",
+      "display_title": "Seyahat ve Değişim",
+      "icon": "✈️",
+      "description": "Gurbet, seyahat şansı ve hayattaki büyük değişimler.",
+      "subcategories": [
+        {
+          "subcategory_id": "gurbet_potansiyeli",
+          "display_title": "Gurbet Potansiyeli",
+          "description": "Yurt dışı yaşam ve doğduğu yerden uzaklaşma.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "hayat_cizgisi_bitis",
+                "reason": "Ay tepesine dönen uç gurbet.",
+                "source_json": "20_hayat_cizgisi.json"
+              },
+              {
+                "target": "seyahat_cizgileri",
+                "reason": "Uzun seyahatler.",
+                "source_json": "29_tamamlayici_ozel_cizgiler.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "seyahat_sansi",
+          "display_title": "Seyahat Şansı",
+          "description": "Yolculuk sıklığı ve kalitesi.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "seyahat_cizgileri",
+                "reason": "Ay tepesi kenarındaki çizgiler.",
+                "source_json": "29_tamamlayici_ozel_cizgiler.json"
+              },
+              {
+                "target": "ay_tepesi",
+                "reason": "Seyahat merakı.",
+                "source_json": "18_ay_tepesi_kamer.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "degisim_donusum",
+          "display_title": "Değişim ve Dönüşüm",
+          "description": "Hayattaki büyük kırılma noktaları.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "kader_cizgisi_kiriklari",
+                "reason": "Kariyer değişimleri.",
+                "source_json": "23_kader_cizgisi.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "yerlesiklik_gocebelik",
+          "display_title": "Yerleşiklik vs Göçebelik",
+          "description": "Bir yerde kalma veya sürekli hareket.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "hayat_cizgisi_bitis_detay",
+                "reason": "Bitiş noktası yerleşikliği gösterir.",
+                "source_json": "20_hayat_cizgisi.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "ozel_yetenekler",
+      "display_title": "Özel Yetenekler ve Mistik Güçler",
+      "icon": "🎭",
+      "description": "Sanat yeteneği, medyumluk, sezgi ve özel kabiliyetler.",
+      "subcategories": [
+        {
+          "subcategory_id": "sanat_yetenegi",
+          "display_title": "Sanat Yeteneği",
+          "description": "Resim, müzik, edebiyat ve yaratıcı sanatlar.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "konik_el",
+                "reason": "Sanat eli.",
+                "source_json": "30_meslek_ve_kariyer_rehberi.json"
+              },
+              {
+                "target": "gunes_tepesi",
+                "reason": "Sanat aşkı.",
+                "source_json": "15_gunes_tepesi_apollon.json"
+              },
+              {
+                "target": "ay_tepesi",
+                "reason": "Hayal gücü.",
+                "source_json": "18_ay_tepesi_kamer.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "medyumluk_sezgi",
+          "display_title": "Medyumluk ve Sezgi",
+          "description": "Altıncı his, telepati ve önceden bilme.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "sezgi_cizgisi",
+                "reason": "Hiss-i Kable'l-Vuku çizgisi.",
+                "source_json": "27_ozel_cizgiler_ve_bilezikler.json"
+              },
+              {
+                "target": "duz_el_ayasi",
+                "reason": "Medyum eli.",
+                "source_json": "19_dunya_duzlugu_ve_el_ayasi.json"
+              },
+              {
+                "target": "psisik_el",
+                "reason": "Ruhsal el yapısı.",
+                "source_json": "30_meslek_ve_kariyer_rehberi.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "hipnoz_etkileme",
+          "display_title": "Hipnoz ve Etkileme",
+          "description": "Başkalarını etkileme ve ikna gücü.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "merkur_tepesi",
+                "reason": "İkna ve etkileme.",
+                "source_json": "16_merkur_tepesi_utarid.json"
+              },
+              {
+                "target": "serce_yassi_bogum",
+                "reason": "Hipnoz yeteneği.",
+                "source_json": "10_serce_parmagi_merkur.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "mistik_egilimler",
+          "display_title": "Mistik Eğilimler",
+          "description": "Okültizm, gizli ilimler ve spiritüellik.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "saturn_tepesi_hac",
+                "reason": "Mistik eğilim.",
+                "source_json": "14_saturn_tepesi_zuhal.json"
+              },
+              {
+                "target": "venus_halkasi",
+                "reason": "Aşırı duyarlılık.",
+                "source_json": "27_ozel_cizgiler_ve_bilezikler.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "sifa_gucu",
+          "display_title": "Şifa Gücü",
+          "description": "İyileştirme yeteneği ve enerji aktarımı.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "psisik_el",
+                "reason": "Şifacı el yapısı.",
+                "source_json": "30_meslek_ve_kariyer_rehberi.json"
+              },
+              {
+                "target": "merkur_dikine_cizgiler",
+                "reason": "Tıp/şifa yeteneği.",
+                "source_json": "16_merkur_tepesi_utarid.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "uyarilar_tehlikeler",
+      "display_title": "Uyarılar ve Tehlikeler",
+      "icon": "⚠️",
+      "description": "Olası riskler, uyarı işaretleri ve koruyucu semboller.",
+      "subcategories": [
+        {
+          "subcategory_id": "kaza_riski",
+          "display_title": "Kaza Riski",
+          "description": "Fiziksel tehlikeler ve yaralanma işaretleri.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "yildiz_isaretleri",
+                "reason": "Yıldız ani olayları gösterir.",
+                "source_json": "11_el_isaretleri_semboller.json"
+              },
+              {
+                "target": "mars_isaretleri",
+                "reason": "Kavga ve yaralanma.",
+                "source_json": "17_mars_tepesi_ve_yaylasi.json"
+              },
+              {
+                "target": "hayat_cizgisi_yildiz",
+                "reason": "Fiziksel travma.",
+                "source_json": "20_hayat_cizgisi.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "saglik_uyarilari",
+          "display_title": "Sağlık Uyarıları",
+          "description": "Dikkat edilmesi gereken sağlık riskleri.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "tirnak_olumsuz",
+                "reason": "Tırnak hastalık işaretleri.",
+                "source_json": "05_tirnak_analizi.json"
+              },
+              {
+                "target": "hayat_cizgisi_ada",
+                "reason": "Hastalık dönemleri.",
+                "source_json": "20_hayat_cizgisi.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "iliski_tehlikeleri",
+          "display_title": "İlişki Tehlikeleri",
+          "description": "Aşk hayatındaki riskler ve uyarılar.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "evlilik_asagi_kivrik",
+                "reason": "Mutsuz evlilik.",
+                "source_json": "26_evlilik_cizgileri.json"
+              },
+              {
+                "target": "venus_yildiz",
+                "reason": "Aşk trajedisi.",
+                "source_json": "12_venus_tepesi_zuhre.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "maddi_risk",
+          "display_title": "Maddi Riskler",
+          "description": "Finansal kayıp ve iflas işaretleri.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "kader_cizgisi_yildiz",
+                "reason": "İflas riski.",
+                "source_json": "23_kader_cizgisi.json"
+              },
+              {
+                "target": "merkur_kotu_isaretler",
+                "reason": "Ticari başarısızlık.",
+                "source_json": "16_merkur_tepesi_utarid.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "koruyucu_isaretler",
+          "display_title": "Koruyucu İşaretler",
+          "description": "Sizi koruyan semboller ve güvence işaretleri.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "kare_isaretleri",
+                "reason": "Kare koruma sağlar.",
+                "source_json": "11_el_isaretleri_semboller.json"
+              },
+              {
+                "target": "jupiter_hac",
+                "reason": "Jüpiter'deki haç şans.",
+                "source_json": "13_jupiter_tepesi_musteri.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "zamanlama_yas",
+      "display_title": "Zamanlama ve Yaş Analizi",
+      "icon": "📅",
+      "description": "Hayatınızda önemli olayların ne zaman gerçekleşeceğinin analizi.",
+      "subcategories": [
+        {
+          "subcategory_id": "onemli_yaslar",
+          "display_title": "Önemli Yaşlar",
+          "description": "Hayatınızdaki kritik dönüm noktaları.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "zaman_tayini",
+                "reason": "Tüm çizgilerde yaş hesaplama.",
+                "source_json": "28_zaman_tayini_yas_hesaplama.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "basari_zamanlama",
+          "display_title": "Başarı Zamanlaması",
+          "description": "Şöhret ve zenginliğin geleceği yaşlar.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "kader_cizgisi_zaman",
+                "reason": "35 ve 50 yaş kesişimleri.",
+                "source_json": "28_zaman_tayini_yas_hesaplama.json"
+              },
+              {
+                "target": "gunes_cizgisi_baslangic",
+                "reason": "Başarı başlangıç yaşı.",
+                "source_json": "24_gunes_cizgisi.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "evlilik_yasi",
+          "display_title": "Evlilik Yaşı",
+          "description": "Ne zaman evleneceğinizin tahmini.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "evlilik_cizgisi_konum",
+                "reason": "Çizgi konumu yaşı belirler.",
+                "source_json": "26_evlilik_cizgileri.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "saglik_kritik_donemler",
+          "display_title": "Sağlık Kritik Dönemleri",
+          "description": "Dikkat edilmesi gereken sağlık yaşları.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "hayat_cizgisi_isaretler",
+                "reason": "Ada ve kırılma yaşları.",
+                "source_json": "20_hayat_cizgisi.json"
+              },
+              {
+                "target": "hayat_cizgisi_zaman",
+                "reason": "Hayat çizgisi yaş hesaplama.",
+                "source_json": "28_zaman_tayini_yas_hesaplama.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "aile_sosyal",
+      "display_title": "Aile ve Sosyal İlişkiler",
+      "icon": "🤝",
+      "description": "Aile bağları, çocuklarla ilişki ve sosyallik düzeyi.",
+      "subcategories": [
+        {
+          "subcategory_id": "aile_baglari",
+          "display_title": "Aile Bağları",
+          "description": "Anne-baba ve aileye bağlılık.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "venus_halka",
+                "reason": "Kudret yüzüğü aile bağı.",
+                "source_json": "12_venus_tepesi_zuhre.json"
+              },
+              {
+                "target": "hayat_akil_birlesik",
+                "reason": "Aileye bağlılık.",
+                "source_json": "20_hayat_cizgisi.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "cocuklarla_iliski",
+          "display_title": "Çocuklarla İlişki",
+          "description": "Ebeveynlik potansiyeli ve çocuk sevgisi.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "nesil_cizgileri",
+                "reason": "Çocuk işaretleri.",
+                "source_json": "29_tamamlayici_ozel_cizgiler.json"
+              },
+              {
+                "target": "venus_enlem",
+                "reason": "Nesil çizgileri.",
+                "source_json": "12_venus_tepesi_zuhre.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        },
+        {
+          "subcategory_id": "sosyallik_duzeyi",
+          "display_title": "Sosyallik Düzeyi",
+          "description": "Arkadaşlık kapasitesi ve toplumsal uyum.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "acik_el",
+                "reason": "Açık el sosyallik.",
+                "source_json": "01_sekil_bakimindan_eller.json"
+              }
+            ],
+            "manual_inputs": [
+              {
+                "question_type": "parmak_araliklari",
+                "reason": "Açık parmaklar sosyal.",
+                "source_json": "31_manuel_soru_seti.json"
+              }
+            ]
+          }
+        },
+        {
+          "subcategory_id": "guvenilirlik",
+          "display_title": "Güvenilirlik",
+          "description": "Başkalarının size güvenip güvenemeyeceği.",
+          "required_data": {
+            "visual_inputs": [
+              {
+                "target": "parmak_izleri",
+                "reason": "Karakter göstergesi.",
+                "source_json": "33_el_okuma_usulleri_ve_parmak_izleri.json"
+              }
+            ],
+            "manual_inputs": []
+          }
+        }
+      ]
+    }
+  ]
+}

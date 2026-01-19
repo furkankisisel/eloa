@@ -1,0 +1,71 @@
+﻿{
+  "file_info": {
+    "title": "Kombinasyon Kuralları ve Sentez Mantığı",
+    "description": "Farklı el özelliklerinin bir araya geldiğinde oluşturduğu yeni anlamlar ve çelişkili verilerin nasıl yorumlanacağına dair öncelik (ağırlık) kuralları.",
+    "version": "1.0"
+  },
+  "synthesis_rules": {
+    "rule_of_dominance": "El analizinde bazı işaretler diğerlerini ezer veya yönetir. Analiz yapılırken şu hiyerarşi izlenmelidir:",
+    "hierarchy": [
+      {
+        "rank": 1,
+        "element": "Başparmak",
+        "power": "İrade ve Ego. Eğer başparmak zayıfsa, diğer çizgilerdeki yetenekler hayata geçemez. Başparmak her zaman 'Çarpan Katsayısı'dır."
+      },
+      {
+        "rank": 2,
+        "element": "Akıl Çizgisi",
+        "power": "Yönlendirme. Güçlü bir enerji (Venüs Tepesi) varsa ama Akıl çizgisi zayıfsa, bu enerji sapkınlığa dönüşebilir."
+      },
+      {
+        "rank": 3,
+        "element": "El Şekli (Zemin)",
+        "power": "Temel Mizaç. Çizgiler ne derse desin, zemin karakterin 'hammaddesini' belirler."
+      }
+    ]
+  },
+  "common_combinations": [
+    {
+      "combo_id": "mantik_vs_duygu",
+      "components": ["Düz Akıl Çizgisi", "Eğik Kalp Çizgisi"],
+      "synthesis": "Kişi iç dünyasında çok duygusal ve romantiktir (Kalp), ancak dış dünyada ve karar anlarında buz gibi mantıklıdır (Akıl). Bu mükemmel bir dengedir."
+    },
+    {
+      "combo_id": "hayalperest_ama_tembel",
+      "components": ["Konik/Sanat Eli", "Yumuşak Doku", "Kısa Başparmak"],
+      "synthesis": "Müthiş yetenekler ve sanatsal bakış açısı vardır ancak bunları uygulayacak irade (Başparmak) ve çalışma disiplini (Yumuşak el) yoktur. 'Keşfedilmeyi bekleyen yetenek' sendromu."
+    },
+    {
+      "combo_id": "basarili_yonetici",
+      "components": ["Kare El", "Uzun Başparmak", "Jüpiter Tepesi Şişkin"],
+      "synthesis": "Doğuştan lider. Hem planlıdır (Kare), hem iradelidir (Başparmak), hem de yönetme arzusu vardır (Jüpiter). İş hayatında başarısız olması imkansıza yakındır."
+    },
+    {
+      "combo_id": "tehlikeli_zeka",
+      "components": ["Kısa ve Kalın Parmaklar", "Eğri Merkür Parmağı", "Zincirli Kalp Çizgisi"],
+      "synthesis": "Kurnazlık, maddi hırs ve duygusal dengesizlik birleşimi. Bu kişi çıkarları için etik kuralları çiğneyebilir. Ticarette dikkat edilmelidir."
+    },
+    {
+      "combo_id": "gec_gelen_basari",
+      "components": ["Kader Çizgisi Avuç Ortasından Başlıyor", "Satürn Tepesi Güçlü"],
+      "synthesis": "Hayatın ilk yarısı zorluklarla geçer. Kişi kendi kimliğini 35 yaşından sonra bulur ve asıl başarı/zenginlik orta yaşta gelir."
+    }
+  ],
+  "conflict_resolution": [
+    {
+      "conflict_type": "Cömertlik vs Cimrilik",
+      "scenario": "Geniş el ayası (Cömert) + Kapalı duran parmaklar (Tutumlu)",
+      "resolution": "Kişi sevdiklerine karşı çok cömerttir, ancak tanımadığı insanlara veya gereksiz harcamalara karşı sıkıdır. 'Seçici Cömertlik'."
+    },
+    {
+      "conflict_type": "Zeka vs Odaklanma",
+      "scenario": "Uzun Akıl Çizgisi (Kapasite yüksek) + Zincirli/Silik Yapı (Odak düşük)",
+      "resolution": "Potansiyel zeka çok yüksektir ancak kişi dikkat dağınıklığı veya tembellik yüzünden bu zekayı tam kullanamıyordur. 'Zeki ama çalışmıyor'."
+    },
+    {
+      "conflict_type": "Ask vs Mantik",
+      "scenario": "Kalp Çizgisi Jüpiter'e gidiyor (İdealist Aşk) + Akıl Çizgisi Düz (Mantık)",
+      "resolution": "Kişi aşık olduğunda gözü kör olur zannedilir ama aslında partnerini mantık süzgecinden geçirmeden kalbini açmaz. Yanlış kişiye aşık olmaz."
+    }
+  ]
+}

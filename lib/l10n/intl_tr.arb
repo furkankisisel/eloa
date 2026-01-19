@@ -1,0 +1,15 @@
+{
+    "appTitle": "Eloa",
+    "welcomeTitle": "Eloa'ya Hoş Geldiniz",
+    "handSelectionIntro": "Analiz etmek istediğiniz elinizi seçin.\nHer iki el farklı hikayeler anlatır.",
+    "leftHandTitle": "SOL EL",
+    "rightHandTitle": "SAĞ EL",
+    "leftHandSubtitle": "Potansiyel & Genetik Miras",
+    "rightHandSubtitle": "Aktif Kullanım & İrade",
+    "leftHandDesc": "Size bahşedilmiş doğuştan gelen imkan ve yeteneklerin deposudur. İçinizdeki saklı cevheri gösterir.",
+    "rightHandDesc": "Bu hazineden ne kadarını kullandığınızı ve sonradan kazandığınız becerileri gösterir.",
+    "startAnalysis": "ANALİZE BAŞLA",
+    "wizardPlaceholderTitle": "Soru Akışı Yakında",
+    "wizardPlaceholderBody": "JSON model verileri bağlandığında burada adım adım analiz sihirbazı olacak.",
+    "goBack": "GERİ DÖN"
+}

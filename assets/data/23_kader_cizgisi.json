@@ -1,0 +1,101 @@
+﻿{
+  "category_info": {
+    "title": "Kader Çizgisi (Satürn Çizgisi)",
+    "source_book": "",
+    "page_range": "250-265",
+    "description": "Bilekten başlayıp orta parmağa (Satürn) doğru yükselen çizgi. Kariyer, iş hayatı, şans faktörü ve kişinin hayattaki sorumluluk bilincini temsil eder."
+  },
+  "fate_line_general": [
+    {
+      "id": "derin_net_kader",
+      "name": "Derin ve Net Kader Çizgisi",
+      "book_content": "Kişinin hayatında belirgin bir hedefe sahip olduğunu, şansının yaver gittiğini ve dış şartların onu desteklediğini gösterir. Kariyer basamaklarını emin adımlarla çıkar."
+    },
+    {
+      "id": "silik_ince_kader",
+      "name": "Silik veya İnce Kader Çizgisi",
+      "book_content": "Zorlu bir hayat mücadelesini ve destek görmeden kendi çabasıyla bir yerlere gelmeye çalışmayı gösterir. Şans faktörü düşüktür."
+    },
+    {
+      "id": "yok_kader_cizgisi",
+      "name": "Kader Çizgisi Yokluğu",
+      "book_content": "Bu kişiler genellikle 'günübirlik' yaşarlar. Uzun vadeli planları yoktur. Hayatın akışına kendilerini bırakırlar. Ancak bu başarısızlık demek değildir; sadece 'kurumsal' veya 'düzenli' bir hayatları olmayabilir (Serbest meslek, sanatçı vb.)."
+    },
+    {
+      "id": "dalgal_kader_cizgisi",
+      "name": "Dalgalı (Yılanvari) Kader Çizgisi",
+      "book_content": "İstikrarsız bir kariyer ve sürekli değişen şartlar. Kişi maymun iştahlı olabilir, bir işte dikiş tutturmakta zorlanır."
+    }
+  ],
+  "starting_point": [
+    {
+      "id": "bilekten_baslayan",
+      "name": "Bilekten (Hayat Çizgisinden Ayrık) Başlayan",
+      "book_content": "En makbul başlangıçtır. Bağımsız bir karakteri ve kendi ayakları üzerinde durmayı gösterir. Aile desteğinden çok kendi yetenekleriyle yükselir."
+    },
+    {
+      "id": "hayat_cizgisinden_cikan",
+      "name": "Hayat Çizgisine Bitişik Başlayan",
+      "book_content": "Aileye bağımlılığı ve ailenin kariyer üzerindeki etkisini gösterir. Kişi uzun süre ailesinin çizdiği yolda gider veya aile işini yapar. Ancak orta yaşlarda bağımsızlaşır."
+    },
+    {
+      "id": "ay_tepesinden_gelen",
+      "name": "Ay Tepesinden Gelen",
+      "book_content": "Kariyerin 'başkalarının takdirine' bağlı olduğunu gösterir. Politikacılar, sanatçılar ve halkla ilişkiler uzmanlarında görülür. Şansları, insanların onları sevmesine bağlıdır. Değişken bir kaderdir."
+    },
+    {
+      "id": "duzlugun_ortasindan",
+      "name": "Dünya Düzlüğünün Ortasından Başlayan",
+      "book_content": "Hayatın ilk yıllarının zorlu geçtiğini, başarının ve kariyerin ancak orta yaşlardan sonra (genellikle 35 sonrası) yakalanacağını gösterir. 'Geç açılan' kaderdir."
+    }
+  ],
+  "ending_point": [
+    {
+      "id": "saturne_giden",
+      "name": "Satürn Tepesine (Orta Parmağa) Ulaşan",
+      "book_content": "Klasik başarı. Kişi başladığı işi bitirir ve yaşlılığında maddi güvenceye sahip olur. Ancak çizgi parmağın içine kadar girerse (çok uzunsa), bu 'kötü kader' veya aşırı hırs sonucu gelen yıkım olabilir."
+    },
+    {
+      "id": "jupitere_giden",
+      "name": "Jüpiter Tepesine (İşaret Parmağına) Sapan",
+      "book_content": "Müthiş bir liderlik ve iktidar başarısı. Kişi en tepeye oynar ve genellikle kazanır. Hırs ve yönetim arzusunun zaferidir."
+    },
+    {
+      "id": "gunese_giden",
+      "name": "Güneş Tepesine (Yüzük Parmağına) Sapan",
+      "book_content": "Sanat, edebiyat veya şöhret yoluyla gelen başarı. Kişi yetenekleriyle parlar ve zengin olur."
+    },
+    {
+      "id": "akil_cizgisinde_duran",
+      "name": "Akıl Çizgisinde Duran (Kesilen)",
+      "book_content": "Kariyerin yanlış bir karar veya zihinsel bir hata yüzünden sekteye uğraması. Mantıksız bir adım, iş hayatını bitirebilir (Genellikle 35 yaş civarı)."
+    },
+    {
+      "id": "kalp_cizgisinde_duran",
+      "name": "Kalp Çizgisinde Duran",
+      "book_content": "Aşk veya duygusallık yüzünden kariyerin bitmesi. Gönül ilişkileri iş hayatını baltalar (Genellikle 50 yaş civarı)."
+    }
+  ],
+  "signs_on_line": [
+    {
+      "id": "ada_kader_cizgisi",
+      "name": "Ada İşareti",
+      "book_content": "Kariyerde tıkanma, iflas riski veya skandal. Adanın olduğu dönemde işler durur, maddi kayıp yaşanır. Yasak ilişki kaynaklı itibar kaybını da gösterebilir."
+    },
+    {
+      "id": "kirilma_kader_cizgisi",
+      "name": "Kırılma (Kopukluk)",
+      "book_content": "İş değişikliği veya mecburi ara verme. Eğer yeni çizgi, eskisinin yanından başlayıp devam ediyorsa bu olumlu bir değişimdir (terfi, yeni sektör). Eğer boşluk varsa işsizlik dönemidir."
+    },
+    {
+      "id": "yildiz_kader_cizgisi",
+      "name": "Yıldız İşareti",
+      "book_content": "Felaket habercisidir. İflas, itibar kaybı veya kariyeri bitiren büyük bir şok. Satürn tepesindeki yıldız, kader kurbanı olmayı gösterebilir."
+    },
+    {
+      "id": "cift_kader_cizgisi",
+      "name": "Çift (Kardeş) Kader Çizgisi",
+      "book_content": "Aynı anda yürütülen iki işi veya çok yönlü yeteneği gösterir. Kişi asla işsiz kalmaz, her zaman bir B planı vardır."
+    }
+  ]
+}

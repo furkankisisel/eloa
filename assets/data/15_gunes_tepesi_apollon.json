@@ -1,0 +1,72 @@
+﻿{
+  "category_info": {
+    "title": "Güneş Tepesi (Apollon Dağı)",
+    "source_book": "",
+    "page_range": "172-175",
+    "description": "Yüzük parmağının altında yer alan; sanat, şöhret, para, estetik, neşe ve başarıyı temsil eden tepenin analizi."
+  },
+  "sun_mount_general": [
+    {
+      "id": "belirgin_gunes_tepesi",
+      "name": "Belirgin ve Orantılı Güneş Tepesi",
+      "book_content": "Üstün bir zekayı, büyük sanat aşkını, yüksek fikirleri ve başarıyı haber verir. Şöhreti ve parlama arzusunu simgeler. Dışa dönük, şen, açık yürekli, lüksü ve gösterişi seven insanların tepesidir[cite: 322]."
+    },
+    {
+      "id": "siskin_gunes_tepesi",
+      "name": "İfrat Derecede Şişkin Güneş Tepesi",
+      "book_content": "Arzu ve kabiliyetlerin adi amaçlar için kullanılabileceğine, aşırı yeteneklere ve savurganlık derecesindeki cömertliğe işaret eder. [cite_start]Gurur ve övüngenlik olarak kendini gösterir[cite: 322]."
+    },
+    {
+      "id": "zayif_gunes_tepesi",
+      "name": "Zayıf veya Hiç Yok Gibi",
+      "book_content": "Sanat ve estetik konularda yeteneksizliği, idealsiz yaşamaya eğilimi gösterir. Küçük maddi kazançlarla avunurlar. [cite_start]Kalp hastalıklarına da yatkınlık olabilir[cite: 322]."
+    }
+  ],
+  "sun_mount_signs": [
+    {
+      "id": "hac_gunes",
+      "name": "Haç İşareti",
+      "book_content": "Uğursuzluk işaretidir. Sanatla ilgili başarılarda veya parada düş kırıklığını temsil eder. [cite_start]Ancak belirgin bir tepe üzerindeyse bazen tasarlanmış bir zaferin de işareti sayılabilir[cite: 322, 323]."
+    },
+    {
+      "id": "yildiz_gunes",
+      "name": "Yıldız İşareti",
+      "book_content": "Haçtan daha tehlikelidir. Kişinin kendi başarısı için başkalarının omzuna basmaktan çekinmeyeceğini, ihaneti ve elde edilen şöhreti sadist zevkler için kullanabileceğini gösterir. [cite_start]'Kötüye kabiliyetlilik' işaretidir[cite: 323]."
+    },
+    {
+      "id": "izgara_gunes",
+      "name": "Izgara İşareti",
+      "book_content": "Kuvvet yetmezliği, beceriksizlik ve tembellik işaretidir. Başarıya susamışlardır, sık sık başarı hikayeleri uydururlar. [cite_start]Gevezeliğe ve dedikoduya meyillidirler[cite: 323]."
+    },
+    {
+      "id": "kare_gunes",
+      "name": "Kare İşareti",
+      "book_content": "Güvenin ve dışarıdan gelecek yardımların habercisidir. Normalin üstünde başarıları müjdeler. [cite_start]Sanatsal çalışmalarda kişiye yardımcı olacak birilerinin bulunacağını gösterir[cite: 323]."
+    },
+    {
+      "id": "ucgen_gunes",
+      "name": "Üçgen İşareti",
+      "book_content": "Mimarlık yeteneğinin ve sanatçı kişiliğin belirtisidir. [cite_start]Sanatta maharet kazandıracak yeteneklerden haber verir[cite: 324]."
+    },
+    {
+      "id": "catal_gunes",
+      "name": "Çatal İşareti",
+      "book_content": "Dağınık başarıların işaretidir. Sanatçıdır ama kendine özgü orijinalliği yoktur. [cite_start]Mevki kaybını da gösterebilir[cite: 324]."
+    },
+    {
+      "id": "cizgiler_gunes",
+      "name": "Çizgiler",
+      "book_content": "Yukarı doğru uzanan çizgiler şan, şöhret ve para kazanmadaki mahareti; yatay çizgiler ise mücadele gerektirecek gelişmeleri ve engelleri gösterir. [cite_start]İntizamsız çizgiler ise hoppalık alametidir[cite: 324]."
+    },
+    {
+      "id": "merdiven_gunes",
+      "name": "Merdiven İşareti",
+      "book_content": "Aslı olmayan şöhreti ve övünme merakını yansıtır. [cite_start]Aslında aciz ve kudretsizdirler ama başarılı görünmek isterler[cite: 324]."
+    },
+    {
+      "id": "cukur_gunes",
+      "name": "Çukur (Oyuk)",
+      "book_content": "Damar hastalıklarına yatkınlığı gösterir. [cite_start]Bazen büyük bir şöhretten sonra gelecek itibar kaybına da dikkat çeker[cite: 324]."
+    }
+  ]
+}

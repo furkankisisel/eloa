@@ -1,0 +1,106 @@
+﻿{
+  "category_info": {
+    "title": "Hayat Çizgisi (Ömür Çizgisi)",
+    "source_book": "",
+    "page_range": "190-210",
+    "description": "Başparmak ile işaret parmağı arasından başlayıp bileğe doğru inen, Venüs tepesini çevreleyen ana çizgi. Yaşam enerjisi, sağlık, bağışıklık sistemi ve hayat kalitesini gösterir."
+  },
+  "life_line_general": [
+    {
+      "id": "ideal_hayat_cizgisi",
+      "name": "İdeal Hayat Çizgisi",
+      "book_content": "Derin, net, kesiksiz ve pembe renkli. Venüs tepesini geniş bir yay çizerek çevreler. Bu, yüksek yaşam enerjisi, sağlam bir bağışıklık sistemi, cinsel güç ve uzun, sağlıklı bir ömür işaretidir."
+    },
+    {
+      "id": "genis_kavisli_hayat",
+      "name": "Geniş Kavisli (Açık) Çizgi",
+      "book_content": "Venüs tepesini genişten alan çizgi; dışa dönük, sıcakkanlı, cömert ve enerjik bir yapıyı gösterir. Hayattan zevk almayı bilirler, libidoları yüksektir."
+    },
+    {
+      "id": "dar_kavisli_hayat",
+      "name": "Dar Kavisli (Kapalı) Çizgi",
+      "book_content": "Venüs tepesini daraltarak başparmağa yakın inen çizgi; soğuk, bencil, çekingen ve cinsel isteği zayıf bir yapıyı gösterir. Sosyal değildirler, enerjileri düşüktür."
+    },
+    {
+      "id": "kisa_hayat_cizgisi",
+      "name": "Kısa Hayat Çizgisi",
+      "book_content": "Sanılanın aksine mutlaka 'kısa ömür' demek değildir. Eğer çizgi net ve derin ise, sadece yaşam enerjisinin belirli bir dönemde azalacağını veya hayatın ikinci yarısında sağlığa çok dikkat edilmesi gerektiğini gösterir. Ancak çizgi hem kısa hem silikse zayıf bünyeye işarettir."
+    },
+    {
+      "id": "soluk_genis_hayat",
+      "name": "Soluk ve Geniş (Yayvan) Çizgi",
+      "book_content": "Sağlık problemleri ve düşük direnç. Kişi çabuk hastalanır ve geç iyileşir. Hayat enerjisi düşüktür."
+    },
+    {
+      "id": "zincirli_hayat_cizgisi",
+      "name": "Zincirli Hayat Çizgisi",
+      "book_content": "Çizgi zincir halkaları gibiyse; narin bir bünye, kronik rahatsızlıklar ve duygusal hassasiyet demektir. Mide ve sindirim sistemi hassas olur."
+    }
+  ],
+  "starting_point": [
+    {
+      "id": "jupitere_yakin_baslangic",
+      "name": "Jüpiter Tepesine (İşaret Parmağına) Yakın Başlangıç",
+      "book_content": "Hırs, gurur ve yönetme arzusunu gösterir. Hayata iddialı başlarlar, başarı odaklıdırlar."
+    },
+    {
+      "id": "venuse_yakin_baslangic",
+      "name": "Venüs Tepesine (Başparmağa) Yakın Başlangıç",
+      "book_content": "Mütevazı, kavgadan uzak ve kendi halinde bir yaşam isteği. Hırsları yoktur, evcimen olabilirler."
+    },
+    {
+      "id": "akil_cizgisiyle_birlesik",
+      "name": "Akıl Çizgisiyle Birleşik Başlangıç (Normal)",
+      "book_content": "Tedbirli, dengeli ve aileye bağlı bir yapıyı gösterir. Mantık ve yaşam enerjisi uyumludur."
+    },
+    {
+      "id": "akil_cizgisinden_ayrik",
+      "name": "Akıl Çizgisinden Ayrık Başlangıç",
+      "book_content": "Özgürlüğüne düşkün, aceleci, kendine güvenen ve risk alan bir yapı. Aileden erken koparlar, bağımsızdırlar."
+    }
+  ],
+  "ending_point": [
+    {
+      "id": "bilekte_biten",
+      "name": "Bilekte Biten (Venüs'ü Saran)",
+      "book_content": "Vatanına ve toprağına bağlılık. Doğduğu yerde ölme isteği. Geleneksel yaşam."
+    },
+    {
+      "id": "ay_tepesine_donen",
+      "name": "Ay Tepesine (Dışarı) Dönen Uç",
+      "book_content": "Seyahat tutkusu ve gurbet hayatı. Doğduğu yerden uzakta yaşama ve ölme ihtimali yüksektir. Maceraperesttirler."
+    },
+    {
+      "id": "catal_bitis",
+      "name": "Çatallı Bitiş (Balık Kuyruğu)",
+      "book_content": "Hayatın son döneminde rahatlık veya iki farklı yerde yaşama durumu. Enerji bölünmesini de gösterebilir."
+    }
+  ],
+  "signs_on_line": [
+    {
+      "id": "ada_hayat_cizgisi",
+      "name": "Ada İşareti",
+      "book_content": "Hastalık, hastaneye yatış veya enerjinin tamamen tükendiği zor bir dönem. Adanın büyüklüğü hastalığın süresini gösterir. Başlangıçtaki adalar çocukluk hastalıklarıdır."
+    },
+    {
+      "id": "kirilma_hayat_cizgisi",
+      "name": "Kırılma (Kopukluk)",
+      "book_content": "Çok ciddi bir tehlike, kaza veya hayati bir değişim. Eğer kırılan uçlar birbirini örtüyorsa (tamir varsa) tehlike atlatılır ama iz bırakır. Örtmüyorsa hayati risk taşır."
+    },
+    {
+      "id": "yildiz_hayat_cizgisi",
+      "name": "Yıldız İşareti",
+      "book_content": "Ani şok, kaza veya şöhret getirecek ani bir olay (yıldızın konumuna göre). Genellikle fiziksel bir travmayı işaret eder."
+    },
+    {
+      "id": "cizgiler_yukari",
+      "name": "Yukarı Çıkan Dallar (Efor Çizgileri)",
+      "book_content": "Kişisel gayretle elde edilen başarılar. Hangi yaşta çıkıyorsa o yaşta terfi, evlilik veya zenginleşme yaşanır. Enerji patlamasıdır."
+    },
+    {
+      "id": "cizgiler_asagi",
+      "name": "Aşağı İnen Dallar",
+      "book_content": "Enerji kaybı, maddi zarar veya sağlık sorunları. Hayatın o döneminde işlerin ters gideceğini gösterir."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+﻿{
+  "category_info": {
+    "title": "Zaman Tayini ve Yaş Hesaplama",
+    "source_book": "",
+    "page_range": "310-330",
+    "description": "Hayat, Kader, Akıl ve Güneş çizgileri üzerinde olayların (evlilik, hastalık, başarı, ölüm vb.) hangi yaşlarda gerçekleşeceğinin hesaplanması."
+  },
+  "life_line_timing": [
+    {
+      "id": "hayat_cizgisi_yontemi",
+      "name": "Hayat Çizgisi Üzerinde Yaş Hesaplama",
+      "method_description": "Hayat çizgisinin başlangıcı (işaret parmağı tarafı) 0 yaş kabul edilir. Bileğe doğru indikçe yaş artar. Çizginin kavisinin orta noktası genellikle 45-50 yaşlarına denk gelir.",
+      "milestones": [
+        {
+          "age": "0-20 Yas",
+          "location": "Jüpiter tepesinin (işaret parmağı) altından başlayıp, işaret parmağının orta eksenine kadar olan kısım.",
+          "significance": "Çocukluk ve ilk gençlik. Bu aralıktaki adalar çocukluk hastalıklarını gösterir."
+        },
+        {
+          "age": "20-35 Yas",
+          "location": "İşaret parmağının ortasından, orta parmağın iç kenarına kadar olan kısım.",
+          "significance": "Hayata atılma, ilk mücadeleler."
+        },
+        {
+          "age": "35-50 Yas",
+          "location": "Orta parmağın hizasına denk gelen kavisli bölge.",
+          "significance": "Olgunluk çağı. Enerjinin en verimli kullanıldığı dönem. Çizginin en geniş kavisi buradadır."
+        },
+        {
+          "age": "50-70+ Yas",
+          "location": "Orta parmak hizasından bileğe doğru inen düzleşen kısım.",
+          "significance": "Yaşlılık dönemi. Buradaki kopukluklar veya incelmeler yaşlılık hastalıklarını gösterir."
+        }
+      ]
+    }
+  ],
+  "fate_line_timing": [
+    {
+      "id": "kader_cizgisi_yontemi",
+      "name": "Kader (Satürn) Çizgisi Üzerinde Yaş Hesaplama",
+      "method_description": "Kader çizgisi aşağıdan (bilekten) yukarı doğru okunur. Bilek 0 yaştır, yukarı çıktıkça yaş artar.",
+      "milestones": [
+        {
+          "age": "0-35 Yas",
+          "location": "Bilekten başlayıp Akıl Çizgisi ile kesiştiği noktaya kadar olan kısım.",
+          "significance": "Kariyerin başlangıcı ve gelişimi. Akıl çizgisiyle kesişim noktası tam 35 yaşı verir."
+        },
+        {
+          "age": "35-50 Yas",
+          "location": "Akıl Çizgisi ile Kalp Çizgisi arasında kalan bölge.",
+          "significance": "Kariyerin zirve yılları. En verimli dönem."
+        },
+        {
+          "age": "50+ Yas",
+          "location": "Kalp Çizgisinden sonra parmağa doğru giden kısım.",
+          "significance": "Emeklilik ve yaşlılık dönemi. Kalp çizgisiyle kesişim noktası 50-55 yaşı verir."
+        }
+      ]
+    }
+  ],
+  "intersection_points": [
+    {
+      "id": "akil_cizgisi_kesisimi",
+      "name": "Akıl Çizgisi Kesişimi (35 Yaş)",
+      "book_content": "Kader çizgisinin Akıl çizgisini kestiği nokta, istisnasız 35 yaş civarını gösterir. Bu noktadaki kırılmalar, 35 yaşında alınacak hayati bir kararı (iş değişikliği, iflas veya yeni bir başlangıç) işaret eder."
+    },
+    {
+      "id": "kalp_cizgisi_kesisimi",
+      "name": "Kalp Çizgisi Kesişimi (50 Yaş)",
+      "book_content": "Kader çizgisinin Kalp çizgisini kestiği nokta, 50-55 yaş civarını gösterir. Bu noktadaki değişimler, orta yaş krizini, sağlık sorunlarını veya emeklilik planlarını gösterir."
+    }
+  ]
+}

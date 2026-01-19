@@ -1,0 +1,64 @@
+﻿{
+  "category_info": {
+    "title": "Merkür Çizgisi (Sağlık Çizgisi)",
+    "source_book": "",
+    "page_range": "275-285",
+    "description": "Hayat çizgisinin yakınından veya avucun ortasından başlayıp serçe parmağına (Merkür tepesi) doğru giden çizgi. Sindirim sistemi sağlığı, ticari yetenek ve sezgi gücünü gösterir."
+  },
+  "mercury_line_general": [
+    {
+      "id": "yok_merkur_cizgisi",
+      "name": "Merkür Çizgisi Yokluğu",
+      "book_content": "En makbul durumdur. Kişinin sindirim sisteminin (mide, karaciğer) çok sağlam olduğunu, sinirlerinin çelik gibi olduğunu gösterir. Ticari kaygısı yoktur veya doğuştan rahattır."
+    },
+    {
+      "id": "derin_net_merkur",
+      "name": "Derin ve Net Merkür Çizgisi",
+      "book_content": "Güçlü bir hafıza, yüksek ticari zeka ve hitabet yeteneği. Sağlık açısından hassasiyet olsa da kişi kendine iyi bakar. İyi bir tüccar veya doktor işaretidir."
+    },
+    {
+      "id": "kirik_kopuk_merkur",
+      "name": "Kırık ve Kopuk Merkür Çizgisi",
+      "book_content": "Mide ve karaciğer rahatsızlıkları. Sindirim problemleri. Ticari hayatta istikrarsızlık ve iflas riski. Hafıza zayıflığı."
+    },
+    {
+      "id": "dalgal_merkur",
+      "name": "Dalgalı (Yılanvari) Merkür Çizgisi",
+      "book_content": "Safra kesesi düzensizliği, karaciğer hassasiyeti. Ahlaki açıdan güvenilmezlik, ticari kurnazlık ve dürüst olmama ihtimali."
+    }
+  ],
+  "signs_on_line": [
+    {
+      "id": "ada_merkur",
+      "name": "Ada İşareti",
+      "book_content": "Ciddi sağlık sorunu. Akciğer veya boğaz hastalıkları. Ticarette büyük dolandırıcılık veya hırsızlık riski (mağdur veya fail olarak)."
+    },
+    {
+      "id": "yildiz_merkur",
+      "name": "Yıldız İşareti",
+      "book_content": "Çizginin bittiği yerdeki (Merkür tepesi) yıldız; ticari, bilimsel veya edebi büyük başarıyı gösterir. Ancak çizgi üzerindeyse iflas veya ameliyat habercisidir."
+    },
+    {
+      "id": "cizgiler_kesik",
+      "name": "Enine Kesik Çizgiler",
+      "book_content": "Ticari engeller, iş hayatında düşmanlıklar ve sağlık krizleri."
+    },
+    {
+      "id": "ucgen_merkur_cizgisi",
+      "name": "Üçgen Oluşumu",
+      "book_content": "Merkür, Akıl ve Kader çizgilerinin oluşturduğu üçgenler; psişik güçleri, altıncı hissi ve ticari dehayı gösterir."
+    }
+  ],
+  "health_indicators": [
+    {
+      "id": "kirmizi_merkur",
+      "name": "Kırmızı Renkli Çizgi",
+      "book_content": "Yüksek tansiyon, kalp çarpıntısı ve ateşli hastalıklara yatkınlık."
+    },
+    {
+      "id": "soluk_sari_merkur",
+      "name": "Soluk ve Sarımsı Çizgi",
+      "book_content": "Karaciğer yetmezliği, safra sorunları ve melankoli."
+    }
+  ]
+}

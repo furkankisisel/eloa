@@ -1,0 +1,91 @@
+﻿{
+  "category_info": {
+    "title": "El Okuma Usulleri, Parmak İzleri ve Duruş",
+    "source_book": "",
+    "description": "El analizinde hangi elin okunacağı, parmak izlerinin anlamları ve el sıkışma biçiminden karakter tahlili kuralları."
+  },
+  "reading_rules": [
+    {
+      "rule_id": "aktif_pasif_el",
+      "name": "Sağ ve Sol El Farkı (Aktif vs Pasif)",
+      "description": "El analizinde iki elin anlamı farklıdır. Genellikle kullanılan el (sağlaklar için sağ) 'Aktif', diğer el 'Pasif'tir.",
+      "details": [
+        {
+          "hand": "Pasif El (Genelde Sol)",
+          "meaning": "Kişinin doğuştan getirdiği potansiyel, genetik miras, bilinçaltı ve 'Allah vergisi' yetenekler. Değişmesi zordur."
+        },
+        {
+          "hand": "Aktif El (Genelde Sağ)",
+          "meaning": "Kişinin kendi iradesiyle ne yaptığı, sonradan kazandığı özellikler, şu anki durumu ve gelecek potansiyeli. Çizgiler burada değişir."
+        },
+        {
+          "interpretation_logic": "Eğer sol elde yetenek var ama sağ elde yoksa; kişi yeteneğini köreltmiştir. Eğer sol elde yok ama sağ elde varsa; kişi kendini geliştirmiştir."
+        }
+      ]
+    }
+  ],
+  "fingerprints": [
+    {
+      "pattern_id": "spiral_iz",
+      "name": "Helezon / Spiral (Whorl) İz",
+      "visual_desc": "Parmak ucunda iç içe geçmiş daireler veya sarmallar.",
+      "meaning": "Güçlü irade, bireysellik, liderlik ve kararlılık. Kendi bildiğini okuyan, bağımsız karakter. Genellikle işaret veya yüzük parmağında görülür."
+    },
+    {
+      "pattern_id": "ilmek_iz",
+      "name": "İlmek / Döngü (Loop) İz",
+      "visual_desc": "Bir taraftan girip kıvrılarak aynı taraftan çıkan çizgiler.",
+      "meaning": "Uyumlu, esnek, duygusal zekası yüksek ve sosyal. En yaygın tiptir. İletişim becerileri kuvvetlidir."
+    },
+    {
+      "pattern_id": "kemer_iz",
+      "name": "Kemer / Yay (Arch) İz",
+      "visual_desc": "Dalga gibi hafifçe yükselip alçalan çizgiler (Daire yapmaz).",
+      "meaning": "Pratik, güvenilir, çalışkan ama inatçı. Değişime kapalıdır, gelenekselcidir. Güvenlik ve düzen ister."
+    },
+    {
+      "pattern_id": "karisik_iz",
+      "name": "Karmaşık (Composite) İz",
+      "visual_desc": "İki farklı şeklin (örneğin iki ilmek) birbirine dolanması.",
+      "meaning": "Kafa karışıklığı, çok yönlülük, kararsızlık ama olaylara farklı açılardan bakabilme yeteneği. Genellikle yargıçlarda veya eleştirmenlerde görülür."
+    }
+  ],
+  "hand_gestures": [
+    {
+      "gesture_id": "el_sikisma_tarzi",
+      "name": "El Sıkışma Biçimleri",
+      "types": [
+        {
+          "style": "Kuvvetli ve Sert Sıkış",
+          "meaning": "Enerjik, kendine güvenen, dışa dönük ve samimi. Bazen baskın olma isteği."
+        },
+        {
+          "style": "Gevşek / Ölü Balık Gibi",
+          "meaning": "Enerji düşüklüğü, isteksizlik, çekingenlik veya karaktersizlik. Güven vermez."
+        },
+        {
+          "style": "Sadece Parmak Ucuyla",
+          "meaning": "Kibir, mesafeli olma isteği, üstten bakış veya aşağılık kompleksi."
+        },
+        {
+          "style": "Eli İki Elle Kavrama",
+          "meaning": "Aşırı samimiyet gösterisi (bazen sahte), babacanlık veya hakimiyet kurma isteği."
+        }
+      ]
+    },
+    {
+      "gesture_id": "el_durusu",
+      "name": "Ellerin Doğal Duruşu",
+      "types": [
+        {
+          "style": "Avuçlar Açık",
+          "meaning": "Dürüstlük, gizlisi saklısı olmama, iletişime açıklık."
+        },
+        {
+          "style": "Yumruk Sıkılı / Parmaklar İçe Dönük",
+          "meaning": "Gerginlik, savunma hali, cimrilik veya bir şeyler gizleme isteği."
+        }
+      ]
+    }
+  ]
+}

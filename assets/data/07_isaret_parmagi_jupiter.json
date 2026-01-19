@@ -1,0 +1,64 @@
+﻿{
+  "category_info": {
+    "title": "İşaret Parmağı (Jüpiter/Müşteri) ve Boğumları",
+    "source_book": "",
+    "page_range": "112-119",
+    "description": "Liderlik, hırs, onur, dindarlık ve hükmetme arzusunu temsil eden işaret parmağının (Jüpiter) yapısal analizi."
+  },
+  "index_finger_structure": [
+    {
+      "id": "uzun_isaret_parmagi",
+      "name": "Uzun İşaret Parmağı (Yüzük Parmağından Uzun)",
+      "book_content": "Liderlik, hükmetme arzusu ve hırsı gösterir. Bu kişiler emir almaktan hoşlanmaz, emir vermeyi severler. Özgüvenleri yüksektir. Din ve felsefeye meyillidirler. Kendilerini göstermeyi ve önde olmayı severler. Eğer çok aşırı uzunsa (orta parmağa yakınsa) bu kibir ve diktatörlük işareti olabilir."
+    },
+    {
+      "id": "kisa_isaret_parmagi",
+      "name": "Kısa İşaret Parmağı (Yüzük Parmağından Kısa)",
+      "book_content": "Kendini geri planda tutmayı seven, risk almaktan korkan bir yapıdır. Yönetmekten ziyade yönetilmeyi tercih ederler. İddiasızdırlar. Sorumluluk almaktan kaçınırlar. Hayata karşı pasif bir duruş sergileyebilirler."
+    },
+    {
+      "id": "sivri_uclu_isaret",
+      "name": "Sivri Uçlu İşaret Parmağı",
+      "book_content": "Sezgi gücü yüksek, idealist ve hayalperest bir liderlik anlayışını gösterir. Dini ve mistik konulara eğilimlidirler. Şairane bir ruhları vardır."
+    },
+    {
+      "id": "kare_uclu_isaret",
+      "name": "Kare Uçlu İşaret Parmağı",
+      "book_content": "Gerçekçi, mantıklı ve kuralcı bir liderlik. Doğrunun peşindedirler. Adalet duyguları gelişmiştir. Yönetici ve organizatör olmak için ideal yapıdadırlar."
+    },
+    {
+      "id": "spatula_uclu_isaret",
+      "name": "Spatula (Yassı) Uçlu İşaret Parmağı",
+      "book_content": "Hareketli, enerjik ve biraz da eksantrik bir liderlik. Dini ve felsefi konularda reformist düşüncelere sahiptirler. Klasik kuralları yıkmayı severler. Mücadelecidirler."
+    }
+  ],
+  "index_finger_phalanxes": [
+    {
+      "id": "birinci_bogum_uzun",
+      "name": "Uzun 1. Boğum (Tırnaklı Kısım)",
+      "book_content": "Dini hislerin kuvvetini, sezgiyi ve ilhamı temsil eder. Bu kişiler maneviyata önem verirler. Eğer bu boğum çok uzunsa kişi mistik veya fanatik olabilir."
+    },
+    {
+      "id": "ikinci_bogum_uzun",
+      "name": "Uzun 2. Boğum (Orta Kısım)",
+      "book_content": "Hırsı ve dünyevi başarı arzusunu gösterir. Bu kişiler iş hayatında yükselmeyi, kariyer yapmayı ve mevki sahibi olmayı hedeflerler. Pratik zekaları yüksektir."
+    },
+    {
+      "id": "ucuncu_bogum_uzun",
+      "name": "Uzun 3. Boğum (Avuç Kökü)",
+      "book_content": "Hükmetme arzusunu, onuru ve gururu temsil eder. Bu boğumun dolgunluğu, kişinin kendine olan saygısını ve başkaları üzerinde otorite kurma isteğini gösterir. Aynı zamanda yemek yemeğe düşkünlük (gurme) işareti de olabilir."
+    }
+  ],
+  "index_finger_inclination": [
+    {
+      "id": "ortaya_egik_isaret",
+      "name": "Orta Parmağa Eğik İşaret Parmağı",
+      "book_content": "İç dünyasına düşkün, biraz melankolik ve kaderci bir yapıyı gösterir. Hırslarını dizginlemeyi bilir. Aileye ve geleneklere bağlıdır."
+    },
+    {
+      "id": "duz_dik_isaret",
+      "name": "Dimdik Duran İşaret Parmağı",
+      "book_content": "Kendine güvenen, bağımsız ve kararlı bir karakter. Hedefine kilitlenir ve sapmaz. Dürüsttür."
+    }
+  ]
+}

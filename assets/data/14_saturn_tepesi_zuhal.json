@@ -1,0 +1,62 @@
+﻿{
+  "category_info": {
+    "title": "Satürn Tepesi (Zühal Dağı)",
+    "source_book": "",
+    "page_range": "168-172",
+    "description": "Orta parmağın altında yer alan; kaderi, maddi durumu, emlak/toprak işlerini, yalnızlığı, bilgeliği ve melankoliyi temsil eden tepenin analizi."
+  },
+  "saturn_mount_general": [
+    {
+      "id": "dolgun_saturn",
+      "name": "Dolgun ve Parmakla Bitişik Satürn",
+      "book_content": "Sakin, ne yapmak istediğini bilen ve genelde başarılı olacak bir tabiata işarettir. Bazen suskunluk, yalnızlığı sevme ve aşırı utangaçlık anlamına gelir. Toprakla uğraşanlarda ve servet biriktirenlerde sık görülür."
+    },
+    {
+      "id": "normal_saturn",
+      "name": "Normal Satürn Tepesi",
+      "book_content": "İhtiyatlı, tedbirli bir yapıya, namusluluğa ve helal yoldan para kazanmaya özeni gösterir. Hayattaki başarıları için mücadele veren bir karakterdir."
+    },
+    {
+      "id": "zayif_saturn",
+      "name": "Zayıf veya Yok Gibi Satürn",
+      "book_content": "Mutsuz ve büyük değişiklikleri olmayan, tek düze devam edecek bir hayatı gösterir. Çevre etkisiyle sık sık huy değiştiren, kendine özgü tavrı olmayan bir kişiliktir."
+    },
+    {
+      "id": "gunese_meyilli_saturn",
+      "name": "Güneş Tepesine (Yüzük Parmağına) Meyilli",
+      "book_content": "Melankoliye yatkınlığı gösterir. Daima kederli bir yapı ve karamsar bir sanat anlayışına sahiptirler."
+    },
+    {
+      "id": "jupitere_uzak_saturn",
+      "name": "Jüpiter Tepesine Yanaşmamış (Ayrık)",
+      "book_content": "Bilimsel araştırmalara kabiliyeti gösterir."
+    }
+  ],
+  "saturn_mount_signs": [
+    {
+      "id": "hac_saturn",
+      "name": "Haç İşareti",
+      "book_content": "Kuvvetli bir mistik eğilim olarak tesirini gösterir. Kişinin belirleyici vasıfları üzerinde Satürn'ün (kaderin) güçlü etkisi vardır. Bazen yatağa düşürecek bir hastalığın işareti de olabilir."
+    },
+    {
+      "id": "yildiz_saturn",
+      "name": "Yıldız İşareti",
+      "book_content": "İyi bir işaret değildir. Maddi/manevi sıkıntılardan, talihsizliklerden ve 'kötü kaderden' haber verir. İradenin yanlış kullanılması sonucu başa gelecek badireleri, ağır hastalıkları (felç vb.) veya cinayet riskini temsil edebilir."
+    },
+    {
+      "id": "kare_saturn",
+      "name": "Kare (Koruma) İşareti",
+      "book_content": "Beklenmedik ve çok kritik olaylarda, her şeyin bittiği sanılan noktada ortaya çıkan mucizevi yardımları haber verir. (Örn: Üzerine çevrilmiş tabancanın patlamaması gibi mutlak bir tehlikeden kurtuluş)."
+    },
+    {
+      "id": "ucgen_saturn",
+      "name": "Üçgen İşareti",
+      "book_content": "Gizli ilimlere (okültizm, büyü vb.) ilgiyi ve bu alanda başarıyı gösterir. Ancak bu başarı bazen kötüye kullanım şeklinde de olabilir."
+    },
+    {
+      "id": "catal_saturn",
+      "name": "Çatal İşareti",
+      "book_content": "Büyük ve hayati tehlikelerin habercisidir."
+    }
+  ]
+}

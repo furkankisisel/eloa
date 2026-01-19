@@ -1,0 +1,67 @@
+﻿{
+  "category_info": {
+    "title": "Merkür Tepesi (Utarid Dağı)",
+    "source_book": "",
+    "page_range": "175-178",
+    "description": "Serçe parmağının altında yer alan; zeka, ticaret, tıp, diplomasi, kurnazlık, hilekarlık ve bilimsel yeteneği temsil eden tepenin analizi."
+  },
+  "mercury_mount_general": [
+    {
+      "id": "normal_merkur_tepesi",
+      "name": "Normal ve Dolgun Merkür Tepesi",
+      "book_content": "İyilik ve itidal işaretidir. Bilgiye susamışlığı, pratik ve süratli bir zekayı, kibarlığı gösterir. Ticaret ve bilim alanında iyi neticeler alırlar. Her ortama kolay uyum sağlarlar. Eşsiz bir diplomasi ve hitabet yetenekleri vardır."
+    },
+    {
+      "id": "cok_bombeli_merkur",
+      "name": "Çok Bombeli (Aşırı Şişkin) Merkür Tepesi",
+      "book_content": "İşlerde en kestirme yoldan sonuca ulaşma eğilimidir. Hırsızlığa, hilekarlığa, yalana ve şüpheli kazanca meyillidirler. İnatçı bir cehalet ve namussuzluk görülebilir. Daima işin kurnazlığını düşünürler."
+    },
+    {
+      "id": "zayif_merkur_tepesi",
+      "name": "Zayıf veya Hiç Yok Gibi",
+      "book_content": "Tam bir kabiliyetsizlik, ağır bir mizaç ve aciz bir kişilik. Kendi çabalarıyla bir yere gelmeleri zordur, başkalarının yardımına muhtaçtırlar."
+    },
+    {
+      "id": "gunese_meyilli_merkur",
+      "name": "Güneş Tepesine Meyilli",
+      "book_content": "İlim ve hitabetle uyumlu sanatkârane bir yapıyı sergiler. Bilimsel veya ticari yeteneklerini sanatla birleştirebilirler."
+    }
+  ],
+  "mercury_mount_signs": [
+    {
+      "id": "hac_merkur",
+      "name": "Haç İşareti",
+      "book_content": "Kuvvetli bir kötülük yapma yeteneğini gösterir. Hırsızlığı, dolandırıcılığı ve yalancılığı meslek edinme ihtimali vardır. Kleptomani (zevk için çalma) eğilimini yansıtır."
+    },
+    {
+      "id": "yildiz_merkur",
+      "name": "Yıldız İşareti",
+      "book_content": "Daima kötü bir kehanettir. Kalleşlik, dolandırıcılık, hırsızlık ve edepsizlik işaretidir. Ticaret ehli ve iş adamlarının elinde görülürse yakın bir iflası haber verir."
+    },
+    {
+      "id": "izgara_merkur",
+      "name": "Izgara İşareti",
+      "book_content": "Başarısızlıkların, iflasların, dalaverelerin ve şarlatanlığın işaretidir. Hırsızlığa yatkınlığı da gösterebilir."
+    },
+    {
+      "id": "kare_merkur",
+      "name": "Kare İşareti",
+      "book_content": "Ticarette başarının ve şanslılığın işaretidir. Yeni bir işe başlarken en sağlam güvencedir. Hesapta olmayan bir yardımın geleceğini haber verir."
+    },
+    {
+      "id": "ucgen_merkur",
+      "name": "Üçgen İşareti",
+      "book_content": "Diplomasi yeteneğinin en açık delilidir. Gizli ilimlere yetenek ve kuvvetli bir önsezi verir. İyi devlet adamı olurlar."
+    },
+    {
+      "id": "catal_merkur",
+      "name": "Çatal İşareti",
+      "book_content": "İflasa varan iş başarısızlıklarını gösterir. Aynı zamanda evlilik için tehlike sayılır, mutsuz bir evliliği ve müsrif bir tabiatı haber verir."
+    },
+    {
+      "id": "cizgi_merkur",
+      "name": "Çizgiler (Dikine ve Yatay)",
+      "book_content": "Dikine çizgiler ticarette ve özellikle tıpta (doktor/hemşire) büyük maharete işarettir. Yatay çizgiler ise bu maharetin vasat olduğunu gösterir. Avucun kenarından başlayan yatay çizgiler ise 'Evlilik Çizgileri'dir (Gönül ilişkilerini temsil eder)."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+﻿{
+  "category_info": {
+    "title": "Başparmak (Venüs) ve Boğumları",
+    "source_book": "",
+    "page_range": "96-112",
+    "description": "Kişiliğin ve iradenin merkezi olan başparmağın büyüklüğü, esnekliği, duruş açısı ve üç boğumunun (İrade, Mantık, Aşk) detaylı analizi."
+  },
+  "thumb_general_structure": [
+    {
+      "id": "buyuk_uzun_basparmak",
+      "name": "Büyük ve Uzun Başparmak",
+      "book_content": "Kafa (mantık) ağırlıklı bir yaşamı ifade eder. Bu kişiler duygularıyla değil, akıllarıyla hareket ederler. Kararları kesindir. İdarecilik ve liderlik vasıfları yüksektir. Kendilerine güvenirler ve olayları yönlendirme gücüne sahiptirler. İlim adamlarında ve büyük liderlerde görülür."
+    },
+    {
+      "id": "kucuk_kisa_basparmak",
+      "name": "Küçük ve Kısa Başparmak",
+      "book_content": "Kalp (duygu) ağırlıklı bir yaşamı ifade eder. Bu kişiler hisleriyle hareket eder. Şairler, sanatçılar ve müzisyenlerde sık görülür. İradeleri zayıftır, çabuk etki altında kalırlar. 'Hayır' demekte zorlanırlar. Hayatı akışına bırakmayı severler. İdare edilmeye muhtaçtırlar."
+    },
+    {
+      "id": "genis_basparmak",
+      "name": "Geniş ve Kaba Başparmak",
+      "book_content": "İnatçılığın ve kaba kuvvetin göstergesidir. Zeka ve incelikten ziyade fiziksel direnç ve ısrarcılıkla istediklerini elde etmeye çalışırlar."
+    }
+  ],
+  "thumb_flexibility": [
+    {
+      "id": "esnek_yay_gibi_basparmak",
+      "name": "Esnek (Geriye Kıvrılan) Başparmak",
+      "book_content": "Müthiş bir uyum yeteneğini, esnek karakteri ve geniş perspektifi gösterir. Cömerttirler (bazen savurganlık derecesinde). Diplomatiktirler, insanları kırmadan idare etmeyi bilirler. Ancak karakterde zafiyet, sır tutamama ve 'hayır' diyememe sorunu yaratabilir. Her ortama ayak uydururlar."
+    },
+    {
+      "id": "sert_kazik_gibi_basparmak",
+      "name": "Sert (Geriye Bükülmeyen) Başparmak",
+      "book_content": "Sebat, inat ve kararlılık timsalidir. Dediklerinden kolay dönmezler. Sır saklamayı çok iyi bilirler (ağızları sıkıdır). Adım atmadan önce kılı kırk yararlar. Muhafazakardırlar. Aşırı sertlik; bağnazlık, dik kafalılık ve yeniliklere kapalılık anlamına gelebilir. Para harcamakta zorlanırlar."
+    }
+  ],
+  "thumb_position_angle": [
+    {
+      "id": "genis_acili_durus",
+      "name": "Geniş Açılı Duruş (Ayrık)",
+      "book_content": "Bağımsızlığa düşkünlük, özgürlük aşkı ve kendine güveni gösterir. Lider ruhlu ve cesurdurlar. Kendi kararlarını kendileri verirler. Cömerttirler."
+    },
+    {
+      "id": "dar_acili_durus",
+      "name": "Dar Açılı Duruş (Ele Yapışık)",
+      "book_content": "Çekingenlik, korkaklık ve içe kapanıklık belirtisidir. Genellikle cimri ve hesapçı olurlar. Hayata karşı güvensizdirler, risk alamazlar. İdare edilmeyi beklerler."
+    }
+  ],
+  "first_phalanx_willpower": [
+    {
+      "id": "birinci_bogum_uzun",
+      "name": "Uzun 1. Boğum (Tırnaklı Kısım)",
+      "book_content": "Güçlü bir iradeyi, liderlik arzusunu ve başladığı işi bitirme gücünü gösterir. Kararlıdırlar ve hedeflerine kilitlenirler."
+    },
+    {
+      "id": "birinci_bogum_kisa",
+      "name": "Kısa 1. Boğum",
+      "book_content": "İrade zayıflığını gösterir. Kişi çabuk pes eder, başkalarının etkisinde kalır. Kararsızdır."
+    },
+    {
+      "id": "topuzlu_parmak",
+      "name": "Topuzlu / Tokmak Başparmak (Cani Parmağı)",
+      "book_content": "1. Boğum bir topuz gibi yuvarlak, kısa ve küt ise; bu 'Öfke Parmağı' olarak bilinir. Bu kişiler sakin görünseler de aniden patlayan, kontrolsüz ve yıkıcı bir öfkeye sahiptirler. Öfke anında gözleri hiçbir şeyi görmez. Cinayet işleyebilecek potansiyel taşırlar (eğitilmezlerse)."
+    },
+    {
+      "id": "sivri_uclu_birinci_bogum",
+      "name": "Sivri Uçlu 1. Boğum",
+      "book_content": "Şairane bir yapıyı ve sezgisel iradeyi gösterir. İnatçı değildirler, çabuk ikna olurlar."
+    },
+    {
+      "id": "kare_uclu_birinci_bogum",
+      "name": "Kare Uçlu 1. Boğum",
+      "book_content": "Adalet duygusunu ve pratik iradeyi gösterir. Kanunlara ve kurallara bağlıdırlar."
+    }
+  ],
+  "second_phalanx_logic": [
+    {
+      "id": "ince_belli_ikinci_bogum",
+      "name": "Belden Boğmalı (İnce Belli) 2. Boğum",
+      "book_content": "Mantık ve diplomasinin mükemmel birleşimidir. Kişi çok taktik sahibi, kibar ve ikna edicidir. İnsanları kırmadan yönetmeyi bilir. 'Tatlı dil yılanı deliğinden çıkarır' sözü bu kişiler içindir."
+    },
+    {
+      "id": "kalin_duz_ikinci_bogum",
+      "name": "Kalın ve Düz 2. Boğum",
+      "book_content": "Kaba bir mantık yapısını gösterir. Doğru bildiğini dümdüz söyler, patavatsızlık yapabilir. Diplomasiden anlamaz. Taktik yapamaz."
+    },
+    {
+      "id": "ikinci_bogum_uzun",
+      "name": "Uzun 2. Boğum",
+      "book_content": "Güçlü bir muhakeme ve mantık yeteneğidir. Her şeyi detaylıca düşünür."
+    }
+  ],
+  "phalanx_ratios": [
+    {
+      "id": "irade_mantiktan_uzun",
+      "name": "1. Boğum > 2. Boğum (İrade Mantıktan Uzun)",
+      "book_content": "Kişi düşünmeden harekete geçer. 'Önce yap, sonra düşün' prensibiyle çalışır. Hatalar yapmaya meyillidir ama tuttuğunu koparır. Dürtüseldir."
+    },
+    {
+      "id": "mantik_iradeden_uzun",
+      "name": "2. Boğum > 1. Boğum (Mantık İradeden Uzun)",
+      "book_content": "Hamlet Sendromu. Kişi o kadar çok düşünür, planlar ve analiz eder ki eyleme geçmeye fırsat bulamaz veya cesaret edemez. Proje üretir ama uygulayamaz. Tereddüt içinde kalır."
+    },
+    {
+      "id": "esit_bogumlar",
+      "name": "Eşit Uzunlukta Boğumlar",
+      "book_content": "Mükemmel denge. Düşünür ve uygular. Planladığı şeyi hayata geçirme gücüne sahiptir. Başarı şansı en yüksek gruptur."
+    }
+  ]
+}

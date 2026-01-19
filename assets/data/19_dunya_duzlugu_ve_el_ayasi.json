@@ -1,0 +1,99 @@
+﻿{
+  "category_info": {
+    "title": "Dünya Düzlüğü (Aya) ve El Ayası",
+    "source_book": "",
+    "page_range": "186-189",
+    "description": "Avucun tam ortasındaki düzlüğün (Mars Ovası) ve genel avuç içi yapısının (uzun, kısa, sert, yumuşak vb.) analizi. Maddi hayat, içgüdüler ve psişik yetenekler."
+  },
+  "plain_of_mars_general": [
+    {
+      "id": "dunya_duzlugu_tanimi",
+      "name": "Dünya Düzlüğü (Genel)",
+      "book_content": "Bütün çizgilerin buluşma ve kesişme yeridir. Venüs, Jüpiter, Satürn, Güneş, Merkür, Mars ve Ay tepelerinin ortasında yer alır. Burada görülecek her arıza veya işaret, maddi hayata doğrudan yansır[cite: 142, 143]."
+    },
+    {
+      "id": "burusuk_cok_cizgili_duzluk",
+      "name": "Buruşuk ve Çok Çizgili Düzlük",
+      "book_content": "Bu düzlüğün en olumsuz şeklidir. Kişi ne kadar kabiliyetli olursa olsun, işleri hep başarısızlıkla sonuçlanır. [cite_start]Birbirini kesen intizamsız çizgilerle doluysa başarısızlık işaretidir[cite: 154, 155]."
+    },
+    {
+      "id": "tam_duz_puruzsuz_duzluk",
+      "name": "Tam Düz ve Pürüzsüz Düzlük",
+      "book_content": "Maddi ve pratik kuvvetlerden çok, ruhi ve psişik güçlere sahip olmayı gösterir. [cite_start]Medyumların, ruh çağıranların ve hipnozcuların el ayası genellikle pürüzsüz, düz ve soğuktur[cite: 165, 166, 169]."
+    }
+  ],
+  "plain_of_mars_signs": [
+    {
+      "id": "ucgen_dunya_duzlugu",
+      "name": "Büyük Üçgen",
+      "book_content": "Sıhhat, Akıl ve Kader çizgilerinin kesişmesinden meydana gelen üçgendir. [cite_start]Kişinin eninde sonunda maddi açıdan rahata kavuşacağını veya kendine yetecek birikimi yapacağını gösterir[cite: 151, 152]."
+    },
+    {
+      "id": "hac_yildiz_dunya_duzlugu",
+      "name": "Haç, Yıldız veya Çapraz",
+      "book_content": "Bu düzlükte görülen haç, yıldız veya çapraz işaretleri; kazalara ve ameliyatlara işaret eder[cite: 153]."
+    },
+    {
+      "id": "hayat_cizgisi_kopuklugu",
+      "name": "Hayat Çizgisi Kopukluğu",
+      "book_content": "Düzlüğe yakın yerde hayat çizgisinde kopukluk olması kaçınılmaz kazalara veya sosyal hayattan koparacak psikolojik bunalımlara işaret eder[cite: 156, 160]."
+    }
+  ],
+  "palm_types": [
+    {
+      "id": "uzun_el_ayasi",
+      "name": "Uzun El Ayası (Parmaklardan Uzun)",
+      "book_content": "İçgüdüleri akılcılığından üstün olan bir insanı haber verir. [cite_start]Pratik mizaçlıdırlar fakat hafızaları güçlü değildir[cite: 174, 175]."
+    },
+    {
+      "id": "kisa_el_ayasi",
+      "name": "Kısa El Ayası",
+      "book_content": "Maddi içgüdüleri daha aktif olan bir yapıyı yansıtır. Hafızaları güçlüdür. [cite_start]Düşüncelerini bazen patavatsızca dile getirseler de sevimli kalmayı başarırlar[cite: 176, 177]."
+    },
+    {
+      "id": "orta_el_ayasi",
+      "name": "Orta El Ayası (Eşit Uzunluk)",
+      "book_content": "İfrat ve tefritten uzak, dengeli bir yapıdır. Zekâları ile maddi içgüdüleri arasında tam bir uyum mevcuttur. [cite_start]Rahatlıkla senteze varabilirler[cite: 178, 179]."
+    },
+    {
+      "id": "buyuk_el_ayasi",
+      "name": "Büyük El Ayası",
+      "book_content": "Çözümleyici (analitik) bir yapıyı açığa vurur. [cite_start]Her türlü girift konuyu çözebilen 'halli'l-müşkilat' kimselerdir[cite: 180]."
+    },
+    {
+      "id": "genis_el_ayasi",
+      "name": "Geniş El Ayası",
+      "book_content": "Açıkgözlülüğün, marifetliliğin ve 'el çabukluğu'nun en belirgin işaretidir[cite: 181]."
+    },
+    {
+      "id": "sert_el_ayasi",
+      "name": "Sert El Ayası",
+      "book_content": "Kanlı, canlı ve oldukça sıhhatli bir bünyeyi haber verir. [cite_start]Gürbüz, dirençli ve atılgan insanlardır[cite: 182]."
+    },
+    {
+      "id": "gevsek_el_ayasi",
+      "name": "Gevşek El Ayası",
+      "book_content": "Büyük bir uyuşukluk ve tembellik belirtisidir. [cite_start]Hiçbir iş yapmadan kendilerini koyuveren, yumuşak mizaçlı kimselerdir[cite: 183]."
+    },
+    {
+      "id": "duz_el_ayasi",
+      "name": "Düz El Ayası",
+      "book_content": "Aşırı hassasiyete ve güçlü önsezilere işarettir. İçgüdüleri akıllarından daha isabetlidir. Karanlıktan ve sudan korkabilirler. [cite_start]Medyumların elidir[cite: 186, 187, 189]."
+    },
+    {
+      "id": "sicak_el_ayasi",
+      "name": "Sıcak El Ayası",
+      "book_content": "Duygusal, hoş ve sevimli bir yapıyı sergiler. [cite_start]Sıhhatli ve çevik olurlar[cite: 190]."
+    },
+    {
+      "id": "soguk_el_ayasi",
+      "name": "Soğuk El Ayası",
+      "book_content": "Müthiş bir iradeyi ve nefis üzerinde tavizsiz bir kontrol gücünü gösterir. [cite_start]Kriz anlarında soğukkanlıdırlar, öfkeye kapılmazlar[cite: 191, 192]."
+    },
+    {
+      "id": "soguk_kuru_nemli_ayasi",
+      "name": "Soğuk-Kuru / Soğuk-Nemli",
+      "book_content": "Soğuk ve kuru el ayası sinir hastalıklarının; soğuk ve nemli el ayası ise karaciğer hastalıklarının habercisidir[cite: 193]."
+    }
+  ]
+}

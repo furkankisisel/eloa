@@ -1,0 +1,52 @@
+﻿{
+  "category_info": {
+    "title": "Uzunluk-Kısalık ve Meyil Bakımından Parmaklar",
+    "source_book": "",
+    "page_range": "80-85",
+    "description": "Parmakların birbirlerine göre uzunluk kıyaslaması ve duruş eğimlerine (meyil) göre karakter, risk alma ve yetenek analizi."
+  },
+  "finger_length_ratios": [
+    {
+      "id": "yuzuk_isaretten_uzun",
+      "name": "Şehadet Parmağından Daha Uzun Yüzük Parmağı",
+      "book_content": "Her daim risk almaya açık bir yapı. Önce işe atılırlar sonra düşünürler. İki parmak arasındaki fark ne kadar fazla ise tedbirsizlik ve atılganlık o kadar artar. Genel anlamda oyuna, eğlenceye ve şans oyunlarına eğilimlidirler. İşlerinin içinde zeka vardır ama akıl sonradan devreye girer. Pratiktirler, her mesele için bir çözümleri vardır ama isabetli olup olmadığını düşünmezler. İnsanların %80-85'i bu gruptadır."
+    },
+    {
+      "id": "isaret_yuzukten_uzun",
+      "name": "Yüzük Parmağından Daha Uzun Şehadet Parmağı",
+      "book_content": "Diplomasiye, halkla ilişkilere, gazetecilik ve televizyonculuk gibi iletişim mesleklerine aşırı merakı temsil eder. Sükseyi ve kendilerini beğenmeyi severler. İş başarma kabiliyetleri yüksektir. İlişki kurmakta yeteneklidirler. Zevke düşkündürler. Başkalarının imkanlarını kullanarak lüks bir hayat sürebilirler. İyi birer yönetmen ve organizatör olurlar."
+    },
+    {
+      "id": "isaret_yuzuk_esit",
+      "name": "Şehadet Parmağına Denk Uzunlukta Yüzük Parmağı",
+      "book_content": "Düşüncede, davranışta ve zevkte denge işaretidir. Hiçbir konuda aşırıya gitmeyen, her konuda nasibini almasını bilen, her şeyde 'orta yolu' tutturabilen dengeli bir kişiliktir. Hangi işe koyulurlarsa ortalamanın üstünde bir seviye tuttururlar."
+    },
+    {
+      "id": "yuzuk_ortaya_denk",
+      "name": "Orta Parmağa (Neredeyse) Denk Yüzük Parmağı",
+      "book_content": "Oyun ve eğlenceye düşkünlük, macera perestlik belirtisidir. Bunlar borç alıp kumar oynayabilecek ve macera olsun diye en tehlikeli oyunları deneyebilecek yapıda insanlardır. Ömürlerini serüven ve heyecan arayışı içinde geçirirler."
+    }
+  ],
+  "finger_inclinations": [
+    {
+      "id": "orta_isarete_meyilli",
+      "name": "Şehadet Parmağına Meyilli Orta Parmak",
+      "book_content": "Zevk ve eğlenceden başka bir şey düşünmeyen, yaşamaya düşkün, hayat dolu bir mizaç. Hep yöneticilik katında bulunurlar veya yöneticilere yakın olurlar. Kendileri yönetici değilse bile onların iktidarlarından yararlanarak imkan sahibi olurlar. Tanınmazlar ve ilgi görmezlerse mutsuz olurlar. Aristokratça yaşama arzusunu gösterir."
+    },
+    {
+      "id": "orta_yuzuge_meyilli",
+      "name": "Yüzük Parmağına Meyilli Orta Parmak",
+      "book_content": "Güzel sanatlara aşırı düşkünlük ve bu konuda yetenek demektir. Sahne sanatçılarının parmağıdır. Daima ışıklar altında olmayı, dikkatlerin onlarda toplanmasını arzularlar. Gösterişi severler. Kürkler, tüyler ve orijinal takılar takmayı severler. Sanatçı olamazlarsa sanatçıları desteklerler çünkü onların tanınırlığından pay çıkarmayı bilirler."
+    },
+    {
+      "id": "isaret_ortaya_meyilli",
+      "name": "Orta Parmağa Meyilli Şehadet Parmağı",
+      "book_content": "Dışa açık, toplumcu, cana yakın bir kişiliği sergiler. Sohbeti seven kimselerdir. İktidara gelirlerse bu mevkileri rahatları için kullanabilirler. Bağ, bahçe ve toprak işlerinden hoşlanırlar. Emlak ve arazi işlerinde başarılı olurlar. Para kazanmayı bilirler, yönetim ve mevki onlar için servet edinme aracıdır."
+    },
+    {
+      "id": "yuzuk_ortaya_meyilli",
+      "name": "Orta Parmağa Meyilli Yüzük Parmağı",
+      "book_content": "Genelde varlıklı ailelerin çocuklarında veya miras bekleyenlerde görülür. Ellerine para geçti mi keyiflerinden geçilmez. Bu insanların neşesi ve mutluluğu tamamen maddi varlığa bağlıdır. Parasız kaldıklarında dünya onlara zindan olur. Maddi varlıkları yerindeyse neşeli ve yardımseverdirler."
+    }
+  ]
+}

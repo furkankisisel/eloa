@@ -1,0 +1,59 @@
+﻿{
+  "category_info": {
+    "title": "Mars Tepesi ve Mars Yaylası (Mirrih)",
+    "source_book": "",
+    "page_range": "177-181",
+    "description": "Fiziksel ve zihinsel cesareti, mücadele gücünü, direnci, askerlik yeteneğini ve kavgacı mizacı temsil eden bölgelerin analizi."
+  },
+  "mars_regions": [
+    {
+      "id": "mars_tepesi_olumlu",
+      "name": "Mars Tepesi (Olumlu/Fiziki)",
+      "location": "Hayat çizgisinin başlangıcının altında, Jüpiter tepesinin aşağısında.",
+      "book_content": "Fiziki cesareti, tehlike anında soğukkanlılığı ve kararlılığı gösterir. İhtiras ve cesaret deposudur. Belirginse iyi bir komutan veya lider özelliklerine işarettir. Zayıf veya yoksa korkaklık, çabuk öfkelenme ve dirençsizlik belirtisidir."
+    },
+    {
+      "id": "mars_yaylasi_olumsuz",
+      "name": "Mars Yaylası (Olumsuz/Zihni)",
+      "location": "Avucun ortasında, Akıl ve Kalp çizgileri arasındaki düzlük.",
+      "book_content": "Büyük zihni cesareti, hür teşebbüs kabiliyetini ve medeni cesareti açıklar. Belirginliği, kişinin kaba kuvvetten nefret ettiğini ama fikri mücadeleye ve tartışmaya bayıldığını gösterir. Yokluğu ise fikirde sebatsızlık ve hemen pes etme eğilimidir."
+    }
+  ],
+  "mars_signs": [
+    {
+      "id": "hac_mars",
+      "name": "Haç İşareti",
+      "book_content": "Kötü ve kavgacı bir mizacı gösterir. Gereksiz yere kavga çıkaran ve sonra geri çekilen bir karakterdir. Bazen ani durum değişikliklerinin de habercisidir. Haçın üst kısmı kısaysa ifrat derecede hırsı gösterir."
+    },
+    {
+      "id": "yildiz_mars",
+      "name": "Yıldız İşareti",
+      "book_content": "Haçtan daha kötü bir işarettir. Hiç yere başlatılan bir kavga neticesinde hayatını kaybetme veya ağır yaralanma ihtimalini gündeme getirir. Kazalara ve saldırılara karşı aşırı dikkatli olmayı gerektirir."
+    },
+    {
+      "id": "izgara_mars",
+      "name": "Izgara İşareti",
+      "book_content": "Nevrasteni (sinir zayıflığı), delilik veya feci bir ölüm habercisi olabilir. Ancak bu mutlak kader değildir; tedbir alınmazsa karşılaşılabilecek bir yatkınlıktır."
+    },
+    {
+      "id": "ucgen_mars",
+      "name": "Üçgen İşareti",
+      "book_content": "Askeri ilimlere, stratejiye ve savaş sanatına karşı güçlü bir yetenektir. Bu alanlarda şan, şeref ve başarı kazanılacağını gösterir."
+    },
+    {
+      "id": "catal_mars",
+      "name": "Çatal İşareti",
+      "book_content": "İki uçlu yorumlanır: Ya hayal gücünün tamamen yokluğunu ya da pratik hayatla ilgisini kesecek düzeyde aşırı hayalciliği yansıtır."
+    },
+    {
+      "id": "a_harfi_mars",
+      "name": "A Harfi",
+      "book_content": "Genellikle silahla yaralanma veya öldürülme tehlikesine işaret ettiği söylenmiştir."
+    },
+    {
+      "id": "cizgiler_mars",
+      "name": "Kısa Çizgiler",
+      "book_content": "Şiddetli ve öfkeli bir mizacı gösterir. Sağlık açısından bronşit, astım gibi solunum sistemi hastalıklarına yatkınlığı ifade eder."
+    }
+  ]
+}

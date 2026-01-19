@@ -1,0 +1,92 @@
+﻿{
+  "category_info": {
+    "title": "Ay Tepesi (Kamer Dağı)",
+    "source_book": "",
+    "page_range": "181-186",
+    "description": "Elin dış alt köşesinde yer alan; hayal gücü, sezgiler, sanat yeteneği, seyahat, yazarlık, mistisizm ve psikolojik dengeyi temsil eden tepenin analizi."
+  },
+  "moon_mount_general": [
+    {
+      "id": "kabarik_ay_tepesi",
+      "name": "Kabarık ve Düzgün Ay Tepesi",
+      "book_content": "Özgün fikirler verebilen, üretken ve büyük bir yeteneğin habercisidir. Sanatçılarda, yazarlarda ve finansçılarda (borsa/para piyasaları) başarılı kariyer vaat eder[cite: 59, 60]."
+    },
+    {
+      "id": "normal_ay_tepesi",
+      "name": "Normal Ay Tepesi",
+      "book_content": "Tatlı, melankolik ve şairane bir hayal gücünü, estetik anlayışını sergiler. [cite_start]Deruni bir sükûta ve esrarengiz bir tabiata işarettir[cite: 64, 65]."
+    },
+    {
+      "id": "cok_kabarik_ay",
+      "name": "Çok Çok Kabarık Ay Tepesi",
+      "book_content": "Sürekli yalnızlıktan kaynaklanan şüpheci korkulara, vehim ve vesveseye, devamlı yer değiştirme arzusuna ve karamsarlığa işarettir. [cite_start]Kronik baş ağrıları görülebilir[cite: 66]."
+    },
+    {
+      "id": "zayif_ay_tepesi",
+      "name": "Zayıf ve Buruşuk Ay Tepesi",
+      "book_content": "Kahredici bir merak ama üretken olmayan bir yapı. Hayalleri çoktur ama arkası gelmez. [cite_start]Şiire ve sanata ilgisiz olabilirler[cite: 67, 68]."
+    },
+    {
+      "id": "yumusak_ay_tepesi",
+      "name": "Yumuşak Ay Tepesi",
+      "book_content": "Marjinal bir hayat anlayışı, coşkunluk ve garip zevklere tutkunluk. [cite_start]Histeri ve taşkınlık eğilimi[cite: 69]."
+    }
+  ],
+  "moon_mount_signs": [
+    {
+      "id": "hac_ay",
+      "name": "Haç İşareti",
+      "book_content": "Çıkarına göre tavır değiştirme ve hileye başvurma eğilimidir. [cite_start]Bazı yorumculara göre yüksek hırsızlık kabiliyetini yansıtır[cite: 73, 74]."
+    },
+    {
+      "id": "yildiz_ay",
+      "name": "Yıldız İşareti",
+      "book_content": "İkiyüzlülük, ihanet ve kederli bir ömür işareti olarak yorumlanmıştır. [cite_start]Sağlık açısından ise ameliyat gerektiren hastalıkların veya kalıcı hasar bırakmayan kazaların habercisi olabilir[cite: 76, 78, 79]."
+    },
+    {
+      "id": "kare_ay",
+      "name": "Kare İşareti",
+      "book_content": "Güçlü ve müspet hayal gücü, disiplinli düşünce yapısı. [cite_start]Hasta bir insanda görülürse şifaya, kaza geçirende görülürse iyileşmeye işarettir[cite: 81, 82]."
+    },
+    {
+      "id": "ucgen_ay",
+      "name": "Üçgen İşareti",
+      "book_content": "Pratik akıl, bilim, felsefe ve mistisizme yetenek. [cite_start]İyi birer denizci veya deniz araştırmacısı olurlar[cite: 93, 94]."
+    },
+    {
+      "id": "izgara_ay",
+      "name": "Izgara İşareti",
+      "book_content": "Mübalağa, yalancı fikirler, hastalık derecesinde işkillik ve huzursuzluk. [cite_start]Sürekli kızgın ve neşesizdirler[cite: 106, 108]."
+    },
+    {
+      "id": "capraz_ay",
+      "name": "Çapraz Çizgiler",
+      "book_content": "Büyük bir hayalperestlik ve sürekli seyahat merakı. [cite_start]Eğer hayat çizgisine yakınsa boğulma tehlikesi veya deniz kazası riski taşıyabilir[cite: 135, 136]."
+    },
+    {
+      "id": "aci_ay",
+      "name": "Açı İşareti",
+      "book_content": "Boğulma tehlikesi işaretidir. [cite_start]Deniz seyahatlerinden ve yüzmekten kaçınmaları önerilir[cite: 137, 138]."
+    },
+    {
+      "id": "merdiven_ay",
+      "name": "Merdiven İşareti",
+      "book_content": "Kederli, yalnız ve gamlı mizaç. Endişe ve aşırı heyecan. [cite_start]Kadınlarda duygusal ilişkilerde özensizliğe ve serbestliğe işaret edebilir[cite: 109, 117]."
+    },
+    {
+      "id": "cizgi_ay",
+      "name": "Çizgiler",
+      "book_content": "Kuvvetli önseziler, kâbuslar, halüsinasyonlar ve gaybdan ses duymaya yatkınlık. [cite_start]Hayat çizgisine uzanan uzun çizgiler, gidip dönülmeyecek uzun seyahatleri gösterir[cite: 119, 122]."
+    },
+    {
+      "id": "ada_ay",
+      "name": "Ada İşareti",
+      "book_content": "Uyurgezerlik veya büyük bir tutkuyla dini düşüncelere bağlılık (manastır hayatı vb.)[cite: 123, 124]."
+    },
+    {
+      "id": "catal_ay",
+      "name": "Çatal İşareti",
+      "book_content": "Zihni dengesizlik ve mutsuz beraberlikler. [cite_start]Eşler arasında uzaklaşmayı ve kalbi yakınlıkların dağılmasını gösterir[cite: 95, 96]."
+    }
+  ]
+}

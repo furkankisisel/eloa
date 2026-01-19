@@ -1,0 +1,110 @@
+﻿{
+  "category_info": {
+    "title": "Şekil Bakımından Eller",
+    "source_book": "",
+    "page_range": "37-51",
+    "description": "Elin genel geometrik yapısı ve dış görünüşüne göre yapılan karakter analizidir."
+  },
+  "hand_shapes": [
+    {
+      "id": "dar_el",
+      "name": "Dar El",
+      "book_content": "Hep tedirgin yaşarlar ve karamsardırlar. Sevdikleri zaman tutkuludurlar, tapınırcasına bağlanırlar ama bu çok kısa sürer. Küçük dünyalarına kast eden en küçük bir tehdit karşısında kendilerine büyük tahribat verebilirler. Melankoliye açıktırlar. Dar elli kadınlar genellikle zor doğum yaparlar."
+    },
+    {
+      "id": "buyuk_el",
+      "name": "Büyük El",
+      "book_content": "Orantılı ve iri yapılı büyük el, cömertlik ve iyilikseverlik nişanıdır. Alicenap ve kerem sahibi olurlar. Çevreleri tarafından 'baba' diye nitelendirilirler. Şayet el gereğinden fazla büyükse, sahibinin hile ve kurnazlıkta usta olabileceğini gösterir. Hokkabaz ve kumarbazların elleri de oldukça büyüktür."
+    },
+    {
+      "id": "sisman_el",
+      "name": "Şişman El",
+      "book_content": "Genellikle kaba bir mizaca işaret eder. İşin çarçabuk olup bitmesini isterler. Estetik aramazlar. Nezaket kuralları bunlara ağır gelir. İlişkilerde bir an önce sonuca varmak isterler. Genelde paralı olurlar çünkü para onları sever."
+    },
+    {
+      "id": "kalin_el",
+      "name": "Kalın El",
+      "book_content": "Tembelliği ve güçlü şehevi arzuları temsil eder. Libidinal gücü yüksektir ama arzuları için fazla emek harcamaya yanaşmazlar. Eğer iyi bir eğitim ve çalışma azmi verilirse dünyanın rengini değiştirirler, aksi halde yan gelip yatmayı severler."
+    },
+    {
+      "id": "tombul_el",
+      "name": "Tombul El",
+      "book_content": "Keyfine düşkün, maddeci bir mizaçtan haber verir. Hayat bunlar için bir eğlencedir. Aldırışsızdırlar. Neşeli insanlar oldukları için etraflarında daima arkadaş grupları vardır."
+    },
+    {
+      "id": "tumsek_el",
+      "name": "Tümsek (Bombeli) El",
+      "book_content": "Oldukça şanslıdırlar. Az çalışarak çok şey elde ederler. İyi niyetlidirler. Meraklı ve kabiliyetli kimselerdir. Muhasebe işlerinde mahirdirler, para kazanmayı iyi bilirler."
+    },
+    {
+      "id": "kisa_el",
+      "name": "Kısa El",
+      "book_content": "Maharet ve incelik alametidir. Zanaatkarların elidir; incelik ve titizlik gerektiren işlere yatkınlığı gösterir. Kısa elliler, eğer parmakları da ince uçlu ise ince mizaçlı, titiz ve alıngan olurlar. İri cüssede kısa el ise sakarlık ve talihsizlik habercisidir."
+    },
+    {
+      "id": "ince_el",
+      "name": "İnce El",
+      "book_content": "Hayalciliğin göstergesidir. Ayakları hiçbir zaman yere basmaz. Zor ve zahmetli işleri sevmezler. Erkeklerde tüysüz ve ince el, fevri hareketlere ve kontrolsüz davranışlara eğilim işaretidir."
+    },
+    {
+      "id": "yumusak_el",
+      "name": "Yumuşak El",
+      "book_content": "Tembelliğin, hayalciliğin, diplomatlığın ve beyaz yalanların habercisidir. Müthiş uyumlu görünürler ama her an beklenmedik tavırlar sergileyebilirler. Kolay kolay 'hayır' demezler ama 'evet'leri de tam evet değildir."
+    },
+    {
+      "id": "sert_el",
+      "name": "Sert El",
+      "book_content": "Beceri, iş yapma gücü, spor ve zeka belirtisidir. Hareketli ve kavgacıdırlar. Mizaçları da katıdır. Bazen merhametsiz tavırlar sergileyebilirler. Zorluklara karşı dirençlidirler."
+    },
+    {
+      "id": "cukur_el",
+      "name": "Çukur El",
+      "book_content": "Zorlukların ve başarısızlıkların habercisidir. Sık karşılaşılacak talihsizliklerden haber verir. Bu insanların kesin emin olmadıkça yatırım yapmamaları gerekir."
+    },
+    {
+      "id": "kati_el",
+      "name": "Katı / Gergin El",
+      "book_content": "Çok katı ve gergin el, sert, duygusuz ve kalpsiz karakterden haber verir. Deri adeta gerilmiş gibidir. Yüksek bir öfke potansiyeli taşırlar. İyi eğitilirlerse en tehlikeli operasyonları soğukkanlılıkla yaparlar."
+    },
+    {
+      "id": "ice_kivrik_el",
+      "name": "İçe Kıvrık El",
+      "book_content": "İçten pazarlıklı, kaba, kıskanç ve bencil bir karakteri yansıtır. Verdiği sözden dönebilir."
+    },
+    {
+      "id": "acik_el",
+      "name": "Açık El",
+      "book_content": "Açık yüreklilik, güzel ahlak ve cömertliğin belirtisidir. Normal duruşunda parmakları sıkı sıkı yapışmaz, rahattır. İyimser ve fedakardırlar."
+    },
+    {
+      "id": "cengel_el",
+      "name": "Çengel El",
+      "book_content": "İhtiraslı, hırçın ve bencil kişiliğin işaretidir. Hırs uğruna hayatlarını bile tehlikeye atarlar."
+    },
+    {
+      "id": "tuylu_el",
+      "name": "Tüylü El",
+      "book_content": "Yiğitlik ve babacanlık belirtisidir. Adaletsizliğe başkaldırırlar. Kadınlarda tüylü el hakimiyet ve cesaret işaretidir, aynı zamanda canlı bir aşk hayatını gösterir."
+    },
+    {
+      "id": "tuysuz_el",
+      "name": "Tüysüz El",
+      "book_content": "Erkeklerde kadınsı bir mizacın göstergesidir. Zahmete gelmeyen, tahammülsüz bir yapıyı sergiler."
+    },
+    {
+      "id": "kaba_puruzsuz_el",
+      "name": "Kaba ve Pürüzsüz El",
+      "book_content": "Ortalama görüntüden farklı, kaba ama pürüzsüz ellerdir. Ummadığınız kadar özgün kişiliklerdir. Kimseye benzemeyen bir mizacı temsil ederler."
+    },
+    {
+      "id": "zayif_bicimsiz_el",
+      "name": "Zayıf ve Biçimsiz El",
+      "book_content": "Toplum tarafından tasvip olunmayan hallere yatkınlık işaretidir. Tavırları tahmin edilemez. Huysuz, cimri ve tetiktedirler. Psikolojik problemlerin habercisi olabilir."
+    },
+    {
+      "id": "hissi_el",
+      "name": "Hissi El",
+      "book_content": "Vücuttan ayrı bir duyarlılığı varmış gibi görünen ellerdir. Kendilerini severler, beğenirler. Kendisini 'dünyanın merkezi' sanacak bir potansiyel taşırlar."
+    }
+  ]
+}
