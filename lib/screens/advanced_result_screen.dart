@@ -69,40 +69,294 @@ class _AdvancedResultScreenState extends State<AdvancedResultScreen>
     super.dispose();
   }
 
-  Future<void> _shareScreenshot() async {
+  Future<void> _shareAnalysis() async {
     if (_isSharing) return;
-
     setState(() => _isSharing = true);
-
     try {
-      final Uint8List? imageBytes = await _screenshotController.capture(
-        delay: const Duration(milliseconds: 100),
-        pixelRatio: 2.0,
-      );
+      final String archetype = widget.analysisResult['archetype'] ?? "Arketip";
+      final String desc = widget.analysisResult['archetype_description'] ?? "";
+      final String detailedComment =
+          widget.analysisResult['detailed_commentary'] ?? "";
+      final confidence = _parseConfidence();
+      final traits = _parseTraits();
 
-      if (imageBytes != null) {
-        final directory = await getTemporaryDirectory();
-        final imagePath =
-            '${directory.path}/eloa_analysis_${DateTime.now().millisecondsSinceEpoch}.png';
-        final imageFile = File(imagePath);
-        await imageFile.writeAsBytes(imageBytes);
+      final StringBuffer shareText = StringBuffer();
+      shareText.writeln('🔮 ELOA - El Analizi Sonuçlarım ✨');
+      shareText.writeln();
+      shareText.writeln('📌 ${widget.subCategoryTitle}');
+      shareText.writeln('🖐️ ${widget.handSide} El');
+      shareText.writeln();
+      shareText.writeln('🏷️ Arketip: $archetype');
+      if (desc.isNotEmpty) shareText.writeln('📝 $desc');
+      shareText.writeln();
+      shareText.writeln('📊 Güven Oranı: %${(confidence * 100).round()}');
+      shareText.writeln();
 
-        await Share.shareXFiles(
-          [XFile(imagePath)],
-          text: 'Eloa ile el analizim 🔮✨\n\n${widget.subCategoryTitle}',
-        );
+      if (traits.isNotEmpty) {
+        shareText.writeln('✨ Özellikler:');
+        traits.forEach((key, value) {
+          shareText.writeln('  • $key: %${(value * 100).round()}');
+        });
+        shareText.writeln();
       }
+
+      if (detailedComment.isNotEmpty) {
+        shareText.writeln('💬 Yorum:');
+        shareText.writeln(detailedComment.length > 500
+            ? '${detailedComment.substring(0, 500)}...'
+            : detailedComment);
+        shareText.writeln();
+      }
+
+      shareText.writeln('─────────────────');
+      shareText.writeln('🌟 Eloa ile analiz edildi');
+      shareText.writeln('📱 eloa.app');
+
+      await Share.share(shareText.toString(),
+          subject: 'Eloa El Analizi - ${widget.subCategoryTitle}');
     } catch (e) {
+      debugPrint('Share error: $e');
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('Paylaşım sırasında bir hata oluştu')),
+          SnackBar(
+              content: const Text('Paylaşım sırasında bir hata oluştu'),
+              backgroundColor: AppTheme.accentCoral),
         );
       }
     } finally {
-      if (mounted) {
-        setState(() => _isSharing = false);
-      }
+      if (mounted) setState(() => _isSharing = false);
     }
+  }
+
+  /// Build a widget that contains the full analysis for sharing
+  Widget _buildShareableContent() {
+    final categoryColor = widget.category.categoryId.categoryColor;
+    final String archetype =
+        widget.analysisResult['archetype'] ?? "BİLGE GEZGİN";
+    final String desc =
+        widget.analysisResult['archetype_description'] ?? "Analiz tamamlandı.";
+    final traits = _parseTraits();
+    final confidence = _parseConfidence();
+
+    List<String> synthesisNotes = [];
+    if (widget.analysisResult['synthesis_notes'] != null) {
+      synthesisNotes =
+          List<String>.from(widget.analysisResult['synthesis_notes']);
+    }
+
+    final String detailedComment =
+        widget.analysisResult['detailed_commentary'] ??
+            "Detaylı yorum alınamadı.";
+
+    return Material(
+      child: Container(
+        width: 400,
+        padding: const EdgeInsets.all(24),
+        decoration: const BoxDecoration(
+          gradient: AppTheme.mysticalGradient,
+        ),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            // Header with logo
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  padding: const EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                    gradient: AppTheme.goldGradient,
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  child: const Icon(Icons.back_hand,
+                      color: Colors.white, size: 20),
+                ),
+                const SizedBox(width: 12),
+                Text(
+                  'ELOA',
+                  style: GoogleFonts.playfairDisplay(
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                    color: AppTheme.accentGold,
+                    letterSpacing: 3,
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 24),
+
+            // Identity Card
+            Container(
+              width: double.infinity,
+              padding: const EdgeInsets.all(20),
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                  colors: [
+                    categoryColor.withOpacity(0.2),
+                    AppTheme.cardDark,
+                  ],
+                ),
+                borderRadius: BorderRadius.circular(20),
+                border:
+                    Border.all(color: categoryColor.withOpacity(0.5), width: 2),
+              ),
+              child: Column(
+                children: [
+                  Text(
+                    widget.subCategoryTitle,
+                    style: GoogleFonts.poppins(
+                      fontSize: 12,
+                      color: categoryColor,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                  const SizedBox(height: 12),
+                  Container(
+                    padding:
+                        const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
+                    decoration: BoxDecoration(
+                      color: categoryColor.withOpacity(0.2),
+                      borderRadius: BorderRadius.circular(20),
+                    ),
+                    child: Text(
+                      archetype.toUpperCase(),
+                      style: GoogleFonts.playfairDisplay(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                        color: categoryColor,
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 12),
+                  Text(
+                    desc,
+                    textAlign: TextAlign.center,
+                    style: GoogleFonts.poppins(
+                      fontSize: 13,
+                      color: AppTheme.textSecondary,
+                      fontStyle: FontStyle.italic,
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      _buildShareStatItem('${widget.handSide} El',
+                          Icons.back_hand, categoryColor),
+                      _buildShareStatItem('%${(confidence * 100).round()}',
+                          Icons.verified, categoryColor),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(height: 20),
+
+            // Traits
+            if (traits.isNotEmpty) ...[
+              Wrap(
+                spacing: 8,
+                runSpacing: 8,
+                alignment: WrapAlignment.center,
+                children: traits.entries.take(4).map((e) {
+                  return Container(
+                    padding:
+                        const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                    decoration: BoxDecoration(
+                      color: categoryColor.withOpacity(0.1),
+                      borderRadius: BorderRadius.circular(20),
+                      border: Border.all(color: categoryColor.withOpacity(0.3)),
+                    ),
+                    child: Text(
+                      '${e.key}: %${(e.value * 100).round()}',
+                      style: GoogleFonts.poppins(
+                          fontSize: 11, color: AppTheme.textSecondary),
+                    ),
+                  );
+                }).toList(),
+              ),
+              const SizedBox(height: 20),
+            ],
+
+            // Synthesis notes preview
+            if (synthesisNotes.isNotEmpty) ...[
+              Container(
+                width: double.infinity,
+                padding: const EdgeInsets.all(16),
+                decoration: BoxDecoration(
+                  color: AppTheme.cardDark,
+                  borderRadius: BorderRadius.circular(14),
+                  border:
+                      Border(left: BorderSide(color: categoryColor, width: 3)),
+                ),
+                child: Text(
+                  synthesisNotes.first.length > 150
+                      ? '${synthesisNotes.first.substring(0, 150)}...'
+                      : synthesisNotes.first,
+                  style: GoogleFonts.poppins(
+                    fontSize: 12,
+                    color: AppTheme.textSecondary,
+                    height: 1.5,
+                  ),
+                ),
+              ),
+              const SizedBox(height: 20),
+            ],
+
+            // Commentary preview
+            Container(
+              width: double.infinity,
+              padding: const EdgeInsets.all(16),
+              decoration: BoxDecoration(
+                color: AppTheme.cardDark,
+                borderRadius: BorderRadius.circular(14),
+              ),
+              child: Text(
+                detailedComment.length > 300
+                    ? '${detailedComment.substring(0, 300)}...'
+                    : detailedComment,
+                style: GoogleFonts.poppins(
+                  fontSize: 12,
+                  color: AppTheme.textSecondary,
+                  height: 1.6,
+                ),
+              ),
+            ),
+            const SizedBox(height: 24),
+
+            // Watermark
+            Text(
+              'eloa.app',
+              style: GoogleFonts.poppins(
+                fontSize: 12,
+                color: AppTheme.textMuted,
+                letterSpacing: 2,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildShareStatItem(String value, IconData icon, Color color) {
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Icon(icon, color: color, size: 16),
+        const SizedBox(width: 6),
+        Text(
+          value,
+          style: GoogleFonts.poppins(
+            fontSize: 12,
+            fontWeight: FontWeight.w600,
+            color: AppTheme.textPrimary,
+          ),
+        ),
+      ],
+    );
   }
 
   Future<void> _saveToHistory() async {
@@ -288,7 +542,7 @@ class _AdvancedResultScreenState extends State<AdvancedResultScreen>
                     ),
                   )
                 : const Icon(Icons.share_outlined, color: AppTheme.textPrimary),
-            onPressed: _isSharing ? null : _shareScreenshot,
+            onPressed: _isSharing ? null : _shareAnalysis,
           ),
         ),
       ],
@@ -744,7 +998,7 @@ class _AdvancedResultScreenState extends State<AdvancedResultScreen>
             const SizedBox(width: 12),
             Expanded(
               child: ElevatedButton.icon(
-                onPressed: _shareScreenshot,
+                onPressed: _shareAnalysis,
                 icon: _isSharing
                     ? const SizedBox(
                         width: 16,
