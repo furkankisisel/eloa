@@ -9,6 +9,7 @@ import 'history_detail_screen.dart';
 import 'home_shell_screen.dart';
 import '../features/palmistry/providers/palmistry_provider.dart';
 import 'subcategory_screen.dart';
+import 'dream_interpretation_screen.dart';
 
 /// Modern ana sayfa - Hoş geldin ekranı
 class HomeScreen extends StatefulWidget {
@@ -73,6 +74,8 @@ class _HomeScreenState extends State<HomeScreen>
                 _buildHeader(),
                 const SizedBox(height: 32),
                 _buildWelcomeCard(),
+                const SizedBox(height: 20),
+                _buildDreamInterpretationCard(),
                 const SizedBox(height: 24),
                 _buildQuickActions(),
                 const SizedBox(height: 32),
@@ -265,6 +268,89 @@ class _HomeScreenState extends State<HomeScreen>
             ),
           ),
         ],
+      ),
+    );
+  }
+
+  Widget _buildDreamInterpretationCard() {
+    return GestureDetector(
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const DreamInterpretationScreen(),
+          ),
+        );
+      },
+      child: Container(
+        width: double.infinity,
+        padding: const EdgeInsets.all(20),
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              AppTheme.accentPurple.withOpacity(0.15),
+              AppTheme.cardDark,
+            ],
+          ),
+          borderRadius: BorderRadius.circular(16),
+          border: Border.all(
+            color: AppTheme.accentPurple.withOpacity(0.4),
+          ),
+          boxShadow: [
+            BoxShadow(
+              color: AppTheme.accentPurple.withOpacity(0.15),
+              blurRadius: 12,
+              spreadRadius: 1,
+            ),
+          ],
+        ),
+        child: Row(
+          children: [
+            Container(
+              padding: const EdgeInsets.all(14),
+              decoration: BoxDecoration(
+                color: AppTheme.accentPurple.withOpacity(0.2),
+                borderRadius: BorderRadius.circular(14),
+              ),
+              child: const Icon(
+                Icons.nights_stay_rounded,
+                color: AppTheme.accentPurple,
+                size: 32,
+              ),
+            ),
+            const SizedBox(width: 16),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    'Rüya Tabiri',
+                    style: GoogleFonts.playfairDisplay(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: AppTheme.textPrimary,
+                    ),
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    'Rüyanı anlat, Eloa yorumlasın',
+                    style: GoogleFonts.poppins(
+                      fontSize: 13,
+                      color: AppTheme.textSecondary,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            const Icon(
+              Icons.arrow_forward_ios,
+              color: AppTheme.accentPurple,
+              size: 18,
+            ),
+          ],
+        ),
       ),
     );
   }

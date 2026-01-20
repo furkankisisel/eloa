@@ -12,6 +12,7 @@ import 'screens/history_screen.dart';
 import 'screens/login_screen.dart';
 import 'screens/premium_screen.dart';
 import 'screens/settings_screen.dart';
+import 'screens/dream_interpretation_screen.dart';
 import 'providers/analysis_provider.dart';
 import 'features/palmistry/providers/palmistry_provider.dart';
 import 'services/auth_service.dart';
@@ -71,6 +72,8 @@ class EloaApp extends StatelessWidget {
           '/history': (context) => const HistoryScreen(),
           '/premium': (context) => const PremiumScreen(),
           '/settings': (context) => const SettingsScreen(),
+          '/dream_interpretation': (context) =>
+              const DreamInterpretationScreen(),
         },
       ),
     );
