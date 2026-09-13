@@ -1,20 +1,19 @@
 import 'dart:convert';
 import 'dart:io';
-import 'dart:typed_data';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:http/http.dart' as http;
+import '../core/app_config.dart';
 import '../models/analysis_category.dart';
 import '../models/analysis_data_manager.dart';
 
 /// Görsel tabanlı el analizi servisi
 /// Google Gemini API kullanarak el fotoğraflarını analiz eder
 class AiAnalysisService {
-  static const String _apiKey = 'AIzaSyDbnTcHFYi-eexcars1zCguBtyrWxkGyAk';
-  static const String _baseUrl =
-      'https://generativelanguage.googleapis.com/v1beta/models';
-  static const String _visionModel = 'gemini-2.5-flash-lite';
-  static const String _textModel = 'gemini-2.5-flash-lite';
+  static String get _apiKey => AppConfig.geminiApiKey;
+  static String get _baseUrl => AppConfig.geminiBaseUrl;
+  static String get _visionModel => AppConfig.geminiVisionModel;
+  static String get _textModel => AppConfig.geminiTextModel;
 
   /// El fotoğrafını analiz eder ve seçili kategoriye göre sonuçlar döndürür
   Future<AiAnalysisResult> analyzeHand({

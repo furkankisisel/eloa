@@ -1,14 +1,14 @@
 import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
+import '../core/app_config.dart';
 
 /// Rüya tabiri servisi
 /// Google Gemini API kullanarak rüyaları yorumlar
 class DreamInterpretationService {
-  static const String _apiKey = 'AIzaSyDbnTcHFYi-eexcars1zCguBtyrWxkGyAk';
-  static const String _baseUrl =
-      'https://generativelanguage.googleapis.com/v1beta/models';
-  static const String _textModel = 'gemini-2.5-flash-lite';
+  static String get _apiKey => AppConfig.geminiApiKey;
+  static String get _baseUrl => AppConfig.geminiBaseUrl;
+  static String get _textModel => AppConfig.geminiTextModel;
 
   /// Rüyayı yorumlar
   /// [dreamText] - Kullanıcının girdiği rüya metni

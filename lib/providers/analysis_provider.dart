@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'dart:convert';
+import '../core/app_config.dart';
 import '../services/gemini_service.dart';
 import '../models/analysis_category.dart';
 import '../models/analysis_data_manager.dart';
@@ -11,16 +12,14 @@ class AnalysisProvider extends ChangeNotifier {
   int? _selectedHandIndex; // 0 = Sol, 1 = Sağ
   AnalysisCategory? _selectedCategory;
 
-  // AI Commentary - Groq API
-  static const String _apiKey =
-      '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';
+  // AI Commentary - Groq API (Configured via AppConfig)
   late final GeminiService _geminiService;
   String? _aiCommentary;
   bool _isLoadingAI = false;
   String? _aiError;
 
   AnalysisProvider() {
-    _geminiService = GeminiService(_apiKey);
+    _geminiService = GeminiService(AppConfig.groqApiKey);
   }
 
   // Module management for sequential analysis
