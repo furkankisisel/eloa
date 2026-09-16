@@ -227,8 +227,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 *Computer Engineering Student & Mobile Software Developer*
 
 - 🌐 **GitHub:** [@furkankisisel](https://github.com/furkankisisel)
-- 💼 **LinkedIn:** [Furkan Kişisel](https://linkedin.com/in/furkankisisel)
-- 📧 **Email:** furkankisisel@gmail.com
+- 💼 **LinkedIn:** [Furkan Çalık](https://linkedin.com/in/furkan-çalık)
+- 📧 **Email:** furkancalk325@gmail.com
 
 ---
 
