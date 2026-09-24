@@ -228,7 +228,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - 🌐 **GitHub:** [@furkankisisel](https://github.com/furkankisisel)
 - 💼 **LinkedIn:** [Furkan Çalık](https://linkedin.com/in/furkan-çalık)
-- 📧 **Email:** furkancalk325@gmail.com
+- 📧 **Email:** corporate.furkan@gmail.com
 
 ---
 
